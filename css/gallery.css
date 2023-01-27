@@ -1,0 +1,85 @@
+.gallery .images .image {
+  position: relative;
+  width: 100%;
+  padding-bottom: 60%;
+  height: 0;
+  overflow: hidden;
+  display: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.gallery .images .image.active {
+  display: block;
+}
+
+.gallery .images .image .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: center no-repeat;
+  background-size: cover;
+}
+
+.gallery .thumbs {
+  margin-top: 10px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .gallery .thumbs {
+    height: 80px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+.gallery .thumbs .thumb {
+  box-sizing: border-box;
+
+  background: center no-repeat;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+
+  margin: 4px;
+
+  border: 3px solid transparent;
+  width: 100px;
+  height: 100px;
+
+  cursor: pointer;
+}
+
+.gallery .thumbs .thumb:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  left: 45px;
+  top: -8px;
+}
+
+@media (max-width: 768px) {
+  .gallery .thumbs .thumb {
+    width: 65px;
+    height: 65px;
+  }
+
+  .gallery .thumbs .thumb:before {
+    left: 25px;
+  }
+}
+
+.gallery .thumbs .thumb.active {
+  border-color: silver;
+}
+
+.gallery .thumbs .thumb.active:before {
+  border-bottom-color: silver;
+}
