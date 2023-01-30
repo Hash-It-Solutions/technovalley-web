@@ -418,6 +418,16 @@ background-size:cover;}
 
 @media only screen and (max-width: 600px) {
 
+.banner-about {
+  background-image: url(../assets/img/about.png);
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  min-height: 220px !important;
+  width: 100% !important;
+}
+
+
+
 .banner-java p{
 
 color:#FFFFFF;
@@ -733,14 +743,43 @@ background-color:#25425C !important;
 
 
 
+
+
+
+
+.banner-about {
+    /* The image used */
+    background-image:url(../assets/img/about.png);
+	background-size:cover!important;
+	background-repeat:no-repeat !important;
+	min-height:410px;
+	width:100% !important;
+  }
+
+
+
+.banner-about p{
+color:#FFFFFF;
+font-size:30px;
+padding-top:110px;
+font-weight:bold;
+}
+
+
+
 .java{
 color:#EA2D2E;
 }
 
 
+
+.month{
+color:#33A78F;
+}
+
 .cr1 .card {
   margin-top: -35px !important;
-  padding-bottom: 0px !important;
+  padding-bottom: 16px !important;
   padding-left: 85px !important;
   padding-top: 41px;
   font-size:12px;
@@ -984,4 +1023,21 @@ margin-top:55px;
 .news img{
 width:80% !important;
 padding-bottom:12px;
+}
+
+.bout h3{
+color:F16724 !important;
+}
+
+
+.bthh p{
+  margin-top: 222px;
+  padding-left: 18%;
+}
+}
+
+
+.yxu h3{
+line-height:0.2 !important;
+
 }
