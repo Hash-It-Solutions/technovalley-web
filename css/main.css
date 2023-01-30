@@ -131,7 +131,20 @@ div.ex1 {
 
 
 
+div.ex3 {
+  background-color: #25425C;
+  height: 426px;
+  width: 100%;
+  overflow-y: scroll;
+  margin-top: 55px;
+  overflow-x: hidden;
+  color:#fff;
+}
 
+
+.frz p{
+color:#FFFFFF !important;
+}
 
 
 div.ex2 {
@@ -426,15 +439,18 @@ background-size:cover;}
   width: 100% !important;
 }
 
+.banner-blog {
+  background-image: url(../assets/img/footer.png) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  min-height: 220px !important;
+  width: 100% !important;
+}
 
-
-.banner-java p{
-
-color:#FFFFFF;
-font-size:31px !important;
-padding:5px !important;
-
-
+.banner-java p {
+  color: #FFFFFF;
+  font-size: 31px !important;
+  padding: 55px !important;
 }
 
 
@@ -450,11 +466,21 @@ padding:5px !important;
 
 .purecounter {
   text-align: center !important;
-  font-size: 74px !important;
+  font-size: 55px !important;
   color: #fff;
   padding-left: 25% !important;
   font-weight: bold !important;
 }
+
+.banner-blog p {
+  color: #FFFFFF;
+  font-size: 59px;
+  padding: 42px !important;
+}
+
+
+
+
 
 
 
@@ -1025,15 +1051,11 @@ width:80% !important;
 padding-bottom:12px;
 }
 
-.bout h3{
-color:F16724 !important;
+.bout h3 {
+  color: #F16724 !important;
 }
 
 
-.bthh p{
-  margin-top: 222px;
-  padding-left: 18%;
-}
 }
 
 
@@ -1041,3 +1063,37 @@ color:F16724 !important;
 line-height:0.2 !important;
 
 }
+
+div.ex3 {
+  background-color: none;
+  height: 426px;
+  width: 100%;
+  overflow-y: scroll;
+  margin-top: 55px;
+  overflow-x: hidden;
+}
+
+
+.bthh p{
+  margin-top: 51px;
+
+  line-height:39px;
+}
+
+
+
+
+.techno{
+
+background-color:#F16724;
+
+min-height:55px;
+}
+
+.techno h3{
+padding-top:13px;
+color:#fff;
+}
+
+
+
