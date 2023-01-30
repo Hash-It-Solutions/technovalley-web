@@ -78,6 +78,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  text-align:center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
