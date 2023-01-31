@@ -431,6 +431,29 @@ background-size:cover;}
 
 @media only screen and (max-width: 600px) {
 
+
+
+
+
+
+.nav-tabs .nav-link {
+  background: rgba(241, 103, 36, 0.6);
+  border-left: 2px solid #fff;
+  color: #000;
+  padding: 17px !important;
+  margin-bottom: 22px;
+  font-size: 18px !important;
+}
+
+
+td, th {
+  padding: 0px !important;
+  font-size: 15px !important;
+}
+
+
+
+
 .banner-about {
   background-image: url(../assets/img/about.png);
   background-size: cover !important;
@@ -565,15 +588,16 @@ background-size:cover;
 #footer h5{
 	padding-left: 10px;
     border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
+    padding-bottom: 15px;
     margin-bottom: 20px;
     color:#ffffff;
 	margin-top:85px;
+	background-color:#FF8C42;
 }
 #footer a {
     color: #ffffff;
     text-decoration: none !important;
-    background-color: transparent;
+    
     -webkit-text-decoration-skip: objects;
 }
 #footer ul.social li{
@@ -1094,6 +1118,138 @@ min-height:55px;
 padding-top:13px;
 color:#fff;
 }
+
+
+
+.responsive-tab-menu .nav-pills .nav-link.active,
+        .responsive-tab-menu .nav-pills .show>.nav-link {
+            color: unset;
+        }
+
+        @media (max-width: 767px) {
+
+            .responsive-tab-content,
+            .responsive-tab-menu {
+                display: block !important;
+            }
+
+            .nav-pills.nav-tabs-dropdown,
+            .nav-tabs-dropdown {
+                border: 1px solid #dddddd;
+                border-radius: 5px;
+                overflow: hidden;
+                position: relative;
+            }
+
+            .nav-pills.nav-tabs-dropdown::after,
+            .nav-tabs-dropdown::after {
+                content: "?";
+                position: absolute;
+                top: 8px;
+                right: 15px;
+                z-index: 2;
+                pointer-events: none;
+            }
+
+            .nav-pills.nav-tabs-dropdown.open a,
+            .nav-tabs-dropdown.open a {
+                position: relative;
+                display: block;
+            }
+
+            /* .nav-pills.nav-tabs-dropdown.open>li.active>a,
+            .nav-tabs-dropdown.open>li.active>a {
+                background-color: #eeeeee;
+            } */
+
+            .nav-pills.nav-tabs-dropdown li,
+            .nav-tabs-dropdown li {
+                display: block;
+                padding: 0;
+                vertical-align: bottom;
+            }
+
+            .nav-pills.nav-tabs-dropdown>li>a,
+            .nav-tabs-dropdown>li>a {
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+                border-color: transparent;
+            }
+
+            .nav-pills.nav-tabs-dropdown>li>a:focus,
+            .nav-tabs-dropdown>li>a:focus,
+            .nav-pills.nav-tabs-dropdown>li>a:hover,
+            .nav-tabs-dropdown>li>a:hover,
+            .nav-pills.nav-tabs-dropdown>li>a:active,
+            .nav-tabs-dropdown>li>a:active {
+                border-color: transparent;
+            }
+
+            /* hh */
+            .nav-pills.nav-tabs-dropdown>li>a.active,
+            .nav-tabs-dropdown>li>a.active {
+                display: block;
+                border-color: transparent;
+                position: relative;
+                z-index: 1;
+                background: #222;
+            }
+
+            .nav-pills.nav-tabs-dropdown>li.active>a:focus,
+            .nav-tabs-dropdown>li.active>a:focus,
+            .nav-pills.nav-tabs-dropdown>li.active>a:hover,
+            .nav-tabs-dropdown>li.active>a:hover,
+            .nav-pills.nav-tabs-dropdown>li.active>a:active,
+            .nav-tabs-dropdown>li.active>a:active {
+                border-color: transparent;
+            }
+			
+			
+			
+        }
+		
+		
+	.rtlz .list-unstyled  {
+  padding-left: 0;
+  list-style: none;
+  height: 82px !important;
+  overflow-y: scroll!important;
+}
+		.rtlz.tabContent{
+		width:100% !important;
+		}
+		
+		
+		.vrdl {
+  background-color: #16A88E;
+  margin-left: -149px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
