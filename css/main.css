@@ -374,12 +374,14 @@ text-align:center;
 text-align:center;
 font-size:16px;
 color:#fff;
+font-weight:bold;
 }
 
 .purecounter{
 text-align:center;
 font-size:55px;
 color:#fff;
+font-weight:bold;
 }
 
 .lmw {
@@ -624,8 +626,8 @@ background-size:cover;
 	margin-top:85px;
 }
 #footer h5{
-	padding: 16px;
-    border-left: 3px solid #eeeeee;
+	padding: 15px;
+    border-left: 62px solid #16A88E;
     padding-bottom: 15px;
     margin-bottom: 20px;
     color:#ffffff;
@@ -664,6 +666,7 @@ background-size:cover;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
+	color:#fff;
 }
 #footer ul.quick-links li:hover{
 	padding: 3px 0;
@@ -801,6 +804,7 @@ background-color:#FFA45B;
 
 .technovlly{
 background-color:#25425C !important;
+overflow-x:hidden;
 }
 
 
@@ -1257,6 +1261,7 @@ color:#fff;
   list-style: none;
   height: 82px !important;
   overflow-y: scroll!important;
+  border-left:1px solid;
 }
 		.rtlz.tabContent{
 		width:100% !important;
@@ -1273,23 +1278,34 @@ color:#fff;
 		       .rtlz  .nav-pills {
   --bs-nav-pills-border-radius: 0.375rem;
   --bs-nav-pills-link-active-color: #fff;
-  --bs-nav-pills-link-active-bg: #0d6efd;
-  width: 99% !important;
+  --bs-nav-pills-link-active-bg:#a7a8a9;
+  width: 100% !important;
 }
-		
+	
+	
+	
+	
+	
+	.rtlz. tab-content > .tab-pane {
+
+  border-left: 2px solid !important;
+}	
 		
 		
 		
 		.vrdl {
-  background-color: #16A88E;
-  margin-left: -149px;
-  padding:16px;
+ background-color: #16A88E;
+margin-left: -148px;
+padding: 15px;
 }
 
 
 
 
-
+#footer h4{
+margin-top:65px;
+color:#fff;
+}
 
 
 
