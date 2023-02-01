@@ -1,0 +1,128 @@
+/* ---------------------------------------------------------------------- 
+* Product: Color-Switcher
+* Author: Morshedul Arefin
+* Version: 1.0
+* License: The MIT License (MIT)
+* ---------------------------------------------------------------------- */
+
+
+/* Color Style Switcher 
+---------------------------------------------------------------------- */
+#color-style-switcher div h3 {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 8px 3px 12px;
+    font-family: arial;
+}
+#color-style-switcher {
+    background: none repeat scroll 0 0 #000;
+    left: -195px;
+    position: fixed;
+    top: 250px;
+    width: 195px;
+    z-index: 9999;
+}
+#color-style-switcher div {
+    padding: 5px 10px;
+}
+#color-style-switcher .bottom {
+    background: none repeat scroll 0 0 #000;
+    color: #252525;
+    padding: 0;
+}
+#color-style-switcher .bottom a.settings {
+    background-color: #000;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 40px;
+    padding: 3px;
+    border-top-right-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-bottom-right-radius: 6px;
+}
+#color-style-switcher .bottom a.settings i {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#color-style-switcher select {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border: 1px solid #FFFFFF;
+    line-height: 1;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 150px;
+}
+ul.colors {
+    list-style: none outside none;
+    margin: 0 0 10px;
+    overflow: hidden;
+	padding:0;
+}
+ul.colors li {
+    float: left;
+    margin: 2px;
+}
+ul.colors li a {
+    cursor: pointer;
+    display: block;
+    height: 36px;
+    width: 36px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+ul.colors li a.active {
+    position: relative;
+}
+ul.colors li a.active:after {
+    color: #fff;
+    content:"\f00c";
+    font-family: "FontAwesome";
+    font-size: 14px;
+    right: 10px;
+    position: absolute;
+    top: 6px;
+}
+ul.colors li a.color1.active:after {
+    color: #fff;
+}
+@media only screen and (max-width: 500px) {
+    #color-style-switcher {
+        display: none;
+    }
+}
+
+/* Colors
+---------------------------------------------------------------------- */
+ul.colors .color1 {
+    background: #1AABDD;   /* default */
+}
+ul.colors .color2 {
+    background: #ff4b00;   /* orange */
+}
+ul.colors .color3 {
+    background: #ffa300;   /* yellow */
+}
+ul.colors .color4 {
+    background: #6E4E37;   /* brown */
+}
+ul.colors .color5 {
+    background: #729430;   /* green */
+}
+ul.colors .color6 {
+    background: #f11642;   /* red */
+}
+ul.colors .color7 {
+    background: #21458d;   /* blue */
+}
+ul.colors .color8 {
+    background: #16A085;   /* green sea */
+}
