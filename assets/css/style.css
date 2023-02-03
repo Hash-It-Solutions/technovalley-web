@@ -56,7 +56,8 @@ border-right:2px solid #fff;
 
 
 body {
-  font-family: "Open Sans", sans-serif;
+font-family: 'Branding', sans-serif;
+                                                
   color: #444444;
 }
 
@@ -88,7 +89,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+ font-family: 'Branding', sans-serif;
+                                                
 }
 
 /*--------------------------------------------------------------
@@ -1159,7 +1161,6 @@ section {
   display: inline-block;
   padding: 10px 15px 8px 15px;
   font-size: 16px;
-  font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
   color: #444444;
