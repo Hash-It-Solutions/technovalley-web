@@ -1469,7 +1469,7 @@ display:none !important;
 }
 .social_media_div li a i{
     text-decoration: none;
-    padding: 18px 25px;
+    padding: 18px 15px;
     color: #fff;
     font-size: 16px;
     border-radius: 0px;
@@ -1598,4 +1598,22 @@ width: 34px;
 }
 .cnt223 .x:hover{
 cursor: pointer;
+}
+
+.cmtl{
+border:1px solid #ccc;
+border-radius:12px; 
+box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+#subject{
+width:100%;
+padding-bottom:12px;
+}
+
+.xyr{
+border: 1px solid #ccc;
+border-radius: 12px;
+box-shadow: 5px 5px 5px 5px #ccc;
+background: rgba(255, 140, 66, 0.2);
 }
