@@ -19,9 +19,7 @@
 							<tr>
 								<th>SL</th>
 								<th>Photo</th>
-								<th>Heading</th>
-								<th>Content</th>
-								<th width="140">Action</th>
+								<th >Action</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -49,8 +47,6 @@
 								<tr>
 									<td><?php echo $i; ?></td>
 									<td style="width:150px;"><img src="<?php echo BASE_URL; ?>assets/uploads/<?php echo $row['photo']; ?>" alt="<?php echo $row['heading']; ?>" style="width:140px;"></td>
-									<td><?php echo $row['heading']; ?></td>
-									<td><?php echo $row['content']; ?></td>
 									<td>										
 										<a href="slider-edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-xs">Edit</a>
 										<!-- <a href="#" class="btn btn-danger btn-xs" data-href="slider-delete.php?id=<?php echo $row['id']; ?>" data-toggle="modal" data-target="#confirm-delete">Delete</a>  --> 

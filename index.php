@@ -19,7 +19,9 @@ include("admin/config.php");
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -28,16 +30,19 @@ include("admin/config.php");
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" type="text/css" media="screen" />
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    type="text/css" media="screen" />
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 
 
@@ -54,35 +59,120 @@ include("admin/config.php");
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
   <script src="js/gallery.js"></script>
   <script src="js/main.js"></script>
-  <!-- =======================================================
-  * Template Name: BizLand - v3.10.0
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-  
-  
-  
-  
-  
-  
+
+
   <script>
-$('.counter-count').each(function () {
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 5000,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
-        });
+    $('.counter-count').each(function () {
+      $(this).prop('Counter', 0).animate({
+        Counter: $(this).text()
+      }, {
+        duration: 5000,
+        easing: 'swing',
+        step: function (now) {
+          $(this).text(Math.ceil(now));
+        }
+      });
     });
 
-</script>
+  </script>
+
+
 </head>
 
 <body>
+
+
+
+
+  <script type='text/javascript'>
+    $(function () {
+      setTimeout(function() {
+        var overlay = $('<div id="overlay"></div>');
+      overlay.fadeIn(2000);
+      overlay.appendTo(document.body);
+      $('.popup').fadeIn(1000);
+      $('.close').click(function () {
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+      });
+        }, 3000);
+      
+
+
+
+
+      $('.x').click(function () {
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+      });
+    });
+
+   
+  </script>
+
+
+  <!-- popup start -->
+  <div class='popup'  style="display: none;">
+    <div class='cnt223' id="contactForm" style="display: none;">
+
+
+      <div class="form-sec" style="margin-top:0px; box-shadow:none; width:94%;">
+        <a style="float:right;" href='' class='close'>X</a>
+        <h4 class="text-center">Enquiry Form</h4>
+
+        <form name="qryform" id="qryform" method="post" action="mail.php" onsubmit="return(validate());"
+          novalidate="novalidate">
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
+          </div>
+          <br>
+
+          <button type="button" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+     window.onload = function() {
+  setTimeout(function() {
+    document.getElementById("contactForm").style.display = "block";
+  }, 3000); // 3000 milliseconds = 3 seconds
+};    
+  </script>
+
+
+  <!-- ======= popup end ======= -->
+
+
+
+
+
+
+  <!-- ======= header  ======= -->
 
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
@@ -111,9 +201,9 @@ $('.counter-count').each(function () {
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="courses.html">COURSES</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="about.php">About</a></li>
           <li><a class="nav-link scrollto" href="blog.php">Blog</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Contact</a></li>
+          <li><a class="nav-link scrollto " href="contact.php">Contact</a></li>
     
       	<button type="button" class="btn btn-warning">ENQUIRE NOW</button> 
        
@@ -134,16 +224,16 @@ $('.counter-count').each(function () {
   <section id="hero" class="d-flex align-items-center" style="background: url(<?php echo BASE_URL; ?>/assets/uploads/<?php echo $row2['photo']; ?>);">
     <div class="container" data-aos="zoom-out" data-aos-delay="100 ">
  
-       <div class="slider22">
-      	<div class="caption22">
-      		<?php echo $row2['heading']; ?>
-      		<!-- <div class="text-box">
-      			<div>Empowering</div>
-      			<div>Motivating</div>
-      			<div>Skills</div>
-      		</div> -->
-      	</div>
-</div>
+        <div class="slider22">
+        <div class="caption22">
+          AFRICA's
+          <div class="text-box">
+            <div>Empowering</div>
+            <div>Motivating</div>
+            <div>Upskilling</div>
+          </div>
+        </div>
+      </div>
    
     </div>
   </section><!-- End Hero -->
@@ -333,7 +423,7 @@ software consulting
       
         <section>
           <h2>our news&events </h2>
-   <?php
+    <?php
         $statement = $pdo->prepare("SELECT * FROM tbl_blogs ORDER BY service_id DESC LIMIT 1");
         $statement->execute();
         $result = $statement->fetchAll(PDO::FETCH_ASSOC);                           
@@ -515,91 +605,74 @@ software consulting
   
   
   
-  <div class="lmw">
-  <div class="container">
-   <div class="row">
-      <div class="col-md-7">
-  <P>Find Your  <span class="yrl">Course </span> That<br> Makes Bright Future</P>
-  <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
+   <div class="lmw">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <P>Find Your <span class="yrl">Course </span> That<br> Makes Bright Future</P>
+          <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
+        </div>
+
+
+
+        <div class="col-md-5">
+          <img src="assets/img/Ry.png">
+        </div>
+
+
+
+
+
+      </div>
+    </div>
   </div>
-  
-  
-  
-  <div class="col-md-5">
-<img src="assets/img/Ry.png">
+
+
+
+
+
+
+
+
+  <div class="social_media_div">
+    <ul class="icons_list">
+
+
+      <li>
+        <a href="javascript:void(0)"><i class="twitter-icon fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="javascript:void(0)"><i class="googleplus-icon fa fa-instagram"></i></a>
+
+
+      <li>
+
+        <a href="javascript:void(0)"><i class="instagram-icon fa fa-whatsapp"></i></a>
+
+      </li>
+
+    </ul>
   </div>
-  
-  
-  
-  
-  
-  </div>
-  </div></div>
-  
-  
-  
-  
-  
-  
- <section id="footer">
-		<div class="container">
-			<div class="row text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					 
 
 
 
 
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-					<ul class="list-unstyled list-inline social text-center">
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
-					</ul>
-				</div>
-				</hr>
-			</div>	
-				
-		</div>
-	</section> 
-  
-  
-    <!-- ======= Pricing Section ======= -->
-   
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
-   
-    <!-- ======= Contact Section ======= -->
-  
+<?php include('footer.php') ?>
+
+
+
+  <!-- ======= Pricing Section ======= -->
+
+
+  <!-- ======= Frequently Asked Questions Section ======= -->
+
+  <!-- ======= Contact Section ======= -->
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
- 
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -613,160 +686,214 @@ software consulting
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  
-  
+
+
   <style>
-  #spin {
-  color:#00a388;
-  font-size:55px;
-  font-weight:bold;
-}
-#spin:after {
-  content:"";
-  animation: spin 48s linear infinite;
-}
-@keyframes spin {
-  0% { content:"ipsum"; }
-  10% { content:"dolor"; }
-  20% { content:"sit"; }
-  30% { content:"amet"; }
-  40% { content:"consectetur"; }
-  50% { content: "adipisicing"; }
-  60% { content: "elit"; }
-  70% { content: "Hic"; }
-  80% { content: "atque"; }
-  90% { content: "fuga"; }
-}
+    #spin {
+      color: #00a388;
+      font-size: 55px;
+      font-weight: bold;
+    }
+
+    #spin:after {
+      content: "";
+      animation: spin 48s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        content: "ipsum";
+      }
+
+      10% {
+        content: "dolor";
+      }
+
+      20% {
+        content: "sit";
+      }
+
+      30% {
+        content: "amet";
+      }
+
+      40% {
+        content: "consectetur";
+      }
+
+      50% {
+        content: "adipisicing";
+      }
+
+      60% {
+        content: "elit";
+      }
+
+      70% {
+        content: "Hic";
+      }
+
+      80% {
+        content: "atque";
+      }
+
+      90% {
+        content: "fuga";
+      }
+    }
 
 
 
 
 
-.slider22{
-	height: 600px;
+    .slider22 {
+      height: 600px;
 
-	text-align: center;
-	position: relative;
-	animation: slideColor 10s forwards infinite;
-}
-
-.caption22{
-	line-height: 100px;
-	font-size: 60px;
-	color: #fff;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	text-shadow: 0px 5px 5px rgba(0,0,0,.25);
-	margin-left: -300px;
-	font-weight:bold;
-}
-
-.text-box{
-	display: inline-block;
-	position: relative;
-}
-
-.text-box div{
-	display: inline-block;
-	position: absolute;
-	top: -200px;
-	transform: rotateX(-90deg);
-	opacity: 0;
-	text-shadow: 0px 5px 5px rgba(0,0,0,.25);
-	animation-timing-function: ease;
-	color:#00a88e;
-}
-
-.text-box div:nth-child(1){
-	animation: rollDown 10s forwards infinite;
-}
-
-.text-box div:nth-child(2){
-	animation: rollDown2 10s forwards infinite;
-}
-
-.text-box div:nth-child(3){
-	animation: rollDown3 10s forwards infinite;
-}
-
-@keyframes rollDown {
-	0%{
-		top: -200px;
-		transform: rotateX(-90deg);
-	}
-	11%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	22%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	33%{
-		top: 50px;
-		transform: rotateX(30deg);
-		opacity: 0;
-	}
-}
-
-@keyframes rollDown2 {
-	33%{
-		top: -200px;
-		transform: rotateX(-90deg);
-	}
-	44%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	55%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	66%{
-		top: 50px;
-		transform: rotateX(30deg);
-		opacity: 0;
-	}
-}
-
-@keyframes rollDown3 {
-	66%{
-		top: -200px;
-		transform: rotateX(-90deg);
-	}
-	77%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	88%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	99%{
-		top: 50px;
-		transform: rotateX(30deg);
-		opacity: 0;
-	}
-}
+      text-align: center;
+      position: relative;
+      animation: slideColor 10s forwards infinite;
+    }
 
 
-}
+
+    .caption22 {
+      line-height: 100px;
+      font-size: 51px;
+      color: #fff;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+      margin-left: 144px;
+      font-weight: bold;
+    }
 
 
 
 
 
+
+    .text-box {
+      display: inline-block;
+      position: relative;
+    }
+
+    .text-box div {
+      display: inline-block;
+      position: absolute;
+      top: 66px;
+      transform: rotateX(-90deg);
+      opacity: 0;
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+      animation-timing-function: ease;
+      color: #00a88e;
+      left: -506px;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+
+    .text-box div:nth-child(1) {
+      animation: rollDown 10s forwards infinite;
+    }
+
+    .text-box div:nth-child(2) {
+      animation: rollDown2 10s forwards infinite;
+    }
+
+    .text-box div:nth-child(3) {
+      animation: rollDown3 10s forwards infinite;
+    }
+
+    @keyframes rollDown {
+      0% {
+        top: -200px;
+        transform: rotateX(-90deg);
+      }
+
+      11% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      22% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      33% {
+        top: 50px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes rollDown2 {
+      33% {
+        top: -200px;
+        transform: rotateX(-90deg);
+      }
+
+      44% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      55% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      66% {
+        top: 50px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes rollDown3 {
+      66% {
+        top: -200px;
+        transform: rotateX(-90deg);
+      }
+
+      77% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      88% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      99% {
+        top: 50px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+
+
+    
   </style>
-  
-  
-  
+
+  <script>
+    $('.nav-tabs-dropdown')
+      .on("click", ".nav-link:not('.active')", function (event) {
+        $(this).closest('ul').removeClass("open");
+      })
+      .on("click", ".nav-link.active", function (event) {
+        $(this).closest('ul').toggleClass("open");
+      });
+  </script>
+
 
 </body>
 

@@ -1,3 +1,8 @@
+<?php
+ob_start();
+session_start();
+include("admin/config.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -118,10 +123,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">COURSES</a></li>
-          <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Contact</a></li>
+          <li><a class="nav-link scrollto " href="courses.php">COURSES</a></li>
+          <li><a class="nav-link scrollto active" href="about.php">About</a></li>
+          <li><a class="nav-link scrollto" href="blog.php">Blog</a></li>
+          <li><a class="nav-link scrollto " href="contact.php">Contact</a></li>
 
           <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
 
@@ -1052,183 +1057,7 @@
 
   <!-- ======= FOOTER START ======= -->
 
-  <section id="footer">
-    <div class="container">
-      <div class="row text-center text-xs-center text-sm-left text-md-left">
-        <div class="col-xs-12 col-sm-4 col-md-5 rtlz">
-          <H5> <Span class="vrdl"> C-TECH </Span> &nbsp; Certificate</H5>
-          <div>
-
-            <div class="d-flex align-items-start responsive-tab-menu">
-
-              <ul class="nav flex-column nav-pills nav-tabs-dropdown me-3" id="v-pills-tab" role="tablist"
-                aria-orientation="vertical">
-                <li class="nav-item">
-                  <a class="nav-link text-start active" href="#" id="v-pills-home-tab" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">IT
-                    Infrastructure
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-start" href="#" id="v-pills-profile-tab" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    Metaverse <span class="mblw" style="float:right;"> V </span>
-
-                  </a>
-                </li>
-
-
-                <li class="nav-item">
-                  <a class="nav-link text-start" href="#" id="v-pills-contact1-tab" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-
-                    Emerging Technologies
-
-                  </a>
-                </li>
-
-
-                <li class="nav-item">
-                  <a class="nav-link text-start" href="#" id="v-pills-contact2-tab" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-
-                    Cyber Security
-                  </a>
-                </li>
-              </ul>
-
-              <div class="tab-content responsive-tab-content" id="v-pills-tabContent" style="width:100%;">
-
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                  aria-labelledby="v-pills-home-tab" tabindex="0">
-                  <ul class="list-unstyled quick-links">
-                    <li><a href="#">IT Infrastructure</a></li>
-                    <li><a href="#">Metaverse</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Get Started</a></li>
-                    <li><a href="#">Videos</a></li>
-                  </ul>
-                </div>
-                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                  tabindex="0">
-                  <ul class="list-unstyled quick-links">
-                    <li><a href="#"> Infrastructure</a></li>
-                    <li><a href="#">Metaverse</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Get Started</a></li>
-                    <li><a href="#">Videos</a></li>
-                  </ul>
-                </div>
-                <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                  tabindex="0">
-
-
-
-                  <ul class="list-unstyled quick-links">
-                    <li><a href="#">IT Infrastructure</a></li>
-                    <li><a href="#">Metaverse</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Get Started</a></li>
-
-
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Get Started</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li>
-                      Technovalley Africa<br> Proprietory Limited,Plot No. 53609/4,First Floor,<a href="#">FAQ</a></li>
-
-                    <li><a href="#">Videos</a></li>
-                  </ul>
-
-                </div>
-
-
-
-
-
-                <div class="tab-pane fade" id="v-pills-contact1" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                  tabindex="0">
-                  <ul class="list-unstyled quick-links">
-
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Get Started</a></li>
-                    <li><a href="#">Videos</a></li>
-                  </ul>
-                </div>
-
-
-
-
-
-                <div class="tab-pane fade" id="v-pills-contact2" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                  tabindex="0">Contact content</div>
-
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-
-
-
-
-        <div class="col-md-1">
-        </div>
-
-
-
-
-        <div class="col-md-2 ">
-          <h4> Quick Links</h4>
-          <ul class="list-styled" style="text-align:left;">
-            <li><a href="#" class="text-white">Courses</a></li>
-            <div class="mb-2"></div>
-            <li><a href="#" class="text-white">Testimonial</a></li>
-            <div class="mb-2"></div>
-            <li><a href="#" class="text-white">About</a></li>
-            <div class="mb-2"></div>
-            <li><a href="#" class="text-white">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class=" col-0  col-md-1 ">
-
-        </div>
-
-
-
-
-        <div class=" col-xs-12  col-md-3 ">
-          <img src="assets/img/logo.png">
-
-          <h6>
-            Technovalley Africa Proprietory Limited,Plot No. 53609/4,First Floor,<br> Gaborone West, Gaborone, Botswana.
-          </h6>
-          </ul>
-
-          <ul class="list-unstyled list-inline social text-center">
-            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
-            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-
-
-    </div>
-
-    <hr>
-    <div>
-      <h4 class=" text-center"> Copyright © 2023 technovally. All rights reserved</h4>
-    </div>
-  </section>
-
+  <?php include('footer.php') ?>
 
 
   </main><!-- End #main -->

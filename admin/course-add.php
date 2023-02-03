@@ -45,8 +45,8 @@ if(isset($_POST['form1'])) {
         move_uploaded_file( $path_tmp, '../assets/uploads/'.$final_name );
 
 	
-		$statement = $pdo->prepare("INSERT INTO tbl_course (photo,category_id,title) VALUES (?,?,?)");
-		$statement->execute(array($final_name,$_POST['category_id'],$_POST['title']));
+		$statement = $pdo->prepare("INSERT INTO tbl_course (photo,category_id,title,file_name) VALUES (?,?,?,?)");
+		$statement->execute(array($final_name,$_POST['category_id'],$_POST['title'],$_POST['file_name']));
 			
 		$success_message = 'Portfolio is added successfully!';
 
@@ -90,6 +90,12 @@ if(isset($_POST['form1'])) {
 							<label for="" class="col-sm-3 control-label">Title <span>*</span></label>
 							<div class="col-sm-6">
 								<input type="text" class="form-control" name="title" placeholder="Example: Course Title">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="" class="col-sm-3 control-label">File Name <span>*</span></label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" name="file_name" placeholder="Example: File name">
 							</div>
 						</div>
 						<div class="form-group">

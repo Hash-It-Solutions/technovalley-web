@@ -114,7 +114,7 @@ foreach ($result as $row) {
 								<input type="file" name="photo">(Only jpg, jpeg, gif and png are allowed)
 							</div>
 						</div>
-						<div class="form-group">
+						<div class="form-group" style="display: none;">
 							<label for="" class="col-sm-2 control-label">Heading </label>
 							<div class="col-sm-6">
 								<input type="text" autocomplete="off" class="form-control" name="heading" value="<?php echo $heading; ?>">

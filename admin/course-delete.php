@@ -10,6 +10,7 @@ if(!isset($_REQUEST['id'])) {
 	$statement->execute(array($_REQUEST['id']));
 	$total = $statement->rowCount();
 	if( $total == 0 ) {
+		
 		header('location: logout.php');
 		exit;
 	}
@@ -24,6 +25,8 @@ if(!isset($_REQUEST['id'])) {
 	$result = $statement->fetchAll(PDO::FETCH_ASSOC);							
 	foreach ($result as $row) {
 		$photo = $row['photo'];
+
+		
 		$banner = $row['banner'];
 	}
 

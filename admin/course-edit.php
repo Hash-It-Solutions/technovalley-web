@@ -30,7 +30,7 @@ if(isset($_POST['form1'])) {
         	move_uploaded_file( $path_tmp, '../assets/uploads/'.$final_name );
 
 			$statement = $pdo->prepare("UPDATE tbl_course SET photo=?,category_id=?,title=? WHERE id=?");
-    		$statement->execute(array($final_name,$_POST['category_id'],$_POST['title'],$_REQUEST['id']));
+    		$statement->execute(array($final_name,$_POST['category_id'],$_POST['title'],$_POST['file_name'],$_REQUEST['id']));
 		}else{
 			$statement = $pdo->prepare("UPDATE tbl_course SET category_id=?,title=? WHERE id=?");
     		$statement->execute(array($_POST['category_id'],$_POST['title'],$_REQUEST['id']));
@@ -75,6 +75,7 @@ foreach ($result as $row) {
 	$photo             = $row['photo'];
 	$category_id        = $row['category_id'];
 	$title        = $row['title'];
+	$file_name        = $row['file_name'];
 }
 ?>
 
@@ -109,6 +110,12 @@ foreach ($result as $row) {
 							<label for="" class="col-sm-2 control-label">Title <span>*</span></label>
 							<div class="col-sm-6">
 								<input type="text" class="form-control" name="title" value="<?php echo $row['title']; ?>" placeholder="Example: Course Title">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="" class="col-sm-2 control-label">File Name <span>*</span></label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" name="file_name" value="<?php echo $row['file_name']; ?>" placeholder="Example: File Name">
 							</div>
 						</div>
 						<div class="form-group">
