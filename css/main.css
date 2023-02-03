@@ -1022,6 +1022,18 @@ overflow-x:hidden;
 	width:100% !important;
   }
 
+  .banner-corepython {
+    /* The image used */
+    background-image:url(../img/core_python/main.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+
 
 
 
