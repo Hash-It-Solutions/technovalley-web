@@ -335,11 +335,11 @@ div.ex2 {
   animation: spin 2s linear infinite;
 }
 @keyframes spin {
-  0% { content:"ipsum"; }
-  10% { content:"dolor"; }
-  20% { content:"sit"; }
-  30% { content:"amet"; }
-  40% { content:"consectetur"; }
+  0% { content:"ipsum";ï¿½}
+  10% { content:"dolor";ï¿½}
+  20% { content:"sit";ï¿½}
+  30% { content:"amet";ï¿½}
+  40% { content:"consectetur";ï¿½}
   50% { content: "adipisicing"; }
   60% { content: "elit"; }
   70% { content: "Hic"; }
@@ -910,10 +910,12 @@ overflow-x:hidden;
 
 .banner-java {
     /* The image used */
-    background-image:url(../img/courses-java.png) !important;
-	background-size:cover!important;
+    background-image:url(../img/react-js/pikrepo.jpg) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
 	background-repeat:no-repeat !important;
-	min-height:480px;
+	min-height:580px;
 	width:100% !important;
   }
 
