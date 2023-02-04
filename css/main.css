@@ -1013,11 +1013,11 @@ padding:186px 10px 55px 10px;
   display: grid;
   grid-template-columns: 1fr;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px 5px #ccc;
+  /* box-shadow: 5px 5px 5px 5px #ccc; */
   background-color: #fff;
   padding: 14px;
   max-width: 540px;
-  min-height: 429px;
+  min-height: 229px;
   margin: auto;
 }
 
