@@ -920,6 +920,132 @@ overflow-x:hidden;
   }
 
 
+  .banner-hadoop {
+    /* The image used */
+    background-image:url(../img/hadoop/bigdatamain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+
+  .banner-ai {
+    /* The image used */
+    background-image:url(../img/hadoop/aimain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+
+  .banner-malware {
+    /* The image used */
+    background-image:url(../img/hadoop/malwaremain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-mean {
+    /* The image used */
+    background-image:url(../img/mern_stack/mean.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-mern {
+    /* The image used */
+    background-image:url(../img/mern_stack/mern.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-mongodb {
+    /* The image used */
+    background-image:url(../img/mongodb/mogodb.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-python {
+    /* The image used */
+    background-image:url(../img/python_fullstatck/pythonmain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  
+  .banner-digital {
+    /* The image used */
+    background-image:url(../img/mern_stack/digital.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-data {
+    /* The image used */
+    background-image:url(../img/data_analysis/main.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-corepython {
+    /* The image used */
+    background-image:url(../img/core_python/main.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-devops {
+    /* The image used */
+    background-image:url(../img/devops/main.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+
+
 
 
 
