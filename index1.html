@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -23,16 +25,19 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" type="text/css" media="screen" />
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    type="text/css" media="screen" />
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 
 
@@ -49,41 +54,125 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
   <script src="js/gallery.js"></script>
   <script src="js/main.js"></script>
-  <!-- =======================================================
-  * Template Name: BizLand - v3.10.0
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-  
-  
-  
-  
-  
-  
+
+
   <script>
-$('.counter-count').each(function () {
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 5000,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
-        });
+    $('.counter-count').each(function () {
+      $(this).prop('Counter', 0).animate({
+        Counter: $(this).text()
+      }, {
+        duration: 5000,
+        easing: 'swing',
+        step: function (now) {
+          $(this).text(Math.ceil(now));
+        }
+      });
     });
 
-</script>
+  </script>
+
+
 </head>
 
 <body>
 
-  <!-- ======= Top Bar ======= -->
+
+
+
+  <script type='text/javascript'>
+    $(function () {
+      setTimeout(function() {
+        var overlay = $('<div id="overlay"></div>');
+      overlay.fadeIn(2000);
+      overlay.appendTo(document.body);
+      $('.popup').fadeIn(1000);
+      $('.close').click(function () {
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+      });
+        }, 3000);
+      
+
+
+
+
+      $('.x').click(function () {
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+      });
+    });
+
+   
+  </script>
+
+
+  <!-- popup start -->
+  <div class='popup'  style="display: none;">
+    <div class='cnt223' id="contactForm" style="display: none;">
+
+
+      <div class="form-sec" style="margin-top:0px; box-shadow:none; width:94%;">
+        <a style="float:right;" href='' class='close'>X</a>
+        <h4 class="text-center">Enquiry Form</h4>
+
+        <form name="qryform" id="qryform" method="post" action="mail.php" onsubmit="return(validate());"
+          novalidate="novalidate">
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
+          </div>
+          <br>
+
+          <button type="button" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+     window.onload = function() {
+  setTimeout(function() {
+    document.getElementById("contactForm").style.display = "block";
+  }, 3000); // 3000 milliseconds = 3 seconds
+};    
+  </script>
+
+
+  <!-- ======= popup end ======= -->
+
+
+
+
+
+
+  <!-- ======= header  ======= -->
+
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">Plot No. 53609/4, First Floor, Gaborone West, Gaborone, Botswana.</a></i>
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">Plot No. 53609/4, First Floor, Gaborone West, Gaborone, Botswana</a></i>
      
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
@@ -94,6 +183,11 @@ $('.counter-count').each(function () {
       </div>
     </div>
   </section>
+
+
+
+
+
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
@@ -106,37 +200,42 @@ $('.counter-count').each(function () {
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="courses.html">COURSES</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Blog</a></li>
+          <li><a class="nav-link scrollto" href="about.html">About</a></li>
+          <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Contact</a></li>
-    
-      	<button type="button" class="btn btn-warning">ENQUIRE NOW</button> 
-       
+
+          <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
+
         </ul>
-	
+
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
+
+
+
+
+
+
+  <!-- ======= banner Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100 ">
- 
-       <div class="slider22">
-	<div class="caption22">
-		We build
-		<div class="text-box">
-			<div>Empowering</div>
-			<div>Motivating</div>
-			<div>Skills</div>
-		</div>
-	</div>
-</div>
-   
+
+      <div class="slider22">
+        <div class="caption22">
+          AFRICA's
+          <div class="text-box">
+            <div>Empowering</div>
+            <div>Motivating</div>
+            <div>Upskilling</div>
+          </div>
+        </div>
+      </div>
     </div>
-  </section><!-- End Hero -->
+  </section><!-- End banner -->
 
 
 
@@ -144,499 +243,690 @@ $('.counter-count').each(function () {
 
 
 
-    
-     <section id="about" class="about">
-      <div class="container">
 
-        <div class="row justify-content-end">
-          <div class="col-lg-12">
-            <div class="row justify-content-end">
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch ply ">
-                <div class="count-box py-5 ">
-               
-                  <span data-c-start="0" data-purecounter-end="100" class="purecounter">0         </span>  <span style="color:#fff; font-size:25px;">% </span>
-                  <p>Success Rate</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch ply">
-                <div class="count-box py-5">
-                 
-                  <span data-purecounter-start="0" data-purecounter-end="12" class="purecounter">0</span><span style="color:#fff; font-size:25px; font-weight:bold;">+ </span>
-                  <p>Years of Service</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch ply">
-                <div class="count-box pb-5 pt-0 pt-lg-5">
-                
-                  <span data-purecounter-start="0" data-purecounter-end="135" class="purecounter">0</span><span style="color:#fff; font-size:25px; font-weight:bold;">k+ </span>
-                  <p>Students</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box pb-5 pt-0 pt-lg-5">
-                 
-                  <span data-purecounter-start="0" data-purecounter-end="22" class="purecounter">0</span> <span style="color:#fff; font-size:25px;">+ </span>
-                  <p>Courses</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        
-
-      </div>
-    </section><!-- End About Section -->
-
-
-    <!-- ======= Featured Services Section ======= -->
-
-
- 
-    <!-- ======= Skills Section ======= -->
-   
-    <!-- ======= Counts Section ======= -->
-  
-    <!-- ======= Clients Section ======= -->
-  
-    <!-- ======= Services Section ======= -->
-  
-
-    <!-- ======= Testimonials Section ======= -->
-  
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h5>WELECOME TO TECHNOVALLY AFRICA</h5>
-          <h3>Course Categories</h3>
-      
-        </div>
-
-<div class="search-container">
-
-<form class="text-center" action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-	</div>
-	<br>
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All Categories</li>
-              <li data-filter=".filter-app">IT Infrastructure</li>
-              <li data-filter=".filter-card">Metaverse</li>
-              <li data-filter=".filter-web">Emerging Technologies</li>
-			  <li data-filter=".filter-weber"> Cyber Security</li>
-			    <li data-filter=".filter-webst"> Robotics</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-           <img src="assets/img/ryl.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
- <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-         <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-weber">
-           <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-
-
-
-
-
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-webst">
-           <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-  
-  
-  <div class="how-section1" >
-  <div class="container">
-                    <div class="row">
-                       
-                        <div class="col-md-6">
-                            <h4>Welcome to technovalley
-software consulting
-</h4>
-                                       
-                        <p class="text-muted">Technovalley Africa is thrilled to announce its launch in Africa. Our goal is to empower and promote education by providing world-class education and skills training to students. Our innovative programs and experienced faculty will equip students with the knowledge and skills needed to become leaders in their field and drive the continent's development. Our organization is made up of three strategic business units that work together to provide a comprehensive education experience. Join us on this journey and be part of the change that is shaping Africa's future.</p>
-                        </div>
-						
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				<div class="col-md-6">
-                          <img src="assets/img/tech.png">
-                        </div>		
-						
-                    </div>
-                    
-                    
-                    
-                </div>
-  
-  </div>
-  
-  
-  
-   <div class="main-container">
-   
+  <section id="about" class="about">
     <div class="container">
-	<div class="row">
-	<div class="col-md-6">
-      <article>
-       
-      
-        <section>
-          <h2>our news&events </h2>
-          <div class="gallery">
-            <div class="images">
-              <div class="image active">
-                <div class="content" style="background-image: url(img/01.jpg)"></div>
-              </div>
-              <div class="image">
-                <div class="content" style="background-image: url(img/02.jpg)"></div>
-              </div>
-              <div class="image">
-                <div class="content" style="background-image: url(img/03.jpg)"></div>
-              </div>
-              <div class="image">
-                <div class="content" style="background-image: url(img/04.jpg)"></div>
-              </div>
-            </div>
-            <div class="thumbs">
-              <div class="thumb active" style="background-image: url(img/01.jpg)"></div>
-              <div class="thumb" style="background-image: url(img/02.jpg)"></div>
-              <div class="thumb" style="background-image: url(img/03.jpg)"></div>
-              <div class="thumb" style="background-image: url(img/04.jpg)"></div>
-            </div>
-			<h3>Lorem Ipsum is simply dummy text  </h3>
-			<P>
-			Technovalley Africa is thrilled to announce its launch in Africa. Our goal is to empower and promote education by providing world-class education and skills training to students. Our innovative programs and experienced .
-          </div>
-		  </div>
-		  
-		<div class="col-md-1 col-0">
-		</div>
-		
-		
-		<div class="col-md-5">
-     <div class="ex1">
-	 <div class="row">
-	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>
-	 	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>
-	 	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>
-	 	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>
-	 </div>
-	 
-	 </div>
 
-    
+      <div class="row justify-content-end">
+        <div class="col-lg-12">
+          <div class="row justify-content-end">
+
+            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch ply ">
+              <div class="count-box py-5 ">
+
+                <span data-c-start="0" data-purecounter-end="100" class="purecounter">0 </span> <span
+                  style="color:#fff; font-size:55px;">% </span>
+                <p>Success Rate</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch ply">
+              <div class="count-box py-5">
+
+                <span data-purecounter-start="0" data-purecounter-end="12" class="purecounter">0</span><span
+                  style="color:#fff; font-size:55px; font-weight:bold;">+ </span>
+                <p>Years of Service</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch ply">
+              <div class="count-box pb-5 pt-0 pt-lg-5">
+
+                <span data-purecounter-start="0" data-purecounter-end="135" class="purecounter">0</span><span
+                  style="color:#fff; font-size:55px; font-weight:bold;">k+ </span>
+                <p>Students</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+              <div class="count-box pb-5 pt-0 pt-lg-5">
+
+                <span data-purecounter-start="0" data-purecounter-end="22" class="purecounter">0</span> <span
+                  style="color:#fff; font-size:55px;">+ </span>
+                <p>Courses</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
 
     </div>
-    <!-- #main -->
+  </section><!-- End counter -->
+
+
+
+
+
+
+  <!-- ======= course ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h5>WELECOME TO TECHNOVALLY AFRICA</h5>
+        <h3>Course Categories</h3>
+
+      </div>
+
+      <div class="text-center">
+
+        <form class="text-center" action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit" class="btn btn-warning btn-xs"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <br>
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All Categories</li>
+            <li data-filter=".filter-app">IT Infrastructure</li>
+            <li data-filter=".filter-card">Metaverse</li>
+            <li data-filter=".filter-web">Emerging Technologies</li>
+            <li data-filter=".filter-weber"> Cyber Security</li>
+            <li data-filter=".filter-webst"> Robotics</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Web 3</h4>
+            <p>Web</p>
+            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+              class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>App 2</h4>
+            <p>App</p>
+            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+              class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <img src="assets/img/ryl.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Card 2</h4>
+            <p>Card</p>
+            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+              class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Web 2</h4>
+            <p>Web</p>
+            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+              class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>App 3</h4>
+            <p>App</p>
+            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+              class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Card 1</h4>
+            <p>Card</p>
+            <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+              class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Card 3</h4>
+            <p>Card</p>
+            <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+              class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-weber">
+          <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Web 3</h4>
+            <p>Web</p>
+            <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+              class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-webst">
+          <img src="assets/img/Rectangle -55.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>App 1</h4>
+            <p>App</p>
+            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+              class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End course Section -->
+
+
+
+  <div class="how-section1">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          <h4>Welcome to technovalley
+            software consulting
+          </h4>
+
+          <p class="text-muted">Technovalley Africa is thrilled to announce its launch in Africa. Our goal is to empower
+            and promote education by providing world-class education and skills training to students. Our innovative
+            programs and experienced faculty will equip students with the knowledge and skills needed to become leaders
+            in their field and drive the continent's development. Our organization is made up of three strategic
+            business units that work together to provide a comprehensive education experience. Join us on this journey
+            and be part of the change that is shaping Africa's future.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-md-6">
+          <img src="assets/img/tech.png">
+        </div>
+
+      </div>
+
+
+
+    </div>
+
   </div>
-  
-  </div>
-  
-  
-  
-  
-  
-  <div class="lmw">
+
+
+
+
+
   <div class="container">
-   <div class="row">
-      <div class="col-md-7">
-  <P>Find Your  <span class="yrl">Course </span> That<br> Makes Bright Future</P>
-  <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
+    <div class="row">
+      <div class="col-md-6">
+        <article>
+
+
+          <section>
+            <h2>our news&events </h2>
+            <div class="gallery">
+              <div class="images">
+                <div class="image active">
+                  <div class="content" style="background-image: url(img/01.jpg)"></div>
+                </div>
+                <div class="image">
+                  <div class="content" style="background-image: url(img/02.jpg)"></div>
+                </div>
+                <div class="image">
+                  <div class="content" style="background-image: url(img/03.jpg)"></div>
+                </div>
+                <div class="image">
+                  <div class="content" style="background-image: url(img/04.jpg)"></div>
+                </div>
+              </div>
+              <div class="thumbs">
+                <div class="thumb active" style="background-image: url(img/01.jpg)"></div>
+                <div class="thumb" style="background-image: url(img/02.jpg)"></div>
+                <div class="thumb" style="background-image: url(img/03.jpg)"></div>
+                <div class="thumb" style="background-image: url(img/04.jpg)"></div>
+              </div>
+              <h3>Lorem Ipsum is simply dummy text </h3>
+              <P>
+                Technovalley Africa is thrilled to announce its launch in Africa. Our goal is to empower and promote
+                education by providing world-class education and skills training to students. Our innovative programs
+                and experienced .
+            </div>
+      </div>
+
+      <div class="col-md-1 col-0">
+      </div>
+
+
+      <div class="col-md-5">
+        <div class="ex1">
+          <div class="row">
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+            <div class="col-md-8 col-12">
+              <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+            </div>
+
+            <div class="col-md-4 col-12  news">
+              <img src="assets/img/Rectangle.png">
+            </div>
+            <hr>
+          </div>
+
+        </div>
+
+
+
+      </div>
+      <!-- #main -->
+    </div>
+
   </div>
-  
-  
-  
-  <div class="col-md-5">
-<img src="assets/img/Ry.png">
+
+
+
+
+
+  <div class="lmw">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <P>Find Your <span class="yrl">Course </span> That<br> Makes Bright Future</P>
+          <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
+        </div>
+
+
+
+        <div class="col-md-5">
+          <img src="assets/img/Ry.png">
+        </div>
+
+
+
+
+
+      </div>
+    </div>
   </div>
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+  <div class="social_media_div">
+    <ul class="icons_list">
+
+
+      <li>
+        <a href="javascript:void(0)"><i class="twitter-icon fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="javascript:void(0)"><i class="googleplus-icon fa fa-instagram"></i></a>
+
+
+      <li>
+
+        <a href="javascript:void(0)"><i class="instagram-icon fa fa-whatsapp"></i></a>
+
+      </li>
+
+    </ul>
   </div>
-  </div></div>
-  
-  
-  
-  
-  
-  
- <section id="footer">
-		<div class="container">
-			<div class="row text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					 
 
 
 
 
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-					<ul class="list-unstyled list-inline social text-center">
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
-					</ul>
-				</div>
-				</hr>
-			</div>	
-				
-		</div>
-	</section> 
-  
-  
-    <!-- ======= Pricing Section ======= -->
-   
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
-   
-    <!-- ======= Contact Section ======= -->
-  
+
+
+  <section id="footer">
+    <div class="container">
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-5 rtlz">
+          <H5> <Span class="vrdl"> C-TECH </Span> &nbsp; Certificate</H5>
+          <div>
+
+            <div class="d-flex align-items-start responsive-tab-menu">
+
+              <ul class="nav flex-column nav-pills nav-tabs-dropdown me-3" id="v-pills-tab" role="tablist"
+                aria-orientation="vertical">
+                <li class="nav-item">
+                  <a class="nav-link text-start active" href="#" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">IT
+                    Infrastructure
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-start" href="#" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    Metaverse <span class="mblw" style="float:right;"> V </span>
+
+                  </a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link text-start" href="#" id="v-pills-contact1-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+
+                    Emerging Technologies
+
+                  </a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link text-start" href="#" id="v-pills-contact2-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+
+                    Cyber Security
+                  </a>
+                </li>
+              </ul>
+
+              <div class="tab-content responsive-tab-content" id="v-pills-tabContent" style="width:100%;">
+
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                  aria-labelledby="v-pills-home-tab" tabindex="0">
+                  <ul class="list-unstyled quick-links">
+                    <li><a href="#">IT Infrastructure</a></li>
+                    <li><a href="#">Metaverse</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">
+                  <ul class="list-unstyled quick-links">
+                    <li><a href="#"> Infrastructure</a></li>
+                    <li><a href="#">Metaverse</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">
+
+
+
+                  <ul class="list-unstyled quick-links">
+                    <li><a href="#">IT Infrastructure</a></li>
+                    <li><a href="#">Metaverse</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+
+
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li>
+                      Technovalley Africa<br> Proprietory Limited,Plot No. 53609/4,First Floor,<a href="#">FAQ</a></li>
+
+                    <li><a href="#">Videos</a></li>
+                  </ul>
+
+                </div>
+
+
+
+
+
+                <div class="tab-pane fade" id="v-pills-contact1" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">
+                  <ul class="list-unstyled quick-links">
+
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                  </ul>
+                </div>
+
+
+
+
+
+                <div class="tab-pane fade" id="v-pills-contact2" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">Contact content</div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="col-md-1">
+        </div>
+
+
+
+
+        <div class="col-md-2 ">
+          <h4> Quick Links</h4>
+          <ul class="list-styled" style="text-align:left;">
+            <li><a href="#" class="text-white">Courses</a></li>
+            <div class="mb-2"></div>
+            <li><a href="#" class="text-white">Testimonial</a></li>
+            <div class="mb-2"></div>
+            <li><a href="#" class="text-white">About</a></li>
+            <div class="mb-2"></div>
+            <li><a href="#" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class=" col-0  col-md-1 ">
+
+        </div>
+
+
+
+
+        <div class=" col-xs-12  col-md-3 ">
+          <img src="assets/img/logo.png">
+
+          <h6>
+            Technovalley Africa Proprietory Limited,Plot No. 53609/4,First Floor,<br> Gaborone West, Gaborone, Botswana.
+          </h6>
+          </ul>
+
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <hr>
+    <div>
+      <h4 class=" text-center"> Copyright © 2023 technovally. All rights reserved</h4>
+    </div>
+  </section>
+
+
+  <!-- ======= Pricing Section ======= -->
+
+
+  <!-- ======= Frequently Asked Questions Section ======= -->
+
+  <!-- ======= Contact Section ======= -->
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
- 
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -650,160 +940,214 @@ software consulting
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  
-  
+
+
   <style>
-  #spin {
-  color:#00a388;
-  font-size:55px;
-  font-weight:bold;
-}
-#spin:after {
-  content:"";
-  animation: spin 48s linear infinite;
-}
-@keyframes spin {
-  0% { content:"ipsum"; }
-  10% { content:"dolor"; }
-  20% { content:"sit"; }
-  30% { content:"amet"; }
-  40% { content:"consectetur"; }
-  50% { content: "adipisicing"; }
-  60% { content: "elit"; }
-  70% { content: "Hic"; }
-  80% { content: "atque"; }
-  90% { content: "fuga"; }
-}
+    #spin {
+      color: #00a388;
+      font-size: 55px;
+      font-weight: bold;
+    }
+
+    #spin:after {
+      content: "";
+      animation: spin 48s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        content: "ipsum";
+      }
+
+      10% {
+        content: "dolor";
+      }
+
+      20% {
+        content: "sit";
+      }
+
+      30% {
+        content: "amet";
+      }
+
+      40% {
+        content: "consectetur";
+      }
+
+      50% {
+        content: "adipisicing";
+      }
+
+      60% {
+        content: "elit";
+      }
+
+      70% {
+        content: "Hic";
+      }
+
+      80% {
+        content: "atque";
+      }
+
+      90% {
+        content: "fuga";
+      }
+    }
 
 
 
 
 
-.slider22{
-	height: 600px;
+    .slider22 {
+      height: 600px;
 
-	text-align: center;
-	position: relative;
-	animation: slideColor 10s forwards infinite;
-}
-
-.caption22{
-	line-height: 100px;
-	font-size: 60px;
-	color: #fff;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	text-shadow: 0px 5px 5px rgba(0,0,0,.25);
-	margin-left: -300px;
-	font-weight:bold;
-}
-
-.text-box{
-	display: inline-block;
-	position: relative;
-}
-
-.text-box div{
-	display: inline-block;
-	position: absolute;
-	top: -200px;
-	transform: rotateX(-90deg);
-	opacity: 0;
-	text-shadow: 0px 5px 5px rgba(0,0,0,.25);
-	animation-timing-function: ease;
-	color:#00a88e;
-}
-
-.text-box div:nth-child(1){
-	animation: rollDown 10s forwards infinite;
-}
-
-.text-box div:nth-child(2){
-	animation: rollDown2 10s forwards infinite;
-}
-
-.text-box div:nth-child(3){
-	animation: rollDown3 10s forwards infinite;
-}
-
-@keyframes rollDown {
-	0%{
-		top: -200px;
-		transform: rotateX(-90deg);
-	}
-	11%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	22%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	33%{
-		top: 50px;
-		transform: rotateX(30deg);
-		opacity: 0;
-	}
-}
-
-@keyframes rollDown2 {
-	33%{
-		top: -200px;
-		transform: rotateX(-90deg);
-	}
-	44%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	55%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	66%{
-		top: 50px;
-		transform: rotateX(30deg);
-		opacity: 0;
-	}
-}
-
-@keyframes rollDown3 {
-	66%{
-		top: -200px;
-		transform: rotateX(-90deg);
-	}
-	77%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	88%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	99%{
-		top: 50px;
-		transform: rotateX(30deg);
-		opacity: 0;
-	}
-}
+      text-align: center;
+      position: relative;
+      animation: slideColor 10s forwards infinite;
+    }
 
 
-}
+
+    .caption22 {
+      line-height: 100px;
+      font-size: 51px;
+      color: #fff;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+      margin-left: 144px;
+      font-weight: bold;
+    }
 
 
 
 
 
+
+    .text-box {
+      display: inline-block;
+      position: relative;
+    }
+
+    .text-box div {
+      display: inline-block;
+      position: absolute;
+      top: 66px;
+      transform: rotateX(-90deg);
+      opacity: 0;
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+      animation-timing-function: ease;
+      color: #00a88e;
+      left: -506px;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+
+    .text-box div:nth-child(1) {
+      animation: rollDown 10s forwards infinite;
+    }
+
+    .text-box div:nth-child(2) {
+      animation: rollDown2 10s forwards infinite;
+    }
+
+    .text-box div:nth-child(3) {
+      animation: rollDown3 10s forwards infinite;
+    }
+
+    @keyframes rollDown {
+      0% {
+        top: -200px;
+        transform: rotateX(-90deg);
+      }
+
+      11% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      22% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      33% {
+        top: 50px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes rollDown2 {
+      33% {
+        top: -200px;
+        transform: rotateX(-90deg);
+      }
+
+      44% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      55% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      66% {
+        top: 50px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes rollDown3 {
+      66% {
+        top: -200px;
+        transform: rotateX(-90deg);
+      }
+
+      77% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      88% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      99% {
+        top: 50px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+
+
+    
   </style>
-  
-  
-  
+
+  <script>
+    $('.nav-tabs-dropdown')
+      .on("click", ".nav-link:not('.active')", function (event) {
+        $(this).closest('ul').removeClass("open");
+      })
+      .on("click", ".nav-link.active", function (event) {
+        $(this).closest('ul').toggleClass("open");
+      });
+  </script>
+
 
 </body>
 
