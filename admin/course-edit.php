@@ -29,11 +29,11 @@ if(isset($_POST['form1'])) {
 			$final_name = 'portfolio-'.$_REQUEST['id'].'.'.$ext;
         	move_uploaded_file( $path_tmp, '../assets/uploads/'.$final_name );
 
-			$statement = $pdo->prepare("UPDATE tbl_course SET photo=?,category_id=?,title=? WHERE id=?");
+			$statement = $pdo->prepare("UPDATE tbl_course SET photo=?,category_id=?,title=?,file_name=? WHERE id=?");
     		$statement->execute(array($final_name,$_POST['category_id'],$_POST['title'],$_POST['file_name'],$_REQUEST['id']));
 		}else{
-			$statement = $pdo->prepare("UPDATE tbl_course SET category_id=?,title=? WHERE id=?");
-    		$statement->execute(array($_POST['category_id'],$_POST['title'],$_REQUEST['id']));
+			$statement = $pdo->prepare("UPDATE tbl_course SET category_id=?,title=?,file_name=? WHERE id=?");
+    		$statement->execute(array($_POST['category_id'],$_POST['title'],$_POST['file_name'],$_REQUEST['id']));
 		}
 
 	    $success_message = 'Course is updated successfully!';

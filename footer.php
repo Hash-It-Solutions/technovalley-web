@@ -19,7 +19,7 @@
                 ?>
 
                     <li class="nav-item">
-                      <a class="nav-link text-start <?php if($key == 0){ echo 'active';} ?>" href="#" id="v-pills-<?php echo $row['category_name'] ?>" data-bs-toggle="pill"
+                      <a class="nav-link text-start <?php if($key == 0){ echo 'active';} ?>" href="<?php echo $row1['file_name']; ?>.html" id="v-pills-<?php echo $row['category_name'] ?>" data-bs-toggle="pill"
                         data-bs-target="#v-pills-<?php echo $row['category_name'] ?>" role="tab" aria-controls="v-pills-home" aria-selected="true"><?php echo $row['category_name'] ?>
                       </a>
                     </li>
@@ -71,7 +71,7 @@
                 $result1 = $statement1->fetchAll(PDO::FETCH_ASSOC); 
                 foreach ($result1 as $key1=> $row1) {
             ?>
-                    <li><a href="#"><?php echo $row1['title']; ?></a></li>
+                    <li><a href="<?php echo $row1['file_name']; ?>.html"><?php echo $row1['title']; ?></a></li>
             <?php } ?>
                     <!-- <li><a href="#">Metaverse</a></li>
                     <li><a href="#">FAQ</a></li>
