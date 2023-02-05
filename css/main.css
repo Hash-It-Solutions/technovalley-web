@@ -385,7 +385,7 @@ font-weight:bold;
 }
 
 .lmw {
-background-image:url(../assets/img/Rectan.png);
+background-image:url(..//assets/img/Rectan.png);
 background-repeat:no-repeat;
 background-size:cover;
 padding-bottom:55px;
@@ -423,7 +423,7 @@ background-repeat:no-repeat;
 
 
 #portfolio{
-background-image:url(../assets/img/Rel.png);
+background-image:url(..//assets/img/Rel.png);
 background-repeat:no-repeat;
 background-size:cover;}
 
@@ -579,7 +579,7 @@ td, th {
 
 
 .banner-about {
-  background-image: url(../assets/img/about.png);
+  background-image: url(..//assets/img/about.png);
   background-size: cover !important;
   background-repeat: no-repeat !important;
   min-height: 220px !important;
@@ -587,7 +587,7 @@ td, th {
 }
 
 .banner-blog {
-  background-image: url(../assets/img/footer.png) !important;
+  background-image: url(..//assets/img/footer.png) !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   min-height: 220px !important;
@@ -632,7 +632,7 @@ td, th {
 
 
 #footer {
-background-image:url(../assets/img/footer-mob.png) !important;
+background-image:url(..//assets/img/footer-mob.png) !important;
 background-repeat:no-repeat !important;
 background-size:cover !important;
 	margin-top:85px;
@@ -704,7 +704,7 @@ background-size:cover !important;
 }
 
 #footer {
-background-image:url(../assets/img/footer.png);
+background-image:url(..//assets/img/footer.png);
 background-repeat:no-repeat;
 background-size:cover;
 	margin-top:85px;
@@ -900,7 +900,7 @@ overflow-x:hidden;
 
 .banner-blog {
     /* The image used */
-    background-image:url(../assets/img/footer.png) !important;
+    background-image:url(..//assets/img/footer.png) !important;
 	background-size:cover!important;
 	background-repeat:no-repeat !important;
 	min-height:480px;
@@ -1053,7 +1053,7 @@ overflow-x:hidden;
 
 .banner-about {
     /* The image used */
-    background-image:url(../assets/img/about.png);
+    background-image:url(..//assets/img/about.png);
 	background-size:cover!important;
 	background-repeat:no-repeat !important;
 	min-height:410px;
