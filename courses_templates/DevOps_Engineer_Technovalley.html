@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>devops</title>
+  <title>Devops</title>
 
 
 
@@ -18,8 +18,9 @@
 
   <!-- Google Fonts -->
   <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet">
+      <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 
   <!-- Vendor CSS Files -->
   <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
@@ -28,10 +29,10 @@
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
-    type="text/css" media="screen" />
+      type="text/css" media="screen" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
   <!-- Template Main CSS File -->
@@ -46,7 +47,8 @@
 
 
 
-
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/gallery.css">
@@ -74,17 +76,17 @@
 
 
   <script>
-    $('.counter-count').each(function () {
-      $(this).prop('Counter', 0).animate({
-        Counter: $(this).text()
-      }, {
-        duration: 5000,
-        easing: 'swing',
-        step: function (now) {
-          $(this).text(Math.ceil(now));
-        }
+      $('.counter-count').each(function () {
+          $(this).prop('Counter', 0).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 5000,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
       });
-    });
 
   </script>
 </head>
@@ -659,53 +661,239 @@
 
       <div class="col-md-5">
         <div>
-          <div class="row">
+            <div class="row">
 
 
-            <div class="verified_customer_section">
-              <br> <br>
-              <H3>Our Students' Says</H3>
-              <div class="customer_review"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <H3>Achievements of our Interns</H3>
 
-              <div class="customer_comment">"It is a long established fact that a reader will be distracted by the
-                readable content of a page when looking at its layout. It is a long established fact that a reader will
-                be distracted by the readable content of a page when looking at its layout."</div>
+                <div class="review-carosaul">
+                    <div class="carousel"
+                        data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": true, "prevNextButtons": false }'>
+
+                        <div class="carousel-cell">
+                            <div class="verified_customer_section">
+                                <br>
+                                <div class="container">
+                                    <div class="customer_comment">"Amal is our cyber security intern, he
+                                        discovered
+                                        the flaws in a Goverment website."</div>
+
+                                    <div class="image_review">
+                                        <div class="customer_image">
+                                            <img src="/assets/img/testimonials/amal.png" alt="customer image">
+                                        </div>
+
+                                        <div class="customer_name_review_status">
+                                            <div class="customer_name">AMAL KRISHNA C</div>
+
+                                            <div class="customer_status">
+
+                                                <div class="customer_status_content">Cyber Security Intern</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="verified_customer_section">
+                                <br>
+                                <div class="container">
+                                    <div class="customer_comment">"Recognition by The Govt. of Scotland -
+                                        Vulnerability Disclosure.
+                                        Featured in Apple Hall of Fame for
+                                        Vulnerability Disclosure."</div>
+
+                                    <div class="image_review">
+                                        <div class="customer_image">
+                                            <img src="/assets/img/testimonials/MUHAMMED_SANEEM.png"
+                                                alt="customer image">
+                                        </div>
+
+                                        <div class="customer_name_review_status">
+                                            <div class="customer_name">MUHAMMED SANEEM</div>
+
+                                            <div class="customer_status">
+
+                                                <div class="customer_status_content">Cyber Security Intern</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-cell">
+                            <div class="verified_customer_section">
+                                <br>
+                                <div class="container">
+                                    <div class="customer_comment">"She created a mask and no mask detection
+                                        system
+                                        using Computer vision and Deep learning."</div>
+
+                                    <div class="image_review">
+                                        <div class="customer_image">
+                                            <img src="/assets/img/testimonials/Aleena.png" alt="customer image">
+                                        </div>
+
+                                        <div class="customer_name_review_status">
+                                            <div class="customer_name">ALEENA ANTONY
+                                            </div>
+
+                                            <div class="customer_status">
+
+                                                <div class="customer_status_content">Data Science Intern</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="verified_customer_section">
+                                <br>
+                                <div class="container">
+                                    <div class="customer_comment">"SHe developed M C Hospital Doctor
+                                        Booking web application in Python
+                                        program."</div>
+
+                                    <div class="image_review">
+                                        <div class="customer_image">
+                                            <img src="/assets/img/testimonials/adnan.png" alt="customer image">
+                                        </div>
+
+                                        <div class="customer_name_review_status">
+                                            <div class="customer_name">ADNAN MUHAMMAD
+                                            </div>
+
+                                            <div class="customer_status">
+
+                                                <div class="customer_status_content">Python Fullstack Intern
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="verified_customer_section">
+                                <br>
+                                <div class="container">
+                                    <div class="customer_comment">"Karthik is our cyber security intern, he
+                                        discovered
+                                        the flaws in an Indian Goverment website."</div>
+
+                                    <div class="image_review">
+                                        <div class="customer_image">
+                                            <img src="/assets/img/testimonials/Karthik.png"
+                                                alt="customer image">
+                                        </div>
+
+                                        <div class="customer_name_review_status">
+                                            <div class="customer_name">KARTHIK SHIBU
+                                            </div>
+
+                                            <div class="customer_status">
+
+                                                <div class="customer_status_content">Cyber Security Intern</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="verified_customer_section">
+                                <br>
+                                <div class="container">
+
+                                    <div class="customer_comment">"She developed an E-commerce website for
+                                        a Fashion Store Brand." </div>
+
+                                    <div class="image_review">
+                                        <div class="customer_image">
+                                            <img src="/assets/img/testimonials/vidya.png" alt="customer image">
+                                        </div>
+
+                                        <div class="customer_name_review_status">
+                                            <div class="customer_name">VIDYA P KISHORE
+                                            </div>
+
+                                            <div class="customer_status">
+
+                                                <div class="customer_status_content">Python Fullstack Intern
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="verified_customer_section">
+                                <br>
+                                <div class="container">
+                                    <div class="customer_comment">"<img
+                                            src="/assets/img/testimonials/crawlbot.png" style="max-width: 90px;"
+                                            alt="">Reconnaissance tool created
+                                        by our CWAP Students."</div>
+
+                                    <div class="image_review">
+                                        <div class="customer_image">
+                                            <img src="/assets/img/testimonials/cwap (1).png"
+                                                alt="customer image">
+                                        </div>
+
+                                        <div class="customer_name_review_status">
+                                            <div class="customer_name">CWAP INTERNS
+                                            </div>
+
+                                            <div class="customer_status">
+
+                                                <div class="customer_status_content">Cyber Security</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
 
 
-
-
-
-
-
-              <div class="image_review">
-                <div class="customer_image">
-                  <img
-                    src="https://cdn.shopify.com/s/files/1/0664/2191/5900/t/8/assets/screenshot-20221121-alle-191353-1669054447602.png?v=1669054450"
-                    alt="customer image">
+                        <!-- <div class="carousel-cell"></div>
+                        <div class="carousel-cell"></div>
+                        <div class="carousel-cell"></div>
+                        <div class="carousel-cell"></div> -->
+                    </div>
                 </div>
-
-                <div class="customer_name_review_status">
-                  <div class="customer_name">Olivia Smith</div>
-
-                  <div class="customer_status">
-                    <div class="customer_bage"> <img
-                        src="https://cdn.shopify.com/s/files/1/0566/8241/4246/t/11/assets/icon-verified-1662629893290.png?v=1662629894"
-                        alt=""> </div>
-                    <div class="customer_status_content">Verified Customer</div>
-                  </div>
-
-                </div>
-              </div>
-
             </div>
-          </div>
 
         </div>
 
 
 
-      </div>
+    </div>
       </section>
 
     </div>
@@ -715,7 +903,21 @@
 
 
 
+  <style>
+    .carousel {
+        box-shadow: 5px 5px 5px 5px #ccc;
 
+    }
+
+    .carousel-cell {
+        border-radius: 10em;
+    }
+
+    /* cell number */
+    /* .carousel-cell:before {
+
+} */
+</style>
 
 
 
@@ -727,101 +929,394 @@
 
 
 
-  <div class="container">
-
-    <div class="tabs-6">
-      <ul class="tabs">
-        <li><a href="#tab21">Programe</a></li>
-        <li><a href="#tab22">Backend</a></li>
-        <li><a href="#tab23">Database</a></li>
-        <li><a href="#tab24">Front-end</a></li>
-      </ul>
-      <section class="tab_content_wrapper">
-        <article class="tab_content" id="tab21" style="width:100%">
-          <div class="row">
+ <!-- ======= CURRICULUM START ======= -->
 
 
-            <div class="col-lg-8 col-md-6 col-sm-10 d-block m-auto">
-              <div class="pricing-item" style="  height:250px;">
-                <!-- Indicator of subscription type -->
-                <div class="pt-4 pb-3 pl52" style="letter-spacing: 2px ; padding-left:12px;">
-                  <h4>Starter</h4>
-                </div>
-                <!-- Price class -->
 
-                <!-- Perks of said subscription -->
-                <div class="pricing-description">
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li class="pl-3 pr-3">30 users included</li>
-                    <li class="pl-3 pr-3">15 GB of storage</li>
-                    <li class="pl-3 pr-3">Phone and email support</li>
-                    <li class="pl-3 pr-3">Help center access</li>
-                  </ul>
-                </div>
-                <!-- Button -->
+ <h3 style="text-align: center;">CURRICULUM</h3>
 
-              </div>
-            </div>
+ <div class="CURRICULUM" id="car" style="margin: 1em;">
 
-            <!-- Card #2, Intermediate -->
+     <div class="tabs-6">
+         <ul class="tabs">
+
+             <li><a href="#tab21">Basic Linux Operations.
+              Basic AWS Services.
+              Git.
+              Maven.</a></li>
+             <li><a href="#tab22">Docker.
+              Terraform.</a></li>
+             <li><a href="#tab23">Ansible.
+              Chef.
+              Kubernetes</a></li>
+             <li><a href="#tab24">Nexus Artifactory.
+              Nagios.</a></li>
+             <li><a href="#tab25"> Splunk.
+              Prometheus.
+              Grafana.</a></li>
+             <li><a href="#tab26"> Jenkins.</a></li>
+             <li><a href="#tab27"> Project</a></li>
+             <!-- <li><a href="#tab28"> ADVANCED HOOKS</a></li>
+             <li><a href="#tab29"> CREATE REACT APP</a></li> -->
 
 
-            <!-- Card #3, Professional -->
-            <div class="col-lg-4 col-md-6 col-sm-10  d-block m-auto">
-              <div class="pricing-item" style=" overflow-y: scroll; height:250px;">
-                <div class="pt-4 pb-3 pl52" style="letter-spacing: 2px">
-                  <h4 style="padding-left:12px;">Professional</h4>
-                </div>
 
-                <div class="pricing-description">
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li class="pl-3 pr-3">Mean Stack developer</li>
-                    <li class="pl-3 pr-3">Node js developer</li>
-                    <li class="pl-3 pr-3">Express developer</li>
-                    <li class="pl-3 pr-3">React developer</li>
-                    <li class="pl-3 pr-3">Front End Developer</li>
-                    <li class="pl-3 pr-3">Web Developer</li>
-                    <li class="pl-3 pr-3">Project manager</li>
-                    <li class="pl-3 pr-3">Team Leader</li>
-                    <li class="pl-3 pr-3">Database Engineer</li>
-                    <li class="pl-3 pr-3">Development operations engineer</li>
-                  </ul>
-                </div>
+         </ul>
+         <div class="container">
+             <section class="tab_content_wrapper">
+                 
+                 <article class="tab_content" id="tab21" style="width:100%">
+                     <h6>1.Basic Linux Operations.
+                      Basic AWS Services.
+                      Git.
+                      Maven.</h6>
+                     <div class="container">
+                         <h5 style="color: #598f86;">Durantion : 40HRS</h5>
+                         <div class="row">
+                             <div class="col-3" style="font-size: larger;">
+                                 <ul>
+                                     <li><i class="bi bi-bullseye"></i> Git Bash installation and Github account setup</li>
+                                     <li><i class="bi bi-bullseye"></i>Tomcat installation and Configuration..</li>
+                                     <li><i class="bi bi-bullseye"></i> Nexus Artifactory installation and Configuration. </li>
+                                     <li><i class="bi bi-bullseye"></i> Maven Installation and Configuration. </li>
+                                     <li><i class="bi bi-bullseye"></i> Jenkins installation and Configuration. 
+                                     </li>
+                                     <li><i class="bi bi-bullseye"></i>Ansible Installation and Configuration.</li>
+                                     <li><i class="bi bi-bullseye"></i> Terraform Installation and configuration.
+                                     </li>
+                                     <li><i class="bi bi-bullseye"></i>Sonarqube installation and Configuration. </li>
+                                     <li><i class="bi bi-bullseye"></i>Docker Installation and configuration. 
+                                     </li>
+                                     <li><i class="bi bi-bullseye"></i> Java installation and Configuration. </li>
+                                     <li><i class="bi bi-bullseye"></i> Splunk Installation and Configuration.
+                                     </li>
+                                     <li><i class="bi bi-bullseye"></i>Visual Studio Code Editor Installation</li>
+                                     <li><i class="bi bi-bullseye"></i> Prometheus Installation and Configuration.
+                                     </li>
+                                     <li><i class="bi bi-bullseye"></i> Nagios Installation and Configuration.</li>
+                                     <li><i class="bi bi-bullseye"></i>Kubernetes Installation and Configuration.</li>
+                                 </ul>
+                             </div>
+                             <div class="col-3" style="font-size: larger;">
+                                 <ul>
+                                  <li><i class="bi bi-bullseye"></i> Introduction to DevOps o What is DevOps? </li>
+                                  <li><i class="bi bi-bullseye"></i> SDLC models, Lean, ITIL, Agile o Why DevOps?</li>
+                                  <li><i class="bi bi-bullseye"></i>  History of DevOps. </li>
+                                  <li><i class="bi bi-bullseye"></i>  DevOps Goals. </li>
+                                  <li><i class="bi bi-bullseye"></i> Important terminology. 
+                                  </li>
+                                  <li><i class="bi bi-bullseye"></i> DevOps perspective.</li>
+                                  <li><i class="bi bi-bullseye"></i>  DevOps and Agile.
+                                  <li><i class="bi bi-bullseye"></i>DevOps Tools.  </li>
+                                  <li><i class="bi bi-bullseye"></i>Configuration management 
+                                  </li>
+                                  <li><i class="bi bi-bullseye"></i>Continuous Integration and Deployment.</li>
+                                  <li><i class="bi bi-bullseye"></i> Introduction to SDLC.
 
-              </div>
-            </div>
-          </div>
-        </article>
-        <article class="tab_content" id="tab22">
-          <h4> NODE JS :26 HRS</h4>
-          <ul>
-            <h5><li>Introduction to Nodejs.</li></h5>
-            <h5><li>Events & streams. </li></h5>
-          </ul>
-        </article>
-        <article class="tab_content" id="tab23">
-          <h4> MONGODB  :26 HRS</h4>
-          <ul>
-            <h5><li>Introduction to MongoDB.</li></h5>
-            <h5><li>CRUD Operations in Mongodb. </li></h5>
-            <h5><li>Introduction to Mongoose. </li></h5>
-            <h5><li>Core concepts of Mongoose. </li></h5>
-            <h5><li>Extending Models. </li></h5>
-          </ul>
-        </article>
-        <article class="tab_content" id="tab24">
-          <h4> MONGODB  :26 HRS</h4>
-          <ul>
-            <h5><li>Introduction to MongoDB.</li></h5>
-            <h5><li>CRUD Operations in Mongodb. </li></h5>
-            <h5><li>Introduction to Mongoose. </li></h5>
-            <h5><li>Core concepts of Mongoose. </li></h5>
-            <h5><li>Extending Models. </li></h5>
-          </ul>
-        </article>
-      </section>
-    </div>
-  </div>
+                                  </li>
+                                  <li><i class="bi bi-bullseye"></i>Introduction to DevOps o What is DevOps?</li>
+                                  <li><i class="bi bi-bullseye"></i> SDLC models, Lean, ITIL, Agile o Why DevOps? 
+                                  </li>
+                                  <li><i class="bi bi-bullseye"></i> History of DevOps..</li>
+                                  <li><i class="bi bi-bullseye"></i>DevOps Goals.</li>
+                                  <li><i class="bi bi-bullseye"></i>Important terminology. </li>
+                                  <li><i class="bi bi-bullseye"></i> DevOps perspective.</li>
+                                 </ul>
+                             </div>
+                             <div class="col-3" style="font-size: larger;">
+                              <ul>
+                                  <li><i class="bi bi-bullseye"></i> Introduction to Linux Families.</li>
+                                  <li><i class="bi bi-bullseye"></i> Unix and linux difference. </li>
+                                  <li><i class="bi bi-bullseye"></i> Commands intro in linux and ubuntu</li>
+                                  <li><i class="bi bi-bullseye"></i> Commands used in linux and ubuntu.</li>
+                                  <li><i class="bi bi-bullseye"></i> Linux File system structure</li>
+                                  <li><i class="bi bi-bullseye"></i> Basic linux/unix commands</li>
+                                  <li><i class="bi bi-bullseye"></i> Changing file permissions and ownership</li>
+                                  <li><i class="bi bi-bullseye"></i>Start and stop services</li>
+                                  <li><i class="bi bi-bullseye"></i>WGET command.</li>
+                                  <li><i class="bi bi-bullseye"></i> Package installation using RPM, YUM and APT.</li>
+                                  <li><i class="bi bi-bullseye"></i>Working with commands tar, zip, find, grep, etc</li>
+                                  <!-- <li><i class="bi bi-bullseye"></i> ReactDOM</li> -->
+                              </ul>
+                          </div>
+                          <div class="col-3" style="font-size: larger;">
+                            <ul>
+                                <li><i class="bi bi-bullseye"></i> Introduction of git</li>
+                                <li><i class="bi bi-bullseye"></i> Installing Git</li>
+                                <li><i class="bi bi-bullseye"></i> ReactDOM</li><li>
+                                  <i class="bi bi-bullseye"></i> Git Essentials.</li>
+                                <li><i class="bi bi-bullseye"></i> Maven.</li>
+                                <li><i class="bi bi-bullseye"></i> Creating repository o Cloning,
+                                  check-in and committing.</li>
+                                <li><i class="bi bi-bullseye"></i> Fetch pull and remote.</li>
+                                <li><i class="bi bi-bullseye"></i> Branching</li>
+                                <li><i class="bi bi-bullseye"></i> Creating the Branches, switching the branches</li>
+                                <li><i class="bi bi-bullseye"></i> Git commands (commit, push, stage, stash,merge, rebase.</li>
+                            </ul>
+                        </div>
+                         </div>
+                     </div>
+                 </article>
+
+                 
+                     <article class="tab_content" id="tab22" style="width:100%">
+                         <h6>2.Docker.
+                          Terraform.</h6>
+                         <div class="container">
+                             <h5 style="color: #598f86;">Durantion : 30 HRS</h5>
+                             <div class="row">
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Introduction to docker</li>
+                                         <li><i class="bi bi-bullseye"></i> Architecture.</li>
+                                         <li><i class="bi bi-bullseye"></i>Installation.</li>
+                                         <li><i class="bi bi-bullseye"></i> Docker Hub.</li>
+                                         <li><i class="bi bi-bullseye"></i> Custom images</li>
+                                         <li><i class="bi bi-bullseye"></i>Docker Networking</li>
+                                         <li><i class="bi bi-bullseye"></i>Docker Compose.</li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-6" style="font-size: larger;">
+                                  <ul>
+                                      <li><i class="bi bi-bullseye"></i> What is Infrastructure as a code.</li>
+                                      <li><i class="bi bi-bullseye"></i>IaC vs Configuration Management.</li>
+                                      <li><i class="bi bi-bullseye"></i>Introduction to Terraform.</li>
+                                      <li><i class="bi bi-bullseye"></i>Installing Terraform on AWS.</li>
+                                      <li><i class="bi bi-bullseye"></i>Basic Operations in Terraform.</li>
+                                      <li><i class="bi bi-bullseye"></i>init</li>
+                                      <li><i class="bi bi-bullseye"></i> plan.</li>
+                                      <li><i class="bi bi-bullseye"></i>apply..</li>
+                                      <li><i class="bi bi-bullseye"></i>destroy..</li>
+                                  </ul>
+                              </div>
+                                
+                             </div>
+                         </div>
+                     </article>
+
+                     <article class="tab_content" id="tab23" style="width:100%">
+                         <h6>3.Ansible.
+                          Chef.
+                          Kubernetes.</h6>
+                         <div class="container">
+                             <h5 style="color: #598f86;">Durantion : 50 HRS</h5>
+                             <div class="row">
+                                 <div class="col-4" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i>Overview of Chef.</li>
+                                         <li><i class="bi bi-bullseye"></i> Workstation Setup.</li>
+                                         <li><i class="bi bi-bullseye"></i>Organization Setup</li>
+                                         <li><i class="bi bi-bullseye"></i> Test Node Setup.</li>
+                                         <li><i class="bi bi-bullseye"></i> Node Objects and Search</li>
+                                         <li><i class="bi bi-bullseye"></i> Environments.</li>
+                                         <li><i class="bi bi-bullseye"></i>Roles.</li>
+                                         <li><i class="bi bi-bullseye"></i> Attributes.</li>
+                                         <li><i class="bi bi-bullseye"></i> Data bags.</li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-4" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i>Introduction to Kubernetes</li>
+                                         <li><i class="bi bi-bullseye"></i>Key Concepts of Kubernetes</li>
+                                         <li><i class="bi bi-bullseye"></i> Setting up Environment</li>
+                                         <li><i class="bi bi-bullseye"></i> Setting up Environment</li>
+                                         <li><i class="bi bi-bullseye"></i> Building blocks of Pods.</li>
+                                         <li><i class="bi bi-bullseye"></i>Managing Application Configurations
+                                          with ConfigMaps and Secrets</li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-4" style="font-size: larger;">
+                                  <ul>
+                                      <li><i class="bi bi-bullseye"></i> Introduction to Ansible</li>
+                                      <li><i class="bi bi-bullseye"></i> Ansible Server Configuration</li>
+                                      <li><i class="bi bi-bullseye"></i> Infrastructure Management.</li>
+                                      <li><i class="bi bi-bullseye"></i> SSH Connection in Ansible Master</li>
+                                      <li><i class="bi bi-bullseye"></i> YAML Scripts.</li>
+                                      <li><i class="bi bi-bullseye"></i> Host Inventory.</li>
+                                      <li><i class="bi bi-bullseye"></i> Ad-hoc Commands.
+                                      </li>
+                                      <li><i class="bi bi-bullseye"></i> Playbooks.</li>
+                                      <li><i class="bi bi-bullseye"></i> Modules.</li>
+                                      <li><i class="bi bi-bullseye"></i> Ansible Roles.</li>
+                                  </ul>
+                              </div>
+                             </div>
+                         </div>
+                     </article>
+
+                     <article class="tab_content" id="tab24" style="width:100%">
+                         <h6>4.Nexus Artifactory.
+                          Nagios.</h6>
+                         <div class="container">
+                             <h5 style="color: #598f86;">Durantion : 20HRS</h5>
+                             <div class="row">
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Nexus Artifactory</li>
+                                         <li><i class="bi bi-bullseye"></i>Nagios.</li>
+                                     </ul>
+                                 </div>
+                                
+                             </div>
+                         </div>
+                     </article>
+
+                     <article class="tab_content" id="tab25" style="width:100%">
+                         <h6>5.Splunk.
+                          Prometheus.
+                          Grafana.</h6>
+                         <div class="container">
+                             <h5 style="color: #598f86;">Durantion : 20HRS</h5>
+                             <div class="row">
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Splunk.</li>
+                                         <li><i class="bi bi-bullseye"></i> Prometheus</li>
+                                         <li><i class="bi bi-bullseye"></i> Grafana.</li>
+                                     </ul>
+                                 </div>
+                        
+                                
+                             </div>
+                         </div>
+                     </article>
+
+
+                     <article class="tab_content" id="tab26" style="width:100%">
+                         <h6>6.Jenkins.</h6>
+                         <div class="container">
+                             <h5 style="color: #598f86;">Durantion : 20 HRS</h5>
+                             <div class="row">
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Introduction to Jenkins</li>
+                                         <li><i class="bi bi-bullseye"></i>Continuous Integration
+                                          with Jenkins.</li>
+                                         <li><i class="bi bi-bullseye"></i>Configure Jenkins</li>
+                                         <li><i class="bi bi-bullseye"></i> Jenkins Management</li>
+                                         <li><i class="bi bi-bullseye"></i> Scheduling build Jobs.</li>
+                                         <li><i class="bi bi-bullseye"></i>Maven Build Scripts</li>
+                                         <li><i class="bi bi-bullseye"></i> Support for the GIT version
+                                          control System.</li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Different types of Jenkins Jobs</li>
+                                         <li><i class="bi bi-bullseye"></i> Jenkins Build PipeLine.</li>
+                                         <li><i class="bi bi-bullseye"></i> Jenkins Master & Slave Node
+                                          Configuration.
+                                          <li><i class="bi bi-bullseye"></i> Jenkins Workspace Management</li>
+                                          <li><i class="bi bi-bullseye"></i> Securing Jenkins.</li>
+                                          <li><i class="bi bi-bullseye"></i> Jenkins Plugins.
+                                         </li>
+                                     </ul>
+                                 </div>
+                                
+                             </div>
+                         </div>
+                     </article>
+
+                     <article class="tab_content" id="tab27" style="width:100%">
+                         <h6>7.Project</h6>
+                         <div class="container">
+                             <h5 style="color: #598f86;">Durantion :Depending</h5>
+                             <!-- <div class="row">
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Mapbox integration</li>
+                                         <li><i class="bi bi-bullseye"></i> Effect & States</li>
+                                         <li><i class="bi bi-bullseye"></i> Effect, State & Events</li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Advanced State</li>
+                                         <li><i class="bi bi-bullseye"></i> Effect performance</li>
+                                         <li><i class="bi bi-bullseye"></i> Storing to localStorage</li>
+                                         <li><i class="bi bi-bullseye"></i> Using APIs & fetch</li>
+                                     </ul>
+                                 </div>
+                                
+                             </div> -->
+                         </div>
+                     </article>
+<!-- 
+                     <article class="tab_content" id="tab28" style="width:100%">
+                         <h6>8. ADVANCED HOOKS</h6>
+                         <div class="container">
+                             <h5 style="color: #598f86;">Durantion : 6 HRS</h5>
+                             <div class="row">
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Write your own hooks</li>
+                                         <li><i class="bi bi-bullseye"></i> useFetch hook</li>
+                                         <li><i class="bi bi-bullseye"></i> Context Provider</li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Stripe integration</li>
+                                         <li><i class="bi bi-bullseye"></i> React Router</li>
+                                     </ul>
+                                 </div>
+                                
+                             </div>
+                         </div>
+                     </article>
+
+                     <article class="tab_content" id="tab29" style="width:100%">
+                         <h6>9. CREATE REACT APP</h6>
+                         <div class="container">
+                             <h5 style="color: #598f86;">Durantion : 7 HRS</h5>
+                             <div class="row">
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Deploying React apps</li>
+                                         <li><i class="bi bi-bullseye"></i> Folder structure</li>
+                                         <li><i class="bi bi-bullseye"></i> Folder structure</li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-6" style="font-size: larger;">
+                                     <ul>
+                                         <li><i class="bi bi-bullseye"></i> Lifting state up</li>
+                                         <li><i class="bi bi-bullseye"></i> Virtual DOM</li>
+                                     </ul>
+                                 </div>
+                                
+                             </div>
+                         </div>
+                     </article> -->
+
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             </section>
+         </div>
+     </div>
+ </div>
+
+<!-- ======= CURRICULUM END ======= -->
   <script type="text/javascript">
 
     var _gaq = _gaq || [];
@@ -843,82 +1338,91 @@
 
 
 
-  <div class="orange">
+ <!-- ======= OUR STUDENTS EVERYWHERE START ======= -->
+ <div class="orange">
 
 
-    <div class="container">
+  <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <br><br>
-          <article>
-            <h3 style="text-align:center;"> OUR STUDENTS ARE EVERYWHERE </h3>
-            <P style=" text-align:center; font-size:14px;">Some estimates put the average time to expertise at around
-              3-5 years, although this can vary depending on an individual’s level of dedication and the resources they
-              have available to them. It is important to approach learning full-stack web development with a long-term
-              mindse</P>
-            <table class="imge">
-              <tbody>
-                <tr>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
-                </tr>
-                <tr>
-                  <td></td>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
-                  <th><img src="/img/fff.png"></th>
+          <div class="col-md-12">
+              <br><br>
+              <article>
+                  <h3 style="text-align:center;"> OUR STUDENTS ARE EVERYWHERE </h3>
+                  <P style=" text-align:center; font-size:14px;">Technovalley has a long-standing tradition of providing top-notch internship 
+                      opportunities for students and young professionals. Over the years, we have 
+                      certified thousands of interns, and we are proud to say that many of our 
+                      graduates have gone on to secure employment in some of the most renowned 
+                      global companies. The following are some of the organisation that our students 
+                      are placed in</P>
+                  <table class="imge">
+                      <tbody>
+                          <tr>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/tcs.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/Amazon_logo.svg.webp"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/Capgemini-Logo.wine.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/Cognizant.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/Deloitte.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/Infosys_logo.svg.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/mindtree.png"></th>
+                             
+                          </tr>
+                          <tr>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/Apple-Logo-PNG-Photos.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/mindtree.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/Wipro_Logo.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/PwC-PricewaterhouseCoopers-Symbol.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/et.svg"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/google.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/kpmg-logo-vector-1.svg"></th>
+                              
 
-                  <th></th>
-                </tr>
-                <tr>
+                              <th></th>
+                          </tr>
+                          <tr>
+                             
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/accenture.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/lg.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/Mahindra-Car-Logo-Vector-PNG.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/Petrofac-Logo.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/dell-png-logo-0.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/ibm.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/HCL_Technologies_logo.svg.png"></th>
 
+                          </tr>
+                          <tr>
+                              <th></th>
+                              <th></th>
 
-                  <td></td>
-
-                </tr>
-                <tr>
-                  <td></td>
-                  <th></th>
-
-                </tr>
-
-              </tbody>
-            </table>
-
-
-          </article>
-        </div>
-
-
-
-
-
-
-
-
-
-
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/hp.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/microsoft-logo-4.png"></th>
+                              <th style="max-width:200px;"><img src="/img/our_students_everywhere/redhat.png"></th>
+                              
+                          </tr>
+                          <tr>
 
 
+                              <td></td>
+
+                          </tr>
+                          <tr>
+                              <td></td>
+                              <th></th>
+
+                          </tr>
+
+                      </tbody>
+                  </table>
 
 
-
-
-
+              </article>
+          </div>
 
       </div>
 
-    </div>
-
   </div>
 
+</div>
+<!-- ======= OUR STUDENTS EVERYWHERE END ======= -->
 
 
 
@@ -938,33 +1442,36 @@
 
 
 
-  <!-- ======= SLIDER ======= -->
-  <div class="container">
+ <!-- ======= SLIDER START======= -->
+ <div class="container">
+  <h1>Related Courses</h1>
 
-    <div class="row">
-      <ul id="rcbrand1">
-        <li><img src="/img/fff.png">
-          <p> text</p>
-        </li>
-        <li><img src="/img/fff.png">
-          <p> text</p>
-        </li>
-        <li><img src="/img/fff.png">
-          <p> text</p>
-        </li>
-        <li><img src="/img/fff.png">
-          <p> text</p>
-        </li>
-        <li><img src="/img/fff.png">
-          <p> text</p>
-        </li>
-        <li><img src="/img/fff.png">
-          <p> text</p>
-        </li>
-      </ul>
-
-    </div>
+  <div class="carousel"
+  data-flickity='{ "contain": true, "autoPlay": 1500, "pauseAutoPlayOnHover": true , "imagesLoaded": true}'>
+  <div class="carousel-cell" style="width: 20%;"><a href="./Core_Python_Technovalley.html"><img
+        src="/img/courses/python.png" class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a>
   </div>
+  <div class="carousel-cell" style="width: 20%;"><a href=""><img src="/img/courses/python_advanced.png"
+        class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a></div>
+  <div class="carousel-cell" style="width: 20%;"><a href="./python-fullstack-developer_technovalley.html"><img
+        src="/img/courses/pythonmain.png" class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a>
+  </div>
+  <div class="carousel-cell" style="width: 20%;"><a href="./AI&MI_technovalley.html"><img src="/img/courses/ai.png"
+        class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a></div>
+  <div class="carousel-cell" style="width: 20%;"><a href="./Bigdata&Hadoop_Technovalley.html"><img
+        src="/img/courses/bigdata.png" class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a>
+  </div>
+  <div class="carousel-cell" style="width: 20%;"><a href="./Business_Data_Analyst_Technovalley.html"><img
+        src="/img/courses/data_analyst.png" class="carousel-image" style="width: 100%; max-height: 140px;"
+        alt=""></a></div>
+
+</div>
+
+
+</div>
+
+<!-- ======= SLIDER END ======= -->
+
 
 
   <!-- ======= SLIDER JS ======= -->
