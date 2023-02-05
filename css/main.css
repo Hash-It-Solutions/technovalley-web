@@ -437,8 +437,9 @@ background-size:cover;}
 
 .cnt223 {
   min-width: 10% !important;
- max-width: 30% !important;
+ max-width: 100% !important;
   min-height: 150px;
+  padding-left: 100px !important;
   margin: 100px -29px !important;
   position: relative;
   z-index: 103;
