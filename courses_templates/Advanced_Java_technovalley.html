@@ -1,0 +1,2415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>java Advanced</title>
+
+
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    type="text/css" media="screen" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/jQueryTab.css?v2022" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/animation.css?v2022" type="text/css" media="screen" />
+
+
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/gallery.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
+  <script src="/js/gallery.js"></script>
+  <script src="/js/main.js"></script>
+
+
+  <link href="/css/jqueryscripttop.css" type="text/css" />
+  <link href="/css/style-2.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.rcbrand.js"></script>
+
+
+
+  <link rel="stylesheet" href="stylesheets/style.css" />
+  <link rel="stylesheet" href="stylesheets/jtab.min.css" />
+
+  <script src="/javascript/jtab.jquery.min.js"></script>
+
+  <script src="/js/bootstrap.bundle.min.js"></script>
+
+
+  <script>
+    $('.counter-count').each(function () {
+      $(this).prop('Counter', 0).animate({
+        Counter: $(this).text()
+      }, {
+        duration: 5000,
+        easing: 'swing',
+        step: function (now) {
+          $(this).text(Math.ceil(now));
+        }
+      });
+    });
+
+  </script>
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">Plot No. 53609/4, First
+            Floor, Gaborone West, Gaborone, Botswana.</a></i>
+
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html"> <img src="/assets/img/logo.png"><span>.</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="/assets/img/logo.png" alt=""></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">COURSES</a></li>
+          <li><a class="nav-link scrollto" href="about.html">About</a></li>
+          <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Contact</a></li>
+
+          <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
+
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div class="banner-java">
+    <div class="container">
+      <!-- <p class="text-left"> Learn
+        Core & Advanced<br>
+        <span class="java">Bigdata & Hadoop </span>
+      </p> -->
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="container ">
+
+    <div class="row ">
+      <div class="col-12 cr1">
+
+        <div class="card">
+
+
+          <div class="container yxu">
+            <div class="row">
+              <div class="col-md-6 ">
+                <h3>Course Features</h3>
+                <img src="/img/Line.png">
+                <table>
+                  <tr>
+                    <td class="lm">Course Features <span class="dots11">: </span></td>
+                    <th>Contact/Hybrid</th>
+
+                  <tr>
+
+                  <tr>
+                    <td>Topics <span class="dots11">: </span></td>
+                    <th>24</th>
+
+                    <!-- <tr>
+
+
+                    <td>Alfreds Futterkiste <span class="dots11">: </span></td>
+                    <th>Maria Anders</th>
+
+                  </tr>
+                  <tr>
+                    <td>Centro comercial <span class="dots11">: </span></td>
+                    <th>Francisco Chang</th>
+
+                  </tr> -->
+                </table>
+
+              </div>
+
+
+              <div class="col-md-6">
+                <div>
+                  <div class="row">
+                    <div class="col-md-4 col-12">
+                      <img src="/img/speed.png">
+                    </div>
+                    <div class="col-md-8 col-12 ">
+                      <h3>Course Duration</h3>
+                      <img src="/img/Line.png">
+                      <p style="padding-top:12px;">Normal Track : &nbsp;<span style="color:#33A78F;"> 120 hours</span>
+                      </p>
+                      <P>
+                        2 hours class on alternate days (Monday, Wednesday, Friday (OR) Tuesday, Thursday, Saturday)
+
+                      </P>
+                    </div>
+
+
+                    <div class="col-md-4 col-12  ">
+                      <img src="/img/Vector(24).png">
+                    </div>
+                    <div class="col-md-8 col-12">
+                      <p>Fast Track &nbsp; <span style="color:#33A78F;">120 hours</span> </p>
+
+                      <P>2 hours class on alternate days (Monday, Wednesday, Friday (OR) Tuesday, Thursday, Saturday)
+                      </P>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+
+                </div>
+
+
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br><br>
+  <div class="container">
+    <h3>Technovally Requisite</h3>
+
+  </div>
+
+  <div class="container text-center cr8">
+
+    <div class="row">
+
+
+      <div class="col-lg-4 col-md-6 col-sm-10 d-block m-auto">
+        <div class="pricing-item" style="  height:250px;">
+          <!-- Indicator of subscription type -->
+          <div class="pt-4 pb-3 pl52" style="letter-spacing: 2px ">
+            <h4>PRE-REQUISITE</h4>
+          </div>
+          <!-- Price class -->
+
+          <!-- Perks of said subscription -->
+          <div class="pricing-description">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="pl-3 pr-3">General Programming Skills in any Language</li>
+            </ul>
+          </div>
+          <!-- Button -->
+
+        </div>
+      </div>
+
+      <!-- Card #2, Intermediate -->
+      <div class="col-lg-4 col-md-6 col-sm-10  d-block m-auto">
+        <div class="pricing-item" style=" height:250px;">
+          <div class="pt-4 pb-3 pl52" style="letter-spacing: 2px">
+            <h4>TARGET AUDIENCE</h4>
+          </div>
+
+          <div class="pricing-description">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="pl-3 pr-3">Beginners</li>
+              <li class="pl-3 pr-3">IT Professionals</li>
+              <li class="pl-3 pr-3">Students</li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Card #3, Professional -->
+      <div class="col-lg-4 col-md-6 col-sm-10  d-block m-auto">
+        <div class="pricing-item" style=" overflow-y: scroll; height:250px;">
+          <div class="pt-4 pb-3 pl52" style="letter-spacing: 2px">
+            <h4>JOB ROLES</h4>
+          </div>
+
+          <div class="pricing-description">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="pl-3 pr-3">Junior Java Developer.</li>
+              <li class="pl-3 pr-3">Senior Java Developer</li>
+              <li class="pl-3 pr-3">Java Web Developer.</li>
+              <li class="pl-3 pr-3">Android Developer</li>
+              <li class="pl-3 pr-3">Java EE Developer</li>
+              <li class="pl-3 pr-3">Project Manager</li>
+              <li class="pl-3 pr-3">Design Lead.</li>
+              <li class="pl-3 pr-3">Software Engineer</li>
+              <li class="pl-3 pr-3">Senior Core Java Developer.</li>
+              <li class="pl-3 pr-3">Java Backend Developer.</li>
+
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="technovlly" style="background-color:#25425C;">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <br><br>
+          <article>
+
+
+            <table class="imge">
+              <tbody>
+
+
+                <tr>
+
+                  <td><img style="max-width: 1000px;max-height: 500px;" src="/img/java/javaadv1.png"></td>
+                  <!-- <td><img style="max-width: 1000px;max-height: 500px;" src="/img/java/java2.png"></td> -->
+                  <!-- <td><img style="max-width: 200px;" src="/img/python_fullstatck/bootstrap.png"></td>
+                  <th><img style="max-width: 200px;" src="/img/python_fullstatck/jquery.png"></th> -->
+
+                </tr>
+
+
+              </tbody>
+            </table>
+
+
+        </div>
+
+
+
+
+        <div class="col-md-5">
+          <div>
+            <div class="row">
+              <div class=" trd">
+                <h3>Technovally tools covered</h3>
+                <P>Technovalley AKS was established in 2016 and since then it has been
+                  growing at a steady pace to reach a milestone of $280 million valued
+                  company. Technovalley AKS has been successful in placing 1000s of
+                  interns across 600+ MNCs worldwide. This wouldn’t be possible without
+                  the help of interns, corporates and our staff whohelped us reach this
+                  breakthrough.Our main USP is upskilling and reskilling talents. We provide excellent
+                  consulting to interns making them corporate-ready and then placing
+                  them to the MNCs depending on their requisites. Technovalley AKS has
+                  recognized infrastructure and professional consultants to upskill them. Our customized approach to the
+                  client job requirements makes it cost
+                  effective as we provide candidates who are talented and dedicated
+                  towards their job offered. We have three pillars of strength namely,
+                  Infrastructure, Emerging Technology and Cyber Security which makes us
+                  different from the rest consulting firms in the market. Hence, Technovalley
+                  AKS has become a name which every corporate and intern wishes to be
+                  associated with. </P>
+
+                <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
+              </div>
+
+
+
+
+
+
+
+
+
+              <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container tezvw">
+    <div class="row">
+      <div class="col-md-6">
+        <article>
+
+
+
+          <h2>ABOUT DOMAIN</h2>.
+          <P>As the use of web applications and websites continues to
+            grow, the demand for full-stack developers is likely to
+            increase. In addition, the increasing complexity of web
+            applications and the need for seamless integration
+            between the front-end and back-end of these
+            applications are driving the demand for full-stack
+            developers.</P>
+
+          <P>
+            The amount of time it takes to become proficient in
+            full-stack web development can vary significantly
+            depending on a number of factors, including an
+            individual’s prior experience and knowledge, their
+            learning style, and the amount of time they are able to
+            dedicate to learning and practicing.
+
+          </P>
+          <p>
+            Some estimates put the average time to expertise at
+            around 3-5 years, although this can vary depending on
+            an individual’s level of dedication and the resources
+            they have available to them. It is important to
+            approach learning full-stack web development with
+            a long-term mindset.According to a survey conducted by Stack Overflow
+            in 2021, full-stack developers are the second most
+            in-demand type of developer, behind only data
+            scientists.In the same survey, full-stack developers were found
+            to be the highest-paid type of developer, with an average salary of $71,000 per year.Full-stack development
+            is a popular career choice,
+            with a large number of developers expressing an
+            interest in becoming full-stack developers. According
+            to the 2021 Stack Overflow survey, 42.1% of
+            respondents identified as full-stack developers.
+            It is possible for non-technical people to become
+            full-stack developers. While a strong foundation in
+            computer science and programming is helpful, it is
+            not necessarily a requirement to become a full-stack
+            developer.
+          </p>
+
+
+          <h2>SKILLS AND TECHNOLOGIES REQUIRED
+            TO BECOME A FULL-STACK DEVELOPER.</h2><br>
+          <P>To be an expert full-stack developer, it is important to have a
+            broad range of skills and knowledge across both the
+            front-end and back-end of web development. Here are some
+            key areas that an expert full-stack developer should be familiar with:</P>
+
+          <P>
+            FRONT-END DEVELOPMENT:
+            HTML: Hypertext Markup Language (HTML) is the
+            standard markup language for creating web pages.
+            CSS: Cascading Style Sheets (CSS) is a stylesheet
+            language used to describe the look and formatting of
+            a document written in HTML.
+            JavaScript: JavaScript is a programming language that
+            is commonly
+
+          </P>
+          <p>
+            BACK-END DEVELOPMENT:
+            SERVER-SIDE LANGUAGES: Expert full-stack
+            developers should be proficient in at least one
+            server-side language, such as Python, Java, or Ruby.
+            DATABASE MANAGEMENT: Cascading Style Sheets
+            (CSS) is a stylesheet language used to describe the
+            look and formatting of a document written in HTML.
+            APIs: Expert full-stack developers should be able to
+            design and implement application programming
+            interfaces (APIs) that allow different systems to
+            communicate with each other.
+            pages.
+          </p>
+
+
+      </div>
+
+      <div class="col-md-1 col-0">
+      </div>
+
+
+      <div class="col-md-5">
+        <div>
+          <div class="row">
+
+
+            <div class="form-sec">
+              <h4>Enquiry Form</h4>
+
+              <form name="qryform" id="qryform" method="post" action="mail.php" onSubmit="return(validate());"
+                novalidate="novalidate">
+                <div class="form-group">
+
+                  <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                </div>
+                <br>
+                <div class="form-group">
+
+                  <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+                </div>
+                <br>
+                <div class="form-group">
+
+                  <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+                </div>
+                <br>
+                <div class="form-group">
+
+                  <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+                </div>
+                <br>
+                <div class="form-group">
+
+                  <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
+                </div>
+                <br>
+
+                <button type="button" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container tezvw">
+    <div class="row">
+      <div class="col-md-6">
+        <article>
+
+
+
+          <h2>ABOUT SALARY</h2>
+          <P>According to Glassdoor, The national average
+            salary for a Java Fullstack Developer is
+            $98141 in United States. </P>
+
+
+
+          <P>According to Payscale, The national average
+            salary for a Java Fullstack Developer is $81891
+            in United States. </P>
+
+
+
+      </div>
+
+      <div class="col-md-1 col-0">
+      </div>
+
+
+
+      <div class="col-md-5">
+        <div>
+          <div class="row">
+
+
+            <H3>Achievements of our Interns</H3>
+
+            <div class="review-carosaul">
+              <div class="carousel"
+                data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": true, "prevNextButtons": false }'>
+
+                <div class="carousel-cell">
+                  <div class="verified_customer_section">
+                    <br>
+                    <div class="container">
+                      <div class="customer_comment">"Amal is our cyber security intern, he
+                        discovered
+                        the flaws in a Goverment website."</div>
+
+                      <div class="image_review">
+                        <div class="customer_image">
+                          <img src="/assets/img/testimonials/amal.png" alt="customer image">
+                        </div>
+
+                        <div class="customer_name_review_status">
+                          <div class="customer_name">AMAL KRISHNA C</div>
+
+                          <div class="customer_status">
+
+                            <div class="customer_status_content">Cyber Security Intern</div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <div class="carousel-cell">
+                  <div class="verified_customer_section">
+                    <br>
+                    <div class="container">
+                      <div class="customer_comment">"Recognition by The Govt. of Scotland -
+                        Vulnerability Disclosure.
+                        Featured in Apple Hall of Fame for
+                        Vulnerability Disclosure."</div>
+
+                      <div class="image_review">
+                        <div class="customer_image">
+                          <img src="/assets/img/testimonials/MUHAMMED_SANEEM.png" alt="customer image">
+                        </div>
+
+                        <div class="customer_name_review_status">
+                          <div class="customer_name">MUHAMMED SANEEM</div>
+
+                          <div class="customer_status">
+
+                            <div class="customer_status_content">Cyber Security Intern</div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="carousel-cell">
+                  <div class="verified_customer_section">
+                    <br>
+                    <div class="container">
+                      <div class="customer_comment">"She created a mask and no mask detection
+                        system
+                        using Computer vision and Deep learning."</div>
+
+                      <div class="image_review">
+                        <div class="customer_image">
+                          <img src="/assets/img/testimonials/Aleena.png" alt="customer image">
+                        </div>
+
+                        <div class="customer_name_review_status">
+                          <div class="customer_name">ALEENA ANTONY
+                          </div>
+
+                          <div class="customer_status">
+
+                            <div class="customer_status_content">Data Science Intern</div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <div class="carousel-cell">
+                  <div class="verified_customer_section">
+                    <br>
+                    <div class="container">
+                      <div class="customer_comment">"SHe developed M C Hospital Doctor
+                        Booking web application in Python
+                        program."</div>
+
+                      <div class="image_review">
+                        <div class="customer_image">
+                          <img src="/assets/img/testimonials/adnan.png" alt="customer image">
+                        </div>
+
+                        <div class="customer_name_review_status">
+                          <div class="customer_name">ADNAN MUHAMMAD
+                          </div>
+
+                          <div class="customer_status">
+
+                            <div class="customer_status_content">Python Fullstack Intern
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <div class="carousel-cell">
+                  <div class="verified_customer_section">
+                    <br>
+                    <div class="container">
+                      <div class="customer_comment">"Karthik is our cyber security intern, he
+                        discovered
+                        the flaws in an Indian Goverment website."</div>
+
+                      <div class="image_review">
+                        <div class="customer_image">
+                          <img src="/assets/img/testimonials/Karthik.png" alt="customer image">
+                        </div>
+
+                        <div class="customer_name_review_status">
+                          <div class="customer_name">KARTHIK SHIBU
+                          </div>
+
+                          <div class="customer_status">
+
+                            <div class="customer_status_content">Cyber Security Intern</div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <div class="carousel-cell">
+                  <div class="verified_customer_section">
+                    <br>
+                    <div class="container">
+
+                      <div class="customer_comment">"She developed an E-commerce website for
+                        a Fashion Store Brand." </div>
+
+                      <div class="image_review">
+                        <div class="customer_image">
+                          <img src="/assets/img/testimonials/vidya.png" alt="customer image">
+                        </div>
+
+                        <div class="customer_name_review_status">
+                          <div class="customer_name">VIDYA P KISHORE
+                          </div>
+
+                          <div class="customer_status">
+
+                            <div class="customer_status_content">Python Fullstack Intern
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <div class="carousel-cell">
+                  <div class="verified_customer_section">
+                    <br>
+                    <div class="container">
+                      <div class="customer_comment">"<img src="/assets/img/testimonials/crawlbot.png"
+                          style="max-width: 90px;" alt="">Reconnaissance tool created
+                        by our CWAP Students."</div>
+
+                      <div class="image_review">
+                        <div class="customer_image">
+                          <img src="/assets/img/testimonials/cwap (1).png" alt="customer image">
+                        </div>
+
+                        <div class="customer_name_review_status">
+                          <div class="customer_name">CWAP INTERNS
+                          </div>
+
+                          <div class="customer_status">
+
+                            <div class="customer_status_content">Cyber Security</div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <!-- <div class="carousel-cell"></div>
+                        <div class="carousel-cell"></div>
+                        <div class="carousel-cell"></div>
+                        <div class="carousel-cell"></div> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+      </section>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <style>
+    .carousel {
+      box-shadow: 5px 5px 5px 5px #ccc;
+
+    }
+
+    .carousel-cell {
+      border-radius: 10em;
+    }
+
+    /* cell number */
+    /* .carousel-cell:before {
+
+} */
+  </style>
+
+
+
+
+  <br><br>
+
+
+
+
+  <!-- ======= CURRICULUM START ======= -->
+
+
+
+  <h3 style="text-align: center;">CURRICULUM</h3>
+
+  <div class="CURRICULUM" id="car" style="margin: 1em;">
+
+    <div class="tabs-6">
+      <ul class="tabs">
+
+        <li><a href="#tab21">JAVA Basics 
+          </a></li>
+        <li><a href="#tab22">IDE</a></li>
+        <li><a href="#tab23">OOPS</a></li>
+        <li><a href="#tab24">Inner Class and Nested Class </a></li>
+        <li><a href="#tab25">  Arrays </a></li>
+        <li><a href="#tab26"> Collection Framework </a></li>
+        <li><a href="#tab27"> Generics</a></li>
+        <li><a href="#tab28"> Date </a></li>
+        <li><a href="#tab29"> Annotations</a></li>
+        <li><a href="#tab30">File Navigation and IO  </a></li>
+        <li><a href="#tab31">Multithreading </a></li>
+        <li><a href="#tab32">MySQL & JDBC</a></li>
+        <li><a href="#tab33">Web Application Introduction</a></li>
+        <li><a href="#tab34"> HTML 5 & CSS </a></li>
+        <li><a href="#tab35"> JavaScript</a></li>
+        <li><a href="#tab36"> jQuery </a></li>
+        <li><a href="#tab37"> AJAX using jQuery</a></li>
+        <li><a href="#tab38"> Servlet</a></li>
+        <li><a href="#tab39"> JSP</a></li>
+        <li><a href="#tab40">Spring </a></li>
+        <li><a href="#tab41">Web services </a></li>
+   
+
+
+      </ul>
+      <div class="container">
+        <section class="tab_content_wrapper">
+
+          <article class="tab_content" id="tab21" style="width:100%">
+            <h6>1.JAVA Basics </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 6 HRS</h5>
+              <div class="row">
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> ▪ History of Java.</li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Difference between Java and other programming languages.
+</li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Features of Java.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Working of Java.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>              ▪ JDK tools- javac, java, applet viewer.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Set path and how to run Java Program in Command Prompt.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ JVM.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Byte code.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Java Program Structure.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>              ▪ Packages in java.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Java naming rules and conventions.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ comments.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Wrapper Classes.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>              ▪ Conditional Statements.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Looping constructs.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Create objects of class.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Functions
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>              ▪ Variable types – local, instance and static variables
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Parameterized functions
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Function overloading
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>               ▪ Variable argument function
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab22" style="width:100%">
+            <h6>2. IDE,ECLIPSE:</h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 1 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Overview.</li>
+                    <li><i class="bi bi-bullseye"></i> Menus.</li>
+                    <li><i class="bi bi-bullseye"></i> Views.</li>
+                    <li><i class="bi bi-bullseye"></i> Perspective</li>
+                    <li><i class="bi bi-bullseye"></i> Workspaces</li>
+                    <li><i class="bi bi-bullseye"></i> Create project</li>
+                  </ul>
+                </div>
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Create package.</li>
+                    <li><i class="bi bi-bullseye"></i>Create java class.</li>
+                    <li><i class="bi bi-bullseye"></i>Run Configuration.</li>
+                    <li><i class="bi bi-bullseye"></i> Running Program.</li>
+                    <li><i class="bi bi-bullseye"></i> Build Project.</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+          <article class="tab_content" id="tab23" style="width:100%">
+            <h6>3.OOPS </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 6 HRS</h5>
+              <div class="row">
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>OOPs concepts in JAVA.</li>
+                    <li><i class="bi bi-bullseye"></i> Object Oriented Features.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Constructors.</li>
+                    <li><i class="bi bi-bullseye"></i> Constructor overloading. </li>
+                    <li><i class="bi bi-bullseye"></i> Types of inheritance – single, hierarchical and multilevel.</li>
+                    <li><i class="bi bi-bullseye"></i>Base class and child class concepts.</li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Access specifies and scope of variables – public, private,
+                      protected.</li>
+                    <li><i class="bi bi-bullseye"></i> Method overriding.</li>
+                    <li><i class="bi bi-bullseye"></i> Super-3 uses.</li>
+                    <li><i class="bi bi-bullseye"></i> Final- 3 uses.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Static functions and properties.</li>
+                    <li><i class="bi bi-bullseye"></i>Dynamic method dispatch (Runtime Polymorphism).</li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Order of constructor calling in inheritance.</li>
+                    <li><i class="bi bi-bullseye"></i> Abstract class.</li>
+                    <li><i class="bi bi-bullseye"></i> Interface.</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+          <article class="tab_content" id="tab24" style="width:100%">
+            <h6>4.  Inner Class and Nested Class </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Regular inner class.</li>
+                    <li><i class="bi bi-bullseye"></i>Method local inner class. </li>
+                    <li><i class="bi bi-bullseye"></i> Anonymous inner class..</li>
+                    <li><i class="bi bi-bullseye"></i> Static nested class</li>
+                  </ul>
+                </div>
+           
+
+
+              </div>
+            </div>
+          </article>
+
+          <article class="tab_content" id="tab25" style="width:100%">
+            <h6>5.Arrays</h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 3 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>One-dimensional array.</li>
+                    <li><i class="bi bi-bullseye"></i> Enhanced for loop.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Two-dimensional array (dynamic column size).</li>
+                    <li><i class="bi bi-bullseye"></i>Multidimensional array.</li>
+                  </ul>
+                </div>
+
+
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab26" style="width:100%">
+            <h6>6.Collection Framework </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 8 HRS</h5>
+              <div class="row">
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Introduction to Collection framework.</li>
+                    <li><i class="bi bi-bullseye"></i> List Interface</li>
+                    <li><i class="bi bi-bullseye"></i> Array List</li>
+                    <li><i class="bi bi-bullseye"></i> Vector</li>
+                    <li><i class="bi bi-bullseye"></i> Linked List</li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Set Interface</li>
+                    <li><i class="bi bi-bullseye"></i> Hash Set.</li>
+                    <li><i class="bi bi-bullseye"></i> Linked hashSet</li>
+                    <li><i class="bi bi-bullseye"></i> Tree Set</li>
+                    <li><i class="bi bi-bullseye"></i> Map Interface</li>
+                  </ul>
+                </div>
+
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Hash Map..</li>
+                    <li><i class="bi bi-bullseye"></i> HashTable</li>
+                    <li><i class="bi bi-bullseye"></i> Linked HashMap</li>
+                    <li><i class="bi bi-bullseye"></i> Tree Map</li>
+                    <li><i class="bi bi-bullseye"></i> Queue and Priority Queue</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+          <article class="tab_content" id="tab27" style="width:100%">
+            <h6>7.Generics</h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Introduction to Generics code.</li>
+                    <li><i class="bi bi-bullseye"></i>Mixing Generics and Non Generic code.</li>
+                    <li><i class="bi bi-bullseye"></i>Polymorphism in Generics. </li>
+                    <li><i class="bi bi-bullseye"></i>Generics methods </li>
+                  </ul>
+                </div>
+            
+
+              </div>
+            </div>
+          </article>
+
+          <article class="tab_content" id="tab28" style="width:100%">
+            <h6>8.Date </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> java.time.LocalDateTime</li>
+                    <li><i class="bi bi-bullseye"></i> java.time.LocalDate
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> java.time.LocalTime</li>
+                  </ul>
+                </div>
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> java.time.format.DateTimeFormatter
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>java.time.Period</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+          <article class="tab_content" id="tab29" style="width:100%">
+            <h6>9.Annotations </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 3 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>What is Annotation and its usage</li>
+                    <li><i class="bi bi-bullseye"></i> Built in Annotations.</li>
+                    <li><i class="bi bi-bullseye"></i>User Defined Annotations.</li>
+                  </ul>
+                </div>
+
+
+              </div>
+            </div>
+          </article>
+
+          <article class="tab_content" id="tab30" style="width:100%">
+            <h6>10.File Navigation and IO </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 6 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Introduction to java.io package.</li>
+                    <li><i class="bi bi-bullseye"></i> Character and Byte Streams.</li>
+                    <li><i class="bi bi-bullseye"></i> File Class.</li>
+                    <li><i class="bi bi-bullseye"></i>Character Classes – File Reader, File Writer, Buffered Reader,
+                      Buffered Writer, Print Writer</li>
+                    <li><i class="bi bi-bullseye"></i>Byte Streams – FileInputStream, FileOutputStream, Buffer
+                      Input Stream, Buffered Output Stream</li>
+                  </ul>
+                </div>
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Object Serialization</li>
+                    <li><i class="bi bi-bullseye"></i> Object Input Stream and Object Output Stream..</li>
+                    <li><i class="bi bi-bullseye"></i> readObject() and writeObject().</li>
+                    <li><i class="bi bi-bullseye"></i> Serialization in inheritance.</li>
+                    <li><i class="bi bi-bullseye"></i> Externalization</li>
+                  </ul>
+                </div>
+
+
+              </div>
+            </div>
+          </article>
+
+          <article class="tab_content" id="tab31" style="width:100%">
+            <h6>11.Multithreading  </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>What is Multithreading..</li>
+                    <li><i class="bi bi-bullseye"></i>Lifecycle of Thread</li>
+                    <li><i class="bi bi-bullseye"></i> Creating Thread</li>
+                    <li><i class="bi bi-bullseye"></i> Thread Scheduler</li>
+                    <li><i class="bi bi-bullseye"></i> Sleeping a thread</li>
+                  </ul>
+                </div>
+              
+
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab32" style="width:100%">
+            <h6>12.MySQL & JDBC </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 4 HRS</h5>
+              <div class="row">
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Introduction to MySql.</li>
+                    <li><i class="bi bi-bullseye"></i> CQueries.</li>
+                    <li><i class="bi bi-bullseye"></i> Create – database, table</li>
+                    <li><i class="bi bi-bullseye"></i> Alter – add, modify, change, rename, drop column.</li>
+                    <li><i class="bi bi-bullseye"></i>Drop – table, database</li>
+                    <li><i class="bi bi-bullseye"></i> Insert, delete, update, select, show, desc</li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Where clause, order by, group by</li>
+                    <li><i class="bi bi-bullseye"></i> Operators – and, or, between and, in, not in, like, distinct</li>
+                    <li><i class="bi bi-bullseye"></i> Sub queries.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Join – inner join, left join, right join</li>
+                    <li><i class="bi bi-bullseye"></i> JDBC Introduction</li>
+                    <li><i class="bi bi-bullseye"></i> JDBC Driver</li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>  DB Connectivity steps.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>  Connectivity Java with MySQL and Oracle/MongoDB.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Driver Manager.</li>
+                    <li><i class="bi bi-bullseye"></i> Connection.</li>
+                    <li><i class="bi bi-bullseye"></i>  Statement.</li>
+                    <li><i class="bi bi-bullseye"></i> ResultSet</li>
+                  </ul>
+                </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab33" style="width:100%">
+            <h6>13.Web Application Introduction</h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 1 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Introduction</li>
+                    <li><i class="bi bi-bullseye"></i> Web server and web client.</li>
+                    <li><i class="bi bi-bullseye"></i>Web application directory structure</li>
+                    <li><i class="bi bi-bullseye"></i> Web application components</li>
+                    <li><i class="bi bi-bullseye"></i> Web container</li>
+                  </ul>
+                </div>
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Deployment descriptor</li>
+                    <li><i class="bi bi-bullseye"></i> Apache Maven build tool</li>
+                    <li><i class="bi bi-bullseye"></i> Hadoop File and Commands.</li>
+                    <li><i class="bi bi-bullseye"></i> Starting a web application in Eclipse.</li>
+                    <li><i class="bi bi-bullseye"></i> Internet, client server architecture, Http, https, ftp, file</li>
+                    <li><i class="bi bi-bullseye"></i> uploading etc. – introduction</li>
+                  </ul>
+                </div>
+
+
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab34" style="width:100%">
+            <h6>14.HTML 5 & CSS </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 4 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> HTML introduction.</li>
+                    <li><i class="bi bi-bullseye"></i>HTML tags.</li>
+                    <li><i class="bi bi-bullseye"></i> HTML tables</li>
+                    <li><i class="bi bi-bullseye"></i> HTML forms
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> CSS syntax. </li>
+                    <li><i class="bi bi-bullseye"></i> CSS Id and Class selectors </li>
+                    <li><i class="bi bi-bullseye"></i> How to insert CSS..</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab35" style="width:100%">
+            <h6>15.JavaScript</h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 4 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Introduction.</li>
+                    <li><i class="bi bi-bullseye"></i> External and internal JavaScript</li>
+                    <li><i class="bi bi-bullseye"></i> Functions.</li>
+                    <li><i class="bi bi-bullseye"></i> Accessing HTML form controls</li>
+                
+                  </ul>
+                </div>
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>JavaScript pop up boxes</li>
+                    <li><i class="bi bi-bullseye"></i> Validation</li>
+                    <li><i class="bi bi-bullseye"></i>Debugging JavaScript.
+                    </li>
+                  
+                  </ul>
+                </div>
+              
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab36" style="width:100%">
+            <h6>16.jQuery</h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Introduction and installation</li>
+                    <li><i class="bi bi-bullseye"></i> Syntax.</li>
+                    <li><i class="bi bi-bullseye"></i> Selectors</li>
+                    <li><i class="bi bi-bullseye"></i> Events </li>
+                  </ul>
+                </div>
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> jQuery effects – hide, show, fade, slide, animate </li>
+                    <li><i class="bi bi-bullseye"></i> Callback function </li>
+                    <li><i class="bi bi-bullseye"></i> Chaining effects. </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab37" style="width:100%">
+            <h6>17. AJAX using jQuery </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Introduction to AJAX </li>
+                    <li><i class="bi bi-bullseye"></i>Send GET and POST data. </li>
+                    <li><i class="bi bi-bullseye"></i> Read response and display it in HTML controls</li>
+                  </ul>
+                </div>
+              
+
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab38" style="width:100%">
+            <h6>18.Servlet </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 6 HRS</h5>
+              <div class="row">
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Features of Servlet.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Working of Servlet </li>
+                    <li><i class="bi bi-bullseye"></i>Introduction to Servlet API and Servlet class hierarchy</li>
+                    <li><i class="bi bi-bullseye"></i> Servlet life cycle.</li>
+                    <li><i class="bi bi-bullseye"></i> Life cycle methods </li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>The Servlet API and its interfaces </li>
+                    <li><i class="bi bi-bullseye"></i>How to set Servlet initialization parameter</li>
+                    <li><i class="bi bi-bullseye"></i>How to set context initialization parameter.</li>
+                    <li><i class="bi bi-bullseye"></i>Servlet Event handling.</li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Servlet events and interfaces.</li>
+                    <li><i class="bi bi-bullseye"></i>Servlet session handling techniques.</li>
+                    <li><i class="bi bi-bullseye"></i>Inter Servlet communication</li>
+                    <li><i class="bi bi-bullseye"></i>Servlet filters</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab39" style="width:100%">
+            <h6>19.JSP</h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 10 HRS</h5>
+              <div class="row">
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Introduction to JSP</li>
+                    <li><i class="bi bi-bullseye"></i> Advantages.</li>
+                    <li><i class="bi bi-bullseye"></i> JSP Life cycle
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Structure of JSP page</li>
+                    <li><i class="bi bi-bullseye"></i> Components of JSP page</li>
+                  </ul>
+                </div>
+                <div class="col-6" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> JSP implicit objects</li>
+                    <li><i class="bi bi-bullseye"></i> Create error pages in JSP</li>
+                    <li><i class="bi bi-bullseye"></i> JSP and JavaBean
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> JSTL</li>
+                    <li><i class="bi bi-bullseye"></i> Custom tags</li>
+                  </ul>
+                </div>
+
+
+              </div>
+            </div>
+          </article>
+
+
+          <article class="tab_content" id="tab40" style="width:100%">
+            <h6>20.Spring </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 26 HRS</h5>
+              <div class="row">
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Benefits of using Spring framework.</li>
+                    <li><i class="bi bi-bullseye"></i>Dependency injection</li>
+                    <li><i class="bi bi-bullseye"></i>Aspect Oriented Programming </li>
+                    <li><i class="bi bi-bullseye"></i> Spring framework architecture </li>
+                    <li><i class="bi bi-bullseye"></i> Spring environmental setup </li>
+                    <li><i class="bi bi-bullseye"></i>One example </li>
+                    <li><i class="bi bi-bullseye"></i> Spring IoC containers. </li>
+                    <li><i class="bi bi-bullseye"></i> Spring BeanFactory Container.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Spring JDBC framework.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> Spring ApplicationContext Container.</li>
+                    <li><i class="bi bi-bullseye"></i>Spring Bean definition </li>
+                    <li><i class="bi bi-bullseye"></i> XML based configuration file.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Annotation-based configuration.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>Spring Bean scopes</li>
+                    <li><i class="bi bi-bullseye"></i>Spring Dependency Injection</li>
+                    <li><i class="bi bi-bullseye"></i> Constructor based DI. </li>
+                    <li><i class="bi bi-bullseye"></i>Setter based DI. </li>
+                    <li><i class="bi bi-bullseye"></i> Spring with Hibernate
+                    </li>
+                    
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Spring Injecting Inner Beans</li>
+                    <li><i class="bi bi-bullseye"></i> Spring injecting Collections.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Spring Beans AutoWiring</li>
+                    <li><i class="bi bi-bullseye"></i>By name</li>
+                    <li><i class="bi bi-bullseye"></i> By type
+                      <li><i class="bi bi-bullseye"></i>Spring Annotation Based Configuration. </li>
+                      <li><i class="bi bi-bullseye"></i> @Required </li>
+                      <li><i class="bi bi-bullseye"></i> @AutoWired </li>
+                      <li><i class="bi bi-bullseye"></i> Spring MVC framework
+                      </li>
+                      <li><i class="bi bi-bullseye"></i> CRED Application with MVC
+                      </li>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+
+
+
+          <article class="tab_content" id="tab41" style="width:100%">
+            <h6>21.Web services </h6>
+            <div class="container">
+              <h5 style="color: #598f86;">Durantion : 6 HRS</h5>
+              <div class="row">
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Introduction.</li>
+                    <li><i class="bi bi-bullseye"></i>Features of Web Services.</li>
+                    <li><i class="bi bi-bullseye"></i>Roles – service provider, service requestor, service registry</li>
+                    <li><i class="bi bi-bullseye"></i>Web services protocol stack.</li>
+                    <li><i class="bi bi-bullseye"></i> Life cycle.</li>
+                    <li><i class="bi bi-bullseye"></i>Standards</li>
+               
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i> RESTful web service.</li>
+                    <li><i class="bi bi-bullseye"></i>REST - Representational State Transfer </li>
+                    <li><i class="bi bi-bullseye"></i> JAX-RS with Jersey
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> Installation of Jersey.
+                    </li>
+                    <li><i class="bi bi-bullseye"></i>Web container.</li>
+                    <li><i class="bi bi-bullseye"></i>Prerequisites.</li>
+                   
+                    </li>
+                    
+                  </ul>
+                </div>
+                <div class="col-4" style="font-size: larger;">
+                  <ul>
+                    <li><i class="bi bi-bullseye"></i>Create your first RESTful Webservice</li>
+                    <li><i class="bi bi-bullseye"></i> Create a REST client.
+
+                    </li>
+                    <li><i class="bi bi-bullseye"></i> RESTful web services and JAXB.</li>
+                    <li><i class="bi bi-bullseye"></i>CRUD RESTful webservice</li>
+                    <li><i class="bi bi-bullseye"></i> JSON
+                
+                      </li>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= CURRICULUM END ======= -->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+
+
+  <br><br>
+
+
+
+  <!-- ======= OUR STUDENTS EVERYWHERE START ======= -->
+  <div class="orange">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <br><br>
+          <article>
+            <h3 style="text-align:center;"> OUR STUDENTS ARE EVERYWHERE </h3>
+            <P style=" text-align:center; font-size:14px;">Technovalley has a long-standing tradition of providing
+              top-notch internship
+              opportunities for students and young professionals. Over the years, we have
+              certified thousands of interns, and we are proud to say that many of our
+              graduates have gone on to secure employment in some of the most renowned
+              global companies. The following are some of the organisation that our students
+              are placed in</P>
+            <table class="imge">
+              <tbody>
+                <tr>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/tcs.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/Amazon_logo.svg.webp"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/Capgemini-Logo.wine.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/Cognizant.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/Deloitte.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/Infosys_logo.svg.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/mindtree.png"></th>
+
+                </tr>
+                <tr>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/Apple-Logo-PNG-Photos.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/mindtree.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/Wipro_Logo.png"></th>
+                  <th style="max-width:200px;"><img
+                      src="/img/our_students_everywhere/PwC-PricewaterhouseCoopers-Symbol.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/et.svg"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/google.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/kpmg-logo-vector-1.svg"></th>
+
+
+                  <th></th>
+                </tr>
+                <tr>
+
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/accenture.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/lg.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/Mahindra-Car-Logo-Vector-PNG.png">
+                  </th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/Petrofac-Logo.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/dell-png-logo-0.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/ibm.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/HCL_Technologies_logo.svg.png">
+                  </th>
+
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/hp.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/microsoft-logo-4.png"></th>
+                  <th style="max-width:200px;"><img src="/img/our_students_everywhere/redhat.png"></th>
+
+                </tr>
+                <tr>
+
+
+                  <td></td>
+
+                </tr>
+                <tr>
+                  <td></td>
+                  <th></th>
+
+                </tr>
+
+              </tbody>
+            </table>
+
+
+          </article>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- ======= OUR STUDENTS EVERYWHERE END ======= -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br>
+  <br> <br>
+
+
+
+
+
+  <!-- ======= SLIDER START======= -->
+  <div class="container">
+    <h1>Related Courses</h1>
+
+    <div class="carousel"
+      data-flickity='{ "contain": true, "autoPlay": 1500, "pauseAutoPlayOnHover": true , "imagesLoaded": true}'>
+      <div class="carousel-cell" style="width: 20%;"><a href="./Core_Python_Technovalley.html"><img
+            src="/img/courses/python.png" class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a>
+      </div>
+      <div class="carousel-cell" style="width: 20%;"><a href=""><img src="/img/courses/python_advanced.png"
+            class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a></div>
+      <div class="carousel-cell" style="width: 20%;"><a href="./python-fullstack-developer_technovalley.html"><img
+            src="/img/courses/pythonmain.png" class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a>
+      </div>
+      <div class="carousel-cell" style="width: 20%;"><a href="./AI&MI_technovalley.html"><img src="/img/courses/ai.png"
+            class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a></div>
+      <div class="carousel-cell" style="width: 20%;"><a href="./Bigdata&Hadoop_Technovalley.html"><img
+            src="/img/courses/bigdata.png" class="carousel-image" style="width: 100%; max-height: 140px;" alt=""></a>
+      </div>
+      <div class="carousel-cell" style="width: 20%;"><a href="./Business_Data_Analyst_Technovalley.html"><img
+            src="/img/courses/data_analyst.png" class="carousel-image" style="width: 100%; max-height: 140px;"
+            alt=""></a></div>
+
+    </div>
+
+
+  </div>
+
+  <!-- ======= SLIDER END ======= -->
+
+
+
+  <!-- ======= SLIDER JS ======= -->
+  <script type="text/javascript">
+
+    $(window).load(function () {
+
+      $("#rcbrand1").rcbrand({
+        visibleItems: 6,
+        itemsToScroll: 3,
+        animationSpeed: 200,
+        infinite: true,
+        navigationTargetSelector: null,
+        autoPlay: {
+          enable: false,
+          interval: 5000,
+          pauseOnHover: true
+        },
+        responsiveBreakpoints: {
+          portrait: {
+            changePoint: 480,
+            visibleItems: 1,
+            itemsToScroll: 1
+          },
+          landscape: {
+            changePoint: 640,
+            visibleItems: 2,
+            itemsToScroll: 2
+          },
+          tablet: {
+            changePoint: 768,
+            visibleItems: 3,
+            itemsToScroll: 3
+          }
+        }
+      });
+
+      $("#rcbrand2").rcbrand({
+        visibleItems: 3,
+        itemsToScroll: 1,
+        autoPlay: {
+          enable: true,
+          interval: 3000,
+          pauseOnHover: true
+        }
+      });
+
+      $("#rcbrand3").rcbrand({
+        infinite: false
+      });
+
+    });
+  </script>
+
+  <!-- ======= SLIDER END ======= -->
+
+  <!-- ======= FOOTER START ======= -->
+
+  <section id="footer">
+    <div class="container">
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-5 rtlz">
+          <H5> <Span class="vrdl"> C-TECH </Span> &nbsp; Certificate</H5>
+          <div>
+
+            <div class="d-flex align-items-start responsive-tab-menu">
+
+              <ul class="nav flex-column nav-pills nav-tabs-dropdown me-3" id="v-pills-tab" role="tablist"
+                aria-orientation="vertical">
+                <li class="nav-item">
+                  <a class="nav-link text-start active" href="#" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">IT
+                    Infrastructure
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-start" href="#" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    Metaverse <span class="mblw" style="float:right;"> V </span>
+
+                  </a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link text-start" href="#" id="v-pills-contact1-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+
+                    Emerging Technologies
+
+                  </a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link text-start" href="#" id="v-pills-contact2-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+
+                    Cyber Security
+                  </a>
+                </li>
+              </ul>
+
+              <div class="tab-content responsive-tab-content" id="v-pills-tabContent" style="width:100%;">
+
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                  aria-labelledby="v-pills-home-tab" tabindex="0">
+                  <ul class="list-unstyled quick-links">
+                    <li><a href="#">IT Infrastructure</a></li>
+                    <li><a href="#">Metaverse</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">
+                  <ul class="list-unstyled quick-links">
+                    <li><a href="#"> Infrastructure</a></li>
+                    <li><a href="#">Metaverse</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">
+
+
+
+                  <ul class="list-unstyled quick-links">
+                    <li><a href="#">IT Infrastructure</a></li>
+                    <li><a href="#">Metaverse</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+
+
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li>
+                      Technovalley Africa<br> Proprietory Limited,Plot No. 53609/4,First Floor,<a href="#">FAQ</a></li>
+
+                    <li><a href="#">Videos</a></li>
+                  </ul>
+
+                </div>
+
+
+
+
+
+                <div class="tab-pane fade" id="v-pills-contact1" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">
+                  <ul class="list-unstyled quick-links">
+
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                  </ul>
+                </div>
+
+
+
+
+
+                <div class="tab-pane fade" id="v-pills-contact2" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                  tabindex="0">Contact content</div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="col-md-1">
+        </div>
+
+
+
+
+        <div class="col-md-2 ">
+          <h4> Quick Links</h4>
+          <ul class="list-styled" style="text-align:left;">
+            <li><a href="#" class="text-white">Courses</a></li>
+            <div class="mb-2"></div>
+            <li><a href="#" class="text-white">Testimonial</a></li>
+            <div class="mb-2"></div>
+            <li><a href="#" class="text-white">About</a></li>
+            <div class="mb-2"></div>
+            <li><a href="#" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class=" col-0  col-md-1 ">
+
+        </div>
+
+
+
+
+        <div class=" col-xs-12  col-md-3 ">
+          <img src="/assets/img/logo.png">
+
+          <h6>
+            Technovalley Africa Proprietory Limited,Plot No. 53609/4,First Floor,<br> Gaborone West, Gaborone, Botswana.
+          </h6>
+          </ul>
+
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <hr>
+    <div>
+      <h4 class=" text-center"> Copyright © 2023 technovally. All rights reserved</h4>
+    </div>
+  </section>
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+
+  <!-- Vendor JS Files -->
+
+
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+
+  <style>
+    #spin {
+      color: #00a388;
+      font-size: 55px;
+      font-weight: bold;
+    }
+
+    #spin:after {
+      content: "";
+      animation: spin 48s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        content: "ipsum";
+      }
+
+      10% {
+        content: "dolor";
+      }
+
+      20% {
+        content: "sit";
+      }
+
+      30% {
+        content: "amet";
+      }
+
+      40% {
+        content: "consectetur";
+      }
+
+      50% {
+        content: "adipisicing";
+      }
+
+      60% {
+        content: "elit";
+      }
+
+      70% {
+        content: "Hic";
+      }
+
+      80% {
+        content: "atque";
+      }
+
+      90% {
+        content: "fuga";
+      }
+    }
+
+
+
+
+
+    .slider22 {
+      height: 300px;
+
+      text-align: center;
+      position: relative;
+      animation: slideColor 10s forwards infinite;
+    }
+
+    .caption22 {
+      line-height: 100px;
+      font-size: 60px;
+      color: #fff;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+      margin-left: -300px;
+      font-weight: bold;
+    }
+
+    .text-box {
+      display: inline-block;
+      position: relative;
+    }
+
+    .text-box div {
+      display: inline-block;
+      position: absolute;
+      top: -200px;
+      transform: rotateX(-90deg);
+      opacity: 0;
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+      animation-timing-function: ease;
+      color: #00a88e;
+      left: -506px;
+    }
+
+
+    .text-box div {
+      display: inline-block;
+      position: absolute;
+      top: -200px;
+      transform: rotateX(-90deg);
+      opacity: 0;
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+      animation-timing-function: ease;
+      color: #00a88e;
+      left: -419px;
+    }
+
+
+
+
+    .text-box div:nth-child(1) {
+      animation: rollDown 10s forwards infinite;
+    }
+
+    .text-box div:nth-child(2) {
+      animation: rollDown2 10s forwards infinite;
+    }
+
+    .text-box div:nth-child(3) {
+      animation: rollDown3 10s forwards infinite;
+    }
+
+    @keyframes rollDown {
+      0% {
+        top: -200px;
+        transform: rotateX(-90deg);
+      }
+
+      11% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      22% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      33% {
+        top: 50px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes rollDown2 {
+      33% {
+        top: -200px;
+        transform: rotateX(-90deg);
+      }
+
+      44% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      55% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      66% {
+        top: 50px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes rollDown3 {
+      66% {
+        top: -200px;
+        transform: rotateX(-90deg);
+      }
+
+      77% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      88% {
+        top: -74px;
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+
+      99% {
+        top: 50px;
+        transform: rotateX(30deg);
+        opacity: 0;
+      }
+    }
+
+
+
+
+
+    #hero {
+      height: 55vh !important;
+      background: url(../img/hero-bg.png);
+      background-size: auto;
+      background-size: cover;
+      position: relative;
+    }
+
+
+
+    body {
+      overflow-x: hidden !important;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .list-unstyled {
+      padding-left: 21px;
+      list-style: none;
+    }
+  </style>
+
+
+  <script src="/js/jQueryTab.js?v2022"></script>
+  <script type="text/javascript">
+
+    $('.tabs-6').jQueryTab({
+      initialTab: 4,
+      tabInTransition: 'scaleDownIn',
+      tabOutTransition: 'scaleDownOut',
+      cookieName: 'active-tab-6'
+
+    });
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
