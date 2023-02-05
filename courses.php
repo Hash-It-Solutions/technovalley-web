@@ -18,8 +18,8 @@ include("admin/config.php");
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -27,9 +27,9 @@ include("admin/config.php");
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
@@ -40,42 +40,42 @@ include("admin/config.php");
 
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 
   <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="jQueryTab.css?v2022" type="text/css" media="screen" />
-  <link rel="stylesheet" href="animation.css?v2022" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/jQueryTab.css?v2022" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/animation.css?v2022" type="text/css" media="screen" />
 
 
 
 
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/gallery.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/gallery.css">
+  <link rel="stylesheet" href="/css/main.css">
 
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
-  <script src="js/gallery.js"></script>
-  <script src="js/main.js"></script>
+  <script src="/js/gallery.js"></script>
+  <script src="/js/main.js"></script>
 
 
-  <link href="css/jqueryscripttop.css" type="text/css" />
-  <link href="css/style-2.css" rel="stylesheet" type="text/css" />
+  <link href="/css/jqueryscripttop.css" type="text/css" />
+  <link href="/css/style-2.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script type="text/javascript" src="js/jquery.rcbrand.js"></script>
+  <script type="text/javascript" src="/js/jquery.rcbrand.js"></script>
 
 
 
   <link rel="stylesheet" href="stylesheets/style.css" />
   <link rel="stylesheet" href="stylesheets/jtab.min.css" />
 
-  <script src="javascript/jtab.jquery.min.js"></script>
+  <script src="/javascript/jtab.jquery.min.js"></script>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
 
 
   <script>
@@ -117,9 +117,9 @@ include("admin/config.php");
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html"> <img src="assets/img/logo.png"><span>.</span></a></h1>
+      <h1 class="logo"><a href="index.html"> <img src="/assets/img/logo.png"><span>.</span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+      <!-- <a href="index.html" class="logo"><img src="/assets/img/logo.png" alt=""></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -167,7 +167,7 @@ include("admin/config.php");
             <div class="row">
               <div class="col-md-6 ">
                 <h3>Course Features</h3>
-                <img src="img/Line.png">
+                <img src="/img/Line.png">
                 <table>
                   <tr>
                     <td class="lm">Course Features <span class="dots11">: </span></td>
@@ -200,11 +200,11 @@ include("admin/config.php");
                 <div>
                   <div class="row">
                     <div class="col-md-4 col-12">
-                      <img src="img/speed.png">
+                      <img src="/img/speed.png">
                     </div>
                     <div class="col-md-8 col-12 ">
                       <h3>Course Duration</h3>
-                      <img src="img/Line.png">
+                      <img src="/img/Line.png">
                       <p style="padding-top:12px;">Normal Track : &nbsp;<span style="color:#33A78F;"> 6 month</span>
                       </p>
                       <P>
@@ -215,7 +215,7 @@ include("admin/config.php");
 
 
                     <div class="col-md-4 col-12  ">
-                      <img src="img/Vector(24).png">
+                      <img src="/img/Vector(24).png">
                     </div>
                     <div class="col-md-8 col-12">
                       <p>Fast Track &nbsp; <span style="color:#33A78F;"> 6 month</span> </p>
@@ -428,24 +428,24 @@ include("admin/config.php");
                 <tr>
                   <td> </td>
 
-                  <th><img src="img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
 
                 </tr>
                 <tr>
 
                 </tr>
                 <tr>
-                  <td><img src="img/fff.png"></td>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
+                  <td><img src="/img/fff.png"></td>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
 
                   <th></th>
                 </tr>
                 <tr>
 
-                  <td><img src="img/fff.png"></td>
-                  <td><img src="img/fff.png"></td>
-                  <th><img src="img/fff.png"></th>
+                  <td><img src="/img/fff.png"></td>
+                  <td><img src="/img/fff.png"></td>
+                  <th><img src="/img/fff.png"></th>
 
                 </tr>
                 <tr>
@@ -893,21 +893,21 @@ include("admin/config.php");
             <table class="imge">
               <tbody>
                 <tr>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
                 </tr>
                 <tr>
                   <td></td>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
-                  <th><img src="img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
+                  <th><img src="/img/fff.png"></th>
 
                   <th></th>
                 </tr>
@@ -977,22 +977,22 @@ include("admin/config.php");
 
     <div class="row">
       <ul id="rcbrand1">
-        <li><img src="img/fff.png">
+        <li><img src="/img/fff.png">
           <p> text</p>
         </li>
-        <li><img src="img/fff.png">
+        <li><img src="/img/fff.png">
           <p> text</p>
         </li>
-        <li><img src="img/fff.png">
+        <li><img src="/img/fff.png">
           <p> text</p>
         </li>
-        <li><img src="img/fff.png">
+        <li><img src="/img/fff.png">
           <p> text</p>
         </li>
-        <li><img src="img/fff.png">
+        <li><img src="/img/fff.png">
           <p> text</p>
         </li>
-        <li><img src="img/fff.png" >
+        <li><img src="/img/fff.png" >
           <p> text</p>
         </li>
       </ul>
@@ -1058,8 +1058,6 @@ include("admin/config.php");
   <!-- ======= FOOTER START ======= -->
 
   <?php include('footer.php') ?>
-
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -1068,13 +1066,13 @@ include("admin/config.php");
   <!-- Vendor JS Files -->
 
 
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
 
 
   <style>
@@ -1311,7 +1309,7 @@ include("admin/config.php");
   </style>
 
 
-  <script src="js/jQueryTab.js?v2022"></script>
+  <script src="/js/jQueryTab.js?v2022"></script>
   <script type="text/javascript">
 
     $('.tabs-6').jQueryTab({
