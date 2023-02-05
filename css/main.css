@@ -327,7 +327,7 @@ div.ex2 {
  }
  
  
- #spin {
+ /* #spin {
   color:red;
 }
 #spin:after {
@@ -345,7 +345,7 @@ div.ex2 {
   70% { content: "Hic"; }
   80% { content: "atque"; }
   90% { content: "fuga"; }
-}
+} */
 
 #hero p{
 font-size:55px;
@@ -436,8 +436,8 @@ background-size:cover;}
 
 
 .cnt223 {
-  min-width: 488px !important;
-  width: 391px !important;
+  min-width: 10% !important;
+ max-width: 30% !important;
   min-height: 150px;
   margin: 100px -29px !important;
   position: relative;
@@ -646,7 +646,7 @@ background-size:cover !important;
 
 
 #hero {
-  height: 24vh !important;
+  height: 50vh !important;
 }
 
 #topbar {
@@ -908,16 +908,7 @@ overflow-x:hidden;
   }
 
 
-.banner-java {
-    /* The image used */
-    background-image:url(../img/react-js/pikrepo.jpg) !important;
-    background-position: 0% 50%;
-    background-size: 100%;
-    margin: 0 auto;
-	background-repeat:no-repeat !important;
-	min-height:580px;
-	width:100% !important;
-  }
+
 
 
   .banner-hadoop {
@@ -1334,7 +1325,6 @@ padding-bottom:12px;
 }
 
 
-}
 
 
 .yxu h3{
@@ -1499,10 +1489,10 @@ color:#fff;
 	
 	
 	
-	.rtlz. tab-content > .tab-pane {
+	/* .rtlz. tab-content > .tab-pane {
 
   border-left: 2px solid !important;
-}	
+}	 */
 		
 		
 		
@@ -1744,4 +1734,25 @@ border: 1px solid #ccc;
 border-radius: 12px;
 box-shadow: 5px 5px 5px 5px #ccc;
 background: rgba(255, 140, 66, 0.2);
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+.desc{
+display:none;
+}
+  .keyword {
+    font-size: 40px !important;
+  }
+  .africa {
+    font-size: 30px !important;
+  }
+  .type-cursor{
+    font-size: 40px !important;
+  }
+   .cap2{
+    font-size: 20px !important;
+   }
 }
