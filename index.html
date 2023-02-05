@@ -117,35 +117,34 @@
         <a style="float:right;" href='' class='close'>X</a>
         <h4 class="text-center">Enquiry Form</h4>
 
-        <form name="qryform" id="qryform" method="post" action="mail.php" onsubmit="return(validate());"
-          novalidate="novalidate">
+        <form name="qryform" id="qryform" method="post" action="">
           <div class="form-group">
 
-            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
           </div>
           <br>
           <div class="form-group">
 
-            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email" required>
           </div>
           <br>
           <div class="form-group">
 
-            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone" required>
           </div>
           <br>
           <div class="form-group">
 
-            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+            <!-- <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
           </div>
           <br>
-          <div class="form-group">
+          <div class="form-group"> -->
 
-            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
+            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query" required></textarea>
           </div>
           <br>
 
-          <button type="button" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
+          <button type="submit" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
         </form>
       </div>
     </div>
@@ -213,7 +212,10 @@
       </nav><!-- .navbar -->
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  
+  
+  <!-- End Header -->
 
 
 
@@ -225,25 +227,15 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="1000 ">
 
-      <!-- <div class="slider22">
-        <div class="caption22">
-          AFRICA's
-          <div class="text-box">
-            <div>Empowering</div>
-            <div>Motivating</div>
-            <div>Upskilling</div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+  
     <div class="row">
       <div class="row">
         <div class="d-flex justify-content-center">
   
           <div class="caption">
         <span class="brand"></span>
-        <span id="demo" style="font-size: 80px; font-weight: bolder;"></span>
-        <span class='type-cursor'  style="font-size: 80px; font-weight: bolder; color: #00a388;">| </span> <sup>  </sup> <span style="font-size: 80px; font-weight: bolder; color: #ffffff;">Africa's</span>
+        <span class="keyword" id="demo" style="font-size: 80px; font-weight: bolder;"></span>
+        <span class='type-cursor'  style="font-size: 80px; font-weight: bolder; color: #00a388;">| </span> <sup>  </sup> <span class="africa" style="font-size: 80px; font-weight: bolder; color: #ffffff;">Africa's</span>
         <div class="cap2" style="font-size: 40px; font-weight: 500; color: #ffffff;">next generation of leaders</div>
         <div class="desc" style="font-size: 20px; font-weight: 200; color: #ffffff; padding: 0em 10em 0em 10em  ;">Technovalley Software India Private Limited, with over two decades of experience in the software industry, is thrilled to announce the launch of Technovalley Africa.</div>
           <button type="button" class="btn btn-warning" style="margin: 3%; padding: 10px;">ENQUIRE NOW</button>
@@ -382,44 +374,49 @@ function erase() {
 
   
   <br>
- 
+  <div class="block">
+    <div class="animation">
+      <div><a href="/courses_templates/AI&MI_technovalley.html"><img class="scroll-image" src="/img/courses/ai.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/angukar js.html"> <img class="scroll-image" src="/img/courses/angular.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/Bigdata&Hadoop_Technovalley.html"><img class="scroll-image" src="/img/courses/bigdata.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/Business_Data_Analyst_Technovalley.html"><img class="scroll-image" src="/img/courses/data_analyst.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/Core_Python_Technovalley.html"> <img class="scroll-image" src="/img/courses/core_python.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/DevOps_Engineer_Technovalley.html"><img class="scroll-image" src="/img/courses/devops.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/Digital_Marketing_Expert_technovalley.html"><img class="scroll-image" src="/img/courses/digital_marketing.png" alt="Image 1"></a></div>
+      <div><a href="#"><img class="scroll-image" src="/img/courses/java.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/mean stack.html"><img class="scroll-image" src="/img/courses/mean.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/MERN-Stack_technovalley.html"><img class="scroll-image" src="/img/courses/mern.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/MongoDB_Expert_Technovalley.html"><img class="scroll-image" src="/img/courses/mongo.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/python.html"><img class="scroll-image" src="/img/courses/python_advanced.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/python-fullstack-developer_technovalley.html"><img class="scroll-image" src="/img/courses/pythonmain.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/react-js.html"><img class="scroll-image" src="/img/courses/react.png" alt="Image 1"></a></div>
+      <div><a href="#"><img class="scroll-image" src="/img/courses/java_adv.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/phpcourses.html"><img class="scroll-image" src="/img/courses/php.png" alt="Image 1"></a></div>
+      <div><a href="/courses_templates/Malware _Analyst_Technovalley.html"><img class="scroll-image" src="/img/courses/malware.png" alt="Image 1"></a></div>
+      <div><a href="#"><img class="scroll-image" src="/img/courses/threat_hunter.png" alt="Image 1"></a></div>
+      <div><a href="#"><img class="scroll-image" src="/img/courses/soc.png" alt="Image 1"></a></div>
+      
 
-  <div class="scroll">
-    <div class="scroll-container">
-      <a href="/courses_templates/AI&MI_technovalley.html"><img class="scroll-image" src="/img/courses/ai.png" alt="Image 1"></a>
-      <a href="/courses_templates/angukar js.html"> <img class="scroll-image" src="/img/courses/angular.png" alt="Image 1"></a>
-      <a href="/courses_templates/Bigdata&Hadoop_Technovalley.html"><img class="scroll-image" src="/img/courses/bigdata.png" alt="Image 1"></a>
-      <a href="/courses_templates/Business_Data_Analyst_Technovalley.html"><img class="scroll-image" src="/img/courses/data_analyst.png" alt="Image 1"></a>
-      <a href="/courses_templates/Core_Python_Technovalley.html"> <img class="scroll-image" src="/img/courses/core_python.png" alt="Image 1"></a>
-      <a href="/courses_templates/DevOps_Engineer_Technovalley.html"><img class="scroll-image" src="/img/courses/devops.png" alt="Image 1"></a>
-      <a href="/courses_templates/Digital_Marketing_Expert_technovalley.html"><img class="scroll-image" src="/img/courses/digital_marketing.png" alt="Image 1"></a>
-      <a href="#"><img class="scroll-image" src="/img/courses/java.png" alt="Image 1"></a>
-      <a href="/courses_templates/mean stack.html"><img class="scroll-image" src="/img/courses/mean.png" alt="Image 1"></a>
-      <a href="/courses_templates/MERN-Stack_technovalley.html"><img class="scroll-image" src="/img/courses/mern.png" alt="Image 1"></a>
-      <a href="/courses_templates/MongoDB_Expert_Technovalley.html"><img class="scroll-image" src="/img/courses/mongo.png" alt="Image 1"></a>
-      <a href="/courses_templates/python.html"><img class="scroll-image" src="/img/courses/python_advanced.png" alt="Image 1"></a>
-      <a href="/courses_templates/python-fullstack-developer_technovalley.html"><img class="scroll-image" src="/img/courses/pythonmain.png" alt="Image 1"></a>
-      <a href="/courses_templates/react-js.html"><img class="scroll-image" src="/img/courses/react.png" alt="Image 1"></a>
-      <a href="#"><img class="scroll-image" src="/img/courses/java_adv.png" alt="Image 1"></a>
-      <a href="/courses_templates/phpcourses.html"><img class="scroll-image" src="/img/courses/php.png" alt="Image 1"></a>
-      <a href="/courses_templates/Malware _Analyst_Technovalley.html"><img class="scroll-image" src="/img/courses/malware.png" alt="Image 1"></a>
-      <a href="#"><img class="scroll-image" src="/img/courses/threat_hunter.png" alt="Image 1"></a>
-      <a href="#"><img class="scroll-image" src="/img/courses/soc.png" alt="Image 1"></a>
-
-     
+      <!-- cut -->
     </div>
   </div>
-  
 
   <style>
-    .scroll {
+.block {
   overflow: hidden;
-  white-space: nowrap;
+  width: 100%;
+  background: #fff;
 }
-
-.scroll-container {
+.animation {
+  width: auto;
+  height: 100px;
+  font-size: 0px;
+}
+.animation div {
   display: inline-block;
-  animation: scroll 100s linear infinite;
+  width: auto;
+  float: none;
+  padding: 0 10px;
 }
 
 .scroll-image {
@@ -430,53 +427,79 @@ function erase() {
   transition: all 0.5s ease;
   
 }
-
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+.scroll-image:hover {
+  transform: scale(1.1);
 }
 
+
+
   </style>
-
-
-  <script>
-$(document).ready(function() {
-  var container = $('.scroll-container');
-  var images = container.find('img');
-  var width = 0;
   
-  images.each(function() {
-    width += $(this).width();
-  });
+
+<script>
+  $(window).on('load', function(){
+  // Please run it with window.onload, not with document.ready
+  initSmoothScrolling('.block','smoothscroll');
+});
+
+function initSmoothScrolling(container,animation){
+  /*
+	* @param {String} container Class or ID of the animation container
+	* @param {String} animation Name of the animation, e.g. smoothscroll
+	*/
+	var sliderWidth = 0;	
+	var animationWidth = 0;	
+	var sliderHeight = $('>div>div:first-of-type',container).outerHeight(false);
+
+	$('>div>div', container).each(function(){				
+		animationWidth += $(this).outerWidth(false);		
+	});
+	
+	// detect number of visible slides
+	var slidesVisible = $(container).width() / $('>div>div:first-of-type',container).outerWidth(false);	
+	slidesVisible = Math.ceil(slidesVisible);
+
+  // count slides to determine animation speed
+	var slidesNumber = $('>div>div', container).length;
+	var speed = slidesNumber*2;
+	
+  // append the tail	
+	$('>div>div',container).slice(0,slidesVisible).clone().appendTo($('>div',container));	
+
+	// Detect the slider width with appended tail
+	$('>div>div', container).each(function(){
+		sliderWidth += $(this).outerWidth(false);
+	});
+
+	// set slider dimensions
+	$('>div',container).css({'width':sliderWidth,'height':sliderHeight});
   
-  container.css({
-    'width': width * 2
-  });
+  // Insert styles to html
+	$("<style type='text/css'>@keyframes "+animation+" { 0% { margin-left: 0px; } 100% { margin-left: -"+animationWidth+"px; } } "+$('>div>div:first-of-type',container).selector+" { -webkit-animation: "+animation+" "+speed+"s linear infinite; -moz-animation: "+animation+" "+speed+"s linear infinite; -ms-animation: "+animation+" "+speed+"s linear infinite; -o-animation: "+animation+" "+speed+"s linear infinite; animation: "+animation+" "+speed+"s linear infinite; }</style>").appendTo("head");	
 
-  images.clone().appendTo(container);
-  
-  images.hover(function() {
-    container.css({
-      'animation-play-state': 'paused'
-    });
-    $(this).css({
-      'transform': 'scale(1.5)'
-    });
-  }, function() {
-    container.css({
-      'animation-play-state': 'running'
-    });
-    $(this).css({  'transform': 'scale(1)'
-});
-});
-});
-  </script>
+	// restart the animation (e.g. for safari & ie)	
+	var cl = $(container).attr("class");
+	$(container).removeClass(cl).animate({'nothing':null}, 1, function () {
+		$(this).addClass(cl);
+	});
 
+  $(container).hover(function(){
+  $(this).css("-webkit-animation-play-state", "paused"); 
+  $(this).css("-moz-animation-play-state", "paused");
+  $(this).css("-ms-animation-play-state", "paused");
+  $(this).css("-o-animation-play-state", "paused");
+  $(this).css("animation-play-state", "paused");
+}, function(){
+  $(this).css("-webkit-animation-play-state", "running"); 
+  $(this).css("-moz-animation-play-state", "running");
+  $(this).css("-ms-animation-play-state", "running");
+  $(this).css("-o-animation-play-state", "running");
+  $(this).css("animation-play-state", "running");
+});
 
+}
+
+</script>
 
 
 
@@ -600,44 +623,44 @@ $(document).ready(function() {
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/angular.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/angukar js.html">
+          <a class="info-card" href="/courses_templates/angukar js.html">
             <div class="portfolio-info">
               <h4 class="course_name">Angular JS Expert </h4>
               
-              <a href="/angukar js.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/angukar js.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/bigdata.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/Bigdata&Hadoop_Technovalley.html">
+          <a class="info-card" href="/courses_templates/Bigdata&Hadoop_Technovalley.html">
             <div class="portfolio-info">
               <h4 class="course_name">Big Data & Hadoop</h4>
               
-              <a href="/Bigdata&Hadoop_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/Bigdata&Hadoop_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/data_analyst.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/Business_Data_Analyst_Technovalley.html">
+          <a class="info-card" href="/courses_templates/Business_Data_Analyst_Technovalley.html">
             <div class="portfolio-info">
               <h4 class="course_name">Business Data Analyist</h4>
               
-              <a href="/Business_Data_Analyst_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/Business_Data_Analyst_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/core_python.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/Core_Python_Technovalley.html">
+          <a class="info-card" href="/courses_templates/Core_Python_Technovalley.html">
             <div class="portfolio-info">
               <h4 class="course_name">Core Python</h4>
               
-              <a href="/Core_Python_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/Core_Python_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
@@ -645,22 +668,22 @@ $(document).ready(function() {
         
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/devops.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/DevOps_Engineer_Technovalley.html">
+          <a class="info-card" href="/courses_templates/DevOps_Engineer_Technovalley.html">
             <div class="portfolio-info">
               <h4 class="course_name">DevOps Engineer</h4>
               
-              <a href="/DevOps_Engineer_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/DevOps_Engineer_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/digital_marketing.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/Digital_Marketing_Expert_technovalley.html">
+          <a class="info-card" href="/courses_templates/Digital_Marketing_Expert_technovalley.html">
             <div class="portfolio-info">
               <h4 class="course_name">Digital Marketing</h4>
               
-              <a href="/Digital_Marketing_Expert_technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/Digital_Marketing_Expert_technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
@@ -680,44 +703,44 @@ $(document).ready(function() {
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/mean.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/mean stack.html">
+          <a class="info-card" href="/courses_templates/mean stack.html">
             <div class="portfolio-info">
               <h4 class="course_name">Mean stack Developer</h4>
               
-              <a href="/mean stack.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/mean stack.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/mern.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/MERN-Stack_technovalley.html">
+          <a class="info-card" href="/courses_templates/MERN-Stack_technovalley.html">
             <div class="portfolio-info">
               <h4 class="course_name">Mern stack Developer</h4>
               
-              <a href="/MERN-Stack_technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/MERN-Stack_technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/mongo.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/MongoDB_Expert_Technovalley.html">
+          <a class="info-card" href="/courses_templates/MongoDB_Expert_Technovalley.html">
             <div class="portfolio-info">
               <h4 class="course_name">Mongo DB Expert</h4>
               
-              <a href="/MongoDB_Expert_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/MongoDB_Expert_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/python_advanced.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/python.html">
+          <a class="info-card" href="/courses_templates/python.html">
             <div class="portfolio-info">
               <h4 class="course_name">Pyhton Advanced</h4>
               
-              <a href="/python.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/python.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
@@ -725,22 +748,22 @@ $(document).ready(function() {
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/pythonmain.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/python-fullstack-developer_technovalley.html">
+          <a class="info-card" href="/courses_templates/python-fullstack-developer_technovalley.html">
             <div class="portfolio-info">
               <h4 class="course_name">Pyhton FullStack</h4>
               
-              <a href="/python-fullstack-developer_technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/python-fullstack-developer_technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/react.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/react-js.html">
+          <a class="info-card" href="/courses_templates/react-js.html">
             <div class="portfolio-info">
               <h4 class="course_name">React JS</h4>
               
-              <a href="/react-js.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/react-js.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
@@ -760,11 +783,11 @@ $(document).ready(function() {
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-emerging">
           <img src="/img/courses/php.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/phpcourses.html">
+          <a class="info-card" href="/courses_templates/phpcourses.html">
             <div class="portfolio-info">
               <h4 class="course_name">PHP Laravel</h4>
               
-              <a href="/phpcourses.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/phpcourses.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
@@ -784,11 +807,11 @@ $(document).ready(function() {
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-cyber">
           <img src="/img/courses/malware.png" class="img-fluid" alt="" >
-          <a class="info-card" href="/Malware _Analyst_Technovalley.html">
+          <a class="info-card" href="/courses_templates/Malware _Analyst_Technovalley.html">
             <div class="portfolio-info">
               <h4 class="course_name">Malware Analyist</h4>
               
-              <a href="/Malware _Analyst_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="/courses_templates/Malware _Analyst_Technovalley.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </a>
         </div>
@@ -1115,7 +1138,7 @@ $(document).ready(function() {
 
 
 
-
+  <script type="text/javascript">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"672d034561439e25342a83ded6c4a3db4123ea1811bb54afbeb2116df4d7c4ad918e607f851a9923aaeadd37385c7ae2", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");</script>
 
   <div class="social_media_div">
     <ul class="icons_list">
@@ -1215,7 +1238,9 @@ $(document).ready(function() {
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
                   tabindex="0">
                   <ul class="list-unstyled quick-links">
-                    
+                  <li><a href="/courses_templates/Malware _Analyst_Technovalley.html">Malware Analyist</a></li>
+                  <li><a href="#">Threat Hunter</a></li>
+                  <li><a href="#">SOC Professional</a></li>
                
                   </ul>
                 </div>
