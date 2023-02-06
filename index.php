@@ -122,34 +122,35 @@ include("admin/config.php");
         <a style="float:right;" href='' class='close'>X</a>
         <h4 class="text-center">Enquiry Form</h4>
 
-        <form name="qryform" id="qryform" method="post">
+        <form name="qryform" id="qryform" method="post" action="mail.php" onsubmit="return(validate());"
+          novalidate="novalidate">
           <div class="form-group">
 
-            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
           </div>
           <br>
           <div class="form-group">
 
-            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email" required>
+            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
           </div>
           <br>
           <div class="form-group">
 
-            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone" required>
+            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
           </div>
           <br>
           <div class="form-group">
 
-            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject" required>
+            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
           </div>
           <br>
           <div class="form-group">
 
-            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query" required></textarea>
+            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
           </div>
           <br>
 
-          <button type="submit" name="submit-form" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
+          <button type="button" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
         </form>
       </div>
     </div>
@@ -204,10 +205,10 @@ include("admin/config.php");
           <li><a class="nav-link scrollto" href="blog.php">Blog</a></li>
           <li><a class="nav-link scrollto " href="contact.php">Contact</a></li>
     
-      	<button type="button" class="btn btn-warning">ENQUIRE NOW</button> 
+        <button type="button" class="btn btn-warning">ENQUIRE NOW</button> 
        
         </ul>
-	
+  
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -324,8 +325,8 @@ include("admin/config.php");
       <input type="text" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
-	</div>
-	<br>
+  </div>
+  <br>
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
@@ -372,6 +373,69 @@ include("admin/config.php");
 
       </div>
     </section><!-- End Portfolio Section -->
+  
+  <!-- logoslider -->
+  
+  <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="ttps://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg" />
+            </div>
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web design</a>
+    </div>
+  
+  
+  
+  <!-- logosliderend -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
   
   
@@ -386,22 +450,22 @@ software consulting
                                        
                         <p class="text-muted">Technovalley Africa is thrilled to announce its launch in Africa. Our goal is to empower and promote education by providing world-class education and skills training to students. Our innovative programs and experienced faculty will equip students with the knowledge and skills needed to become leaders in their field and drive the continent's development. Our organization is made up of three strategic business units that work together to provide a comprehensive education experience. Join us on this journey and be part of the change that is shaping Africa's future.</p>
                         </div>
-						
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				<div class="col-md-6">
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="col-md-6">
                           <img src="assets/img/tech.png">
-                        </div>		
-						
+                        </div>    
+            
                     </div>
                     
                     
@@ -415,8 +479,8 @@ software consulting
    <div class="main-container">
    
     <div class="container">
-	<div class="row">
-	<div class="col-md-6">
+  <div class="row">
+  <div class="col-md-6">
       <article>
        
       
@@ -456,20 +520,20 @@ software consulting
                 <div class="thumb" style="background-image: url(<?php echo BASE_URL; ?>/assets/uploads/<?php echo $row2['photo_name']; ?>)"></div>
               <?php } ?>
             </div>
-			<h3><?php echo $row['service_title']; ?>  </h3>
-			<P>
-			<?php echo $row['service_content']; ?>
+      <h3><?php echo $row['service_title']; ?>  </h3>
+      <P>
+      <?php echo $row['service_content']; ?>
           </div>
     <?php } ?>
-		  </div>
-		  
-		<div class="col-md-1 col-0">
-		</div>
-		
-		
-		<div class="col-md-5">
+      </div>
+      
+    <div class="col-md-1 col-0">
+    </div>
+    
+    
+    <div class="col-md-5">
      <div class="ex1">
-	 <div class="row">
+   <div class="row">
     <?php
         $statement = $pdo->prepare("SELECT * FROM tbl_blogs ORDER BY service_id DESC");
         $statement->execute();
@@ -477,120 +541,120 @@ software consulting
         foreach ($result as $key=> $row) {
         $service_id = $row['service_id'];
     ?>
-        	 <div class="col-md-8 col-12">
-        	<P><?php echo $row['service_content']; ?> </P>
-        	 </div>
-        	 
-        	 	 <div class="col-md-4 col-12  news">
-        	<img src="<?php echo BASE_URL; ?>/assets/uploads/<?php echo $row['photo']; ?>">
-        	 </div>
-	       <hr>
+           <div class="col-md-8 col-12">
+          <P><?php echo $row['service_content']; ?> </P>
+           </div>
+           
+             <div class="col-md-4 col-12  news">
+          <img src="<?php echo BASE_URL; ?>/assets/uploads/<?php echo $row['photo']; ?>">
+           </div>
+         <hr>
            
       <?php } ?>
-	 	<!--  <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>
-	 	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>
-	 	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr>	 <div class="col-md-8 col-12">
-	<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
-	 </div>
-	 
-	 	 <div class="col-md-4 col-12  news">
-	<img src="assets/img/Rectangle.png">
-	 </div>
-	 <hr> -->
-	 </div>
-	 
-	 </div>
+    <!--  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>
+     <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>
+     <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr>  <div class="col-md-8 col-12">
+  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+   </div>
+   
+     <div class="col-md-4 col-12  news">
+  <img src="assets/img/Rectangle.png">
+   </div>
+   <hr> -->
+   </div>
+   
+   </div>
 
     
 
@@ -891,22 +955,72 @@ software consulting
       .on("click", ".nav-link.active", function (event) {
         $(this).closest('ul').toggleClass("open");
       });
-
-      $('#qryform').on('submit', function (e) {
-          e.preventDefault();
-          $.ajax({
-            type: 'post',
-            url: 'popup-submit.php',
-            data: $('#popup-form').serialize(),
-            success: function (result) {
-              alert('Your Message has been sent Successfully. We will contact you back soon.');
-              $('#popup-form').val('');
-              // $('#contactForm').css('display','none');
-            }
-          });
-
-        });
   </script>
+
+
+
+
+
+
+
+
+
+
+
+ <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $Idle: 0,
+              $SlideDuration: 5000,
+              $SlideEasing: $Jease$.$Linear,
+              $PauseOnHover: 4,
+              $SlideWidth: 140,
+              $Align: 0
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1290;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+ 
+ 
+ 
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+ 
+
+
+
+
+
 
 
 </body>
