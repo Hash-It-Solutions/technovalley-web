@@ -122,35 +122,34 @@ include("admin/config.php");
         <a style="float:right;" href='' class='close'>X</a>
         <h4 class="text-center">Enquiry Form</h4>
 
-        <form name="qryform" id="qryform" method="post" action="mail.php" onsubmit="return(validate());"
-          novalidate="novalidate">
+        <form name="qryform" id="qryform" method="post">
           <div class="form-group">
 
-            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
           </div>
           <br>
           <div class="form-group">
 
-            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email" required>
           </div>
           <br>
           <div class="form-group">
 
-            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone" required>
           </div>
           <br>
           <div class="form-group">
 
-            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject" required>
           </div>
           <br>
           <div class="form-group">
 
-            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
+            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query" required></textarea>
           </div>
           <br>
 
-          <button type="button" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
+          <button type="submit" name="submit-form" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
         </form>
       </div>
     </div>
@@ -892,6 +891,21 @@ software consulting
       .on("click", ".nav-link.active", function (event) {
         $(this).closest('ul').toggleClass("open");
       });
+
+      $('#qryform').on('submit', function (e) {
+          e.preventDefault();
+          $.ajax({
+            type: 'post',
+            url: 'popup-submit.php',
+            data: $('#popup-form').serialize(),
+            success: function (result) {
+              alert('Your Message has been sent Successfully. We will contact you back soon.');
+              $('#popup-form').val('');
+              // $('#contactForm').css('display','none');
+            }
+          });
+
+        });
   </script>
 
 

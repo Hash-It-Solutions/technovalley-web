@@ -15,16 +15,16 @@ include("admin/config.php");
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" type="text/css" media="screen" />
@@ -32,7 +32,7 @@ include("admin/config.php");
 
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
@@ -43,14 +43,14 @@ include("admin/config.php");
 
 
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/gallery.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/gallery.css">
+  <link rel="stylesheet" href="/css/main.css">
 
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
-  <script src="js/gallery.js"></script>
-  <script src="js/main.js"></script>
+  <script src="/js/gallery.js"></script>
+  <script src="/js/main.js"></script>
 
   
   
@@ -96,9 +96,9 @@ $('.counter-count').each(function () {
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html"> <img src="assets/img/logo.png"><span>.</span></a></h1>
+      <h1 class="logo"><a href="index.html"> <img src="/assets/img/logo.png"><span>.</span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+      <!-- <a href="index.html" class="logo"><img src="/assets/img/logo.png" alt=""></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -187,7 +187,7 @@ We are proud to be part of a transformative movement in education in Africa, and
 
 <!-- Card #3, Professional -->
             <div class="col-md-5">
-			<img style="float:right; width:100%; max-height:368px;" src="assets/img/bwf.png">
+			<img style="float:right; width:100%; max-height:368px;" src="/assets/img/bwf.png">
 			</div>
         </div>
 		
@@ -200,7 +200,7 @@ We are proud to be part of a transformative movement in education in Africa, and
 		<div class="row">
 
 <div class="col-md-5">
-			<img style="float:left; width:100%;" src="img/mission.png">
+			<img style="float:left; width:100%;" src="/img/mission.png">
 			</div>
             <div class="col-lg-7   bthh">
                <P>
@@ -267,7 +267,7 @@ We are proud to be part of a transformative movement in education in Africa, and
   <div class="row">
 
 <div class="col-md-5">
-			<img style="float:left; width:100%; max-height:485px;" src="assets/img/bwvs.png">
+			<img style="float:left; width:100%; max-height:485px;" src="/assets/img/bwvs.png">
 			</div>
             <div class="col-lg-7   bthh">
                <P>
@@ -307,7 +307,7 @@ We are proud to be part of a transformative movement in education in Africa, and
 
 <!-- Card #3, Professional -->
             <div class="col-md-5">
-			<img style="float:right; width:100%; max-height:368px;" src="img/yrlw.png">
+			<img style="float:right; width:100%; max-height:368px;" src="/img/yrlw.png">
 			</div>
         </div>	
 		
@@ -330,7 +330,7 @@ We are proud to be part of a transformative movement in education in Africa, and
   <div class="row">
 
 <div class="col-md-5">
-			<img style="float:left; width:100%; max-height:485px;"  src="img/lzxv.png">
+			<img style="float:left; width:100%; max-height:485px;"  src="/img/lzxv.png">
 			</div>
             <div class="col-lg-7   bthh">
                <p>
@@ -370,7 +370,7 @@ We are proud to be part of a transformative movement in education in Africa, and
 
 <!-- Card #3, Professional -->
             <div class="col-md-5">
-			<img style="float:right; width:100%; max-height:368px;" src="assets/img/bwldf.png">
+			<img style="float:right; width:100%; max-height:368px;" src="/assets/img/bwldf.png">
 			</div>
         </div>
   

@@ -335,11 +335,11 @@ div.ex2 {
   animation: spin 2s linear infinite;
 }
 @keyframes spin {
-  0% { content:"ipsum"; }
-  10% { content:"dolor"; }
-  20% { content:"sit"; }
-  30% { content:"amet"; }
-  40% { content:"consectetur"; }
+  0% { content:"ipsum";ï¿½}
+  10% { content:"dolor";ï¿½}
+  20% { content:"sit";ï¿½}
+  30% { content:"amet";ï¿½}
+  40% { content:"consectetur";ï¿½}
   50% { content: "adipisicing"; }
   60% { content: "elit"; }
   70% { content: "Hic"; }
@@ -385,7 +385,7 @@ font-weight:bold;
 }
 
 .lmw {
-background-image:url(../assets/img/Rectan.png);
+background-image:url(..//assets/img/Rectan.png);
 background-repeat:no-repeat;
 background-size:cover;
 padding-bottom:55px;
@@ -423,7 +423,7 @@ background-repeat:no-repeat;
 
 
 #portfolio{
-background-image:url(../assets/img/Rel.png);
+background-image:url(..//assets/img/Rel.png);
 background-repeat:no-repeat;
 background-size:cover;}
 
@@ -579,7 +579,7 @@ td, th {
 
 
 .banner-about {
-  background-image: url(../assets/img/about.png);
+  background-image: url(..//assets/img/about.png);
   background-size: cover !important;
   background-repeat: no-repeat !important;
   min-height: 220px !important;
@@ -587,7 +587,7 @@ td, th {
 }
 
 .banner-blog {
-  background-image: url(../assets/img/footer.png) !important;
+  background-image: url(..//assets/img/footer.png) !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   min-height: 220px !important;
@@ -632,7 +632,7 @@ td, th {
 
 
 #footer {
-background-image:url(../assets/img/footer-mob.png) !important;
+background-image:url(..//assets/img/footer-mob.png) !important;
 background-repeat:no-repeat !important;
 background-size:cover !important;
 	margin-top:85px;
@@ -704,7 +704,7 @@ background-size:cover !important;
 }
 
 #footer {
-background-image:url(../assets/img/footer.png);
+background-image:url(..//assets/img/footer.png);
 background-repeat:no-repeat;
 background-size:cover;
 	margin-top:85px;
@@ -900,7 +900,7 @@ overflow-x:hidden;
 
 .banner-blog {
     /* The image used */
-    background-image:url(../assets/img/footer.png) !important;
+    background-image:url(..//assets/img/footer.png) !important;
 	background-size:cover!important;
 	background-repeat:no-repeat !important;
 	min-height:480px;
@@ -910,10 +910,137 @@ overflow-x:hidden;
 
 .banner-java {
     /* The image used */
-    background-image:url(../img/courses-java.png) !important;
-	background-size:cover!important;
+    background-image:url(../img/react-js/pikrepo.jpg) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
 	background-repeat:no-repeat !important;
-	min-height:480px;
+	min-height:580px;
+	width:100% !important;
+  }
+
+
+  .banner-hadoop {
+    /* The image used */
+    background-image:url(../img/hadoop/bigdatamain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+
+  .banner-ai {
+    /* The image used */
+    background-image:url(../img/hadoop/aimain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+
+  .banner-malware {
+    /* The image used */
+    background-image:url(../img/hadoop/malwaremain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-mean {
+    /* The image used */
+    background-image:url(../img/mern_stack/mean.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-mern {
+    /* The image used */
+    background-image:url(../img/mern_stack/mern.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-mongodb {
+    /* The image used */
+    background-image:url(../img/mongodb/mogodb.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-python {
+    /* The image used */
+    background-image:url(../img/python_fullstatck/pythonmain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  
+  .banner-digital {
+    /* The image used */
+    background-image:url(../img/mern_stack/digital.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-data {
+    /* The image used */
+    background-image:url(../img/data_analysis/main.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-corepython {
+    /* The image used */
+    background-image:url(../img/core_python/main.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-devops {
+    /* The image used */
+    background-image:url(../img/devops/main.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
 	width:100% !important;
   }
 
@@ -923,9 +1050,10 @@ overflow-x:hidden;
 
 
 
+
 .banner-about {
     /* The image used */
-    background-image:url(../assets/img/about.png);
+    background-image:url(..//assets/img/about.png);
 	background-size:cover!important;
 	background-repeat:no-repeat !important;
 	min-height:410px;
@@ -1011,11 +1139,11 @@ padding:186px 10px 55px 10px;
   display: grid;
   grid-template-columns: 1fr;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px 5px #ccc;
+  /* box-shadow: 5px 5px 5px 5px #ccc; */
   background-color: #fff;
   padding: 14px;
   max-width: 540px;
-  min-height: 429px;
+  min-height: 229px;
   margin: auto;
 }
 
