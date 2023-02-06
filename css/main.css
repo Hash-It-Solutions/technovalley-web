@@ -1518,7 +1518,6 @@ margin-top:75px;
   margin-top: 65px !important;
   font-size: 18px !important;
   line-height: 28px !important;
-  font-weight: bold !important;
  
   padding-right: 29px;
 
@@ -1739,7 +1738,6 @@ background: rgba(255, 140, 66, 0.2);
 
 
 
-
 @media only screen and (max-width: 600px){
 .desc{
 display:none;
@@ -1756,4 +1754,12 @@ display:none;
    .cap2{
     font-size: 20px !important;
    }
+
+   .c-tech{
+    margin-left: 5em;
+   }
+   .list-unstyled li{
+    list-style-type: none;
+  }
+   
 }
