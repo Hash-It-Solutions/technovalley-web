@@ -1,6 +1,18 @@
+
+# Links
+
+All tested and finalized components will be deployed here - https://technovalleyafrica-test.hashitsolutions.com/
+
+All demo and temporary components will be deployed here - https://technovalleyafrica-demo.hashitsolutions.com/
+
+
+
+
 # TechnoValley Africa
 
 TechnoValley Africa is an education website that aims to empower and promote education in Africa by providing world-class education and skills training. Our innovative programs and experienced faculty will equip students with the knowledge and skills needed to become leaders in their field and drive the continent's development. Our organization is made up of three strategic business units that work together to provide a comprehensive education experience. Join us on this journey and be part of the change that is shaping Africa's future.
+
+
 
 ## Installation
 
