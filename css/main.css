@@ -1037,6 +1037,55 @@ overflow-x:hidden;
   }
 
 
+  .banner-javafull {
+    /* The image used */
+    background-image:url(../img/java/javamain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-java {
+    /* The image used */
+    background-image:url(../img/java/javaadv.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+  .banner-soc {
+    /* The image used */
+    background-image:url(../img/soc/socmain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+
+  .banner-pythonadv {
+    /* The image used */
+    background-image:url(../img/python_adv/pythonadvmain.png) !important;
+    background-position: 0% 50%;
+    background-size: 100%;
+    margin: 0 auto;
+	background-repeat:no-repeat !important;
+	min-height:580px;
+	width:100% !important;
+  }
+
+
+
+
+
 
 
 
