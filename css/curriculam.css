@@ -1,0 +1,35 @@
+.curriculamBar {
+  display: flex;
+  overflow-x: scroll !important;
+  padding-left: 0;
+  border: none !important;
+}
+.curriculamElement {
+  white-space: nowrap !important;
+  margin-left: 0.7em;
+}
+.curriculamBar::-webkit-scrollbar {
+  display: none;
+}
+.curriculamItems {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.curriculumTitle {
+  color: #f16724;
+  font-weight: 900;
+}
+.curriculumAccordianWrapper {
+  max-height: 60vh !important;
+  overflow-y: scroll;
+}
+.curriculumMobileListItem {
+  white-space: nowrap !important;
+  /* overflow-wrap: break-word !important; */
+}
+@media screen and (max-width: 600px) {
+  .curriculamItems {
+    display: none;
+  }
+}
