@@ -1,0 +1,108 @@
+/*!
+ * JTab is “Displays content in tabs for a framework JQuery”.
+ *
+ * @author demorfi <demorfi@gmail.com>
+ * @version 1.0
+ * @source https://github.com/demorfi/jtab
+ * @license http://opensource.org/licenses/MIT Licensed under MIT License
+ */
+@import "compass/css3";
+
+// image loading animation
+$image-loading : "loading-black.gif";
+
+// tab list element page
+.jtab-ul
+{
+  font     :
+  {
+    family : Arial, Helvetica;
+    size   : small;
+  }
+  list-style-type : none;
+  margin          : 0;
+  overflow        : hidden;
+  padding         : 0;
+
+  li
+  {
+    float  : left;
+    margin : 0 -12px 0 0;
+
+    a
+    {
+      border   :
+      {
+        bottom : 25px solid rgba(0, 0, 0, .15);
+        right  : 25px solid transparent;
+      }
+      color           : #fff;
+      float           : left;
+      height          : 0;
+      line-height     : 28px;
+      padding         : 0 35px;
+      position        : relative;
+      text-decoration : none;
+      text-transform  : uppercase;
+      z-index         : 1;
+      background      : transparent;
+
+      @include single-transition(border-bottom-color, .4s, ease);
+      &:hover,
+      &:focus
+      {
+        border-bottom-color : rgba(0, 137, 191, .60);
+        outline             : none;
+      }
+
+      // active tab
+      &.jtab-selected
+      {
+        z-index             : 2;
+        border-bottom-color : rgba(1, 1, 1, .75);
+      }
+    }
+  }
+}
+
+// window content tab
+.jtab-content-list
+{
+  font     :
+  {
+    family : Arial, Helvetica;
+    size   : small;
+  }
+  background-color : #fff;
+  border-top       : 2px solid rgba(1, 1, 1, .75);
+  padding          : 20px;
+
+  // tab content
+  & > div,
+  .jtab-content
+  {
+    display    : none;
+    position   : relative;
+    z-index    : 2;
+    min-height : 210px;
+
+    // view tab content at browser url - hash
+    &:target,
+    &:last-of-type
+    {
+      display : block;
+    }
+
+    // hide last content at browser url - hash
+    &:target ~ div:last-of-type
+    {
+      display : none;
+    }
+
+    // view image loading content
+    &.jtab-loading
+    {
+      background : inline-image($image-loading) no-repeat 50% 50%;
+    }
+  }
+}
