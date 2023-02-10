@@ -1,0 +1,14 @@
+.logoTable {
+  border-collapse: separate;
+  border-spacing: 5px !important;
+}
+.compananiesLogo {
+  background-color: white !important;
+  margin: 0.3em;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+.durationDiv {
+  align-items: center;
+}
