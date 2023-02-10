@@ -299,7 +299,7 @@ div.ex2 {
 
 
 .how-section1{
- background-color:#5B7C99;
+ background-color:#eaeaeb;
  padding-bottom:55px;
  padding-top:58px;
  
@@ -310,10 +310,12 @@ div.ex2 {
  .how-section1 img{
  width:95%;
  margin-top:22px;
-
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
  }
  
- 
+ .how-section1  p{
+  text-align: justify;
+ }
  
  
  
@@ -321,7 +323,7 @@ div.ex2 {
   .how-section1 h4{
  width:95%;
  margin-top:22px;
- color:#FFFFFF;
+ color: #212529;
  
 
  }
@@ -349,7 +351,7 @@ div.ex2 {
 
 #hero p{
 font-size:55px;
-text-align:center;
+text-align:right;
 color:#fff;
 font-weight:bold;
 text-shadow: 2px 2px #9999;
@@ -423,6 +425,7 @@ background-repeat:no-repeat;
 
 
 #portfolio{
+  margin-top: 50px;
 background-image:url(..//assets/img/Rel.png);
 background-repeat:no-repeat;
 background-size:cover;}
@@ -682,7 +685,9 @@ background-size:cover !important;
 .body{
  overflow-x: hidden !important;
 }
-
+.caption{
+  text-align: right!important;
+}
 
 
 .caption22 {
@@ -1810,7 +1815,26 @@ box-shadow: 5px 5px 5px 5px #ccc;
 background: rgba(255, 140, 66, 0.2);
 }
 
-
+.keyword {
+  text-align: right!important;
+}
+.africa {
+  text-align: right!important;
+}
+.type-cursor{
+  text-align: right!important;
+}
+ .cap2{
+  text-align: right!important;
+ }
+ .desc{
+  color: red;
+ }
+ .enquire-btn button{
+  float: right;
+  display: block;
+  margin-top: 20px;
+ }
 
 @media only screen and (max-width: 600px){
 .desc{
@@ -1821,6 +1845,7 @@ display:none;
   }
   .africa {
     font-size: 30px !important;
+    text-align: right;
   }
   .type-cursor{
     font-size: 40px !important;
@@ -1836,4 +1861,37 @@ display:none;
     list-style-type: none;
   }
    
+}
+
+
+
+.button-style{
+  transition: 0.3s ease;
+}
+.button-style:hover{
+  opacity: 0.7;
+}
+.home-cards .card{
+  padding: 30px 15px;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  height: 100%;
+  justify-content: center;
+  align-items:center ;
+  transition: 0.3s ease;
+}
+.home-cards .card:hover{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  transform: translate(0, -10px);
+}
+.home-cards {
+  margin-top: -55px;
+  background: rgb(238, 237, 237);
+}
+.home-cards .course img{
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: -6px;
 }
