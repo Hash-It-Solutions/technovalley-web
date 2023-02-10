@@ -1,0 +1,18 @@
+.requisiteHead {
+  background-color: #f16724;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.requisiteList {
+  margin-left: 0 !important;
+  text-align: start !important;
+  font-size: 16px !important;
+  list-style-type: disc !important;
+}
+@media screen and (max-width: 1000px) {
+  .requisiteIcons {
+    display: none;
+  }
+}
