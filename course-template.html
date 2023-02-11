@@ -73,16 +73,12 @@
 <!-- requisite -->
 <link rel="stylesheet" href="/css/requisite.css">
 <link rel="stylesheet" href="/css/studentsEverywhere.css">
+<link rel="stylesheet" href="/css/footer.css">
 <!-- requisite -->
 
 <!-- tools required -->
 <link rel="stylesheet" href="/css/tools-required.css">
 <!-- tools required -->
-
-<!-- footor -->
-<link rel="stylesheet" href="/css/footer.css">
-<!-- footor -->
-
 
   <link rel="stylesheet" href="stylesheets/style.css" />
   <link rel="stylesheet" href="stylesheets/jtab.min.css" />
@@ -90,7 +86,6 @@
   <script src="/javascript/jtab.jquery.min.js"></script>
 
   <script src="/js/bootstrap.bundle.min.js"></script>
-
 
 
   <script>
@@ -164,12 +159,41 @@
 
   <!-- ======= Hero Section ======= -->
   <div class="banner-java">
-    <div class="container">
-      <!-- <p class="text-left"> Learn
-        Core & Advanced<br>
-        <span class="java">Bigdata & Hadoop </span>
-      </p> -->
-    </div>
+    
+      <div class="form-sec enquiryForm" style="box-shadow: none;">
+        <h4>Enquiry Form</h4>
+
+        <form name="qryform" id="qryform" method="post" action="mail.php" onSubmit="return(validate());"
+          novalidate="novalidate">
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
+          </div>
+          <br>
+
+          <button type="button" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
+        </form>
+      </div>
   </div>
 
   <style>
@@ -180,6 +204,9 @@
   </style>
 
   <!-- ======= Hero Section ======= -->
+
+
+
 
 
 
