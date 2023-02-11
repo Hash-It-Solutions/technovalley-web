@@ -4,20 +4,41 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .requisiteList {
   margin-left: 2em !important;
   text-align: start !important;
-  font-size: 16px !important;
-  list-style-type: disc !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 0 !important;
+  
+}
+::-webkit-scrollbar {
+  width: 0px;
 }
 .requisiteListItem {
+  padding: 1px;
+  margin: 5px;
+  background-color: #f1682438;
+  border-radius: 10px;
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
+  list-style: none !important;
 }
+
+.requisiteListItem:hover {
+  background-color: #f1682484;
+  color: white;
+}
+<<<<<<< HEAD
 .courseDuration {
   line-height: normal !important;
 }
+=======
+
+>>>>>>> d27744a47d383dc4a0fb1c14df36ac026b2f8a87
 @media screen and (max-width: 1000px) {
   .requisiteIcons {
     display: none;
