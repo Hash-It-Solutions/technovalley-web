@@ -1,0 +1,46 @@
+.aboutLogo {
+  width: 100%;
+}
+.aboutIntroWrapper {
+  padding: 3em;
+}
+.aboutDataWrapper {
+  padding: 3em;
+}
+.aboutHeading {
+  font-size: 25px;
+  font-weight: 800 !important;
+}
+.aboutSubHead {
+  color: #f26522 !important;
+}
+.aboutData {
+  font-size: 24px;
+  font-weight: 550;
+}
+@media screen and (max-width: 576px) {
+  .responsiveImg {
+    display: block !important;
+  }
+  .standardImg {
+    display: none !important;
+  }
+}
+.responsiveImg {
+  display: none;
+}
+/* 
+.aboutWrapper {
+}
+.topSection {
+  max-height: 300px;
+  width: 100%;
+}
+.aboutIntroHead {
+  color: orange;
+  font-size: 25px;
+  font-weight: 600;
+}
+.footerAbout {
+  margin-top: 30rem;
+} */

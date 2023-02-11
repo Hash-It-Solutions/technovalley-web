@@ -1,0 +1,47 @@
+.footer {
+  background-color: purple;
+  min-height: 500px;
+}
+.footerDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.footerListItem {
+  padding: 0.5em;
+  background-color: grey !important;
+  margin-bottom: 0.4em;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.footerCourses {
+  flex: 4;
+}
+.footerQuickLinks {
+  flex: 2;
+}
+.footerfbPlugin {
+  flex: 3;
+}
+.footerContact {
+  flex: 3;
+}
+.footerTitle {
+  font-size: 24px;
+  font-weight: 550;
+}
+.quickLink {
+  margin-left: 2em;
+}
+/* @media (max-width: 1920px) {
+  .quickLink {
+    width: 50px !important;
+  }
+} */
+.courseListFooter {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: visible;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}

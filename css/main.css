@@ -1078,7 +1078,7 @@ overflow-x:hidden;
 
   .banner-java {
     /* The image used */
-    background-image:url(../img/java/javaadv.png) !important;
+    /* background-image:url(../img/java/javaadv.png) !important; */
     background-position: 0% 50%;
     background-size: 100%;
     margin: 0 auto;
