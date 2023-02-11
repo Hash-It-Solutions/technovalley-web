@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .requisiteList {
   margin-left: 2em !important;
@@ -12,7 +11,6 @@
   font-size: 14px !important;
   font-weight: 600 !important;
   padding: 0 !important;
-  
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -32,7 +30,9 @@
   background-color: #f1682484;
   color: white;
 }
-
+.courseDuration {
+  line-height: normal !important;
+}
 @media screen and (max-width: 1000px) {
   .requisiteIcons {
     display: none;

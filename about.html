@@ -1,720 +1,820 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-	<head>
-		<meta charset="utf-8">
-		<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	  
-		<title>technovalley</title>
-		<meta content="" name="description">
-		<meta content="" name="keywords">
-	  
-		<!-- Favicons -->
-		<link href="/img/logo-ar.jpg" rel="icon">
-		<link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-	  
-		<!-- Google Fonts -->
-		<link
-		  href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-		  rel="stylesheet">
-	  
-		<!-- Vendor CSS Files -->
-		<link href="/assets/vendor/aos/aos.css" rel="stylesheet">
-		<link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-		<link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-		<link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-		<link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script type="text/javascript"
-		  src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
-		  type="text/css" media="screen" />
-		<script type="text/javascript"
-		  src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-	  
-		<!-- Template Main CSS File -->
-		<link href="/assets/css/style.css" rel="stylesheet">
-		<script src="/maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-		<script src="/code.jquery.com/jquery-1.11.1.min.js"></script>
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-		<link rel="stylesheet" href="/css/normalize.css">
-		<link rel="stylesheet" href="/css/gallery.css">
-		<link rel="stylesheet" href="/css/main.css">
-	  
-		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
-		<script src="/js/gallery.js"></script>
-		<script src="/js/main.js"></script>
-	  
-	  
-		<script>
-		  $('.counter-count').each(function () {
-			$(this).prop('Counter', 0).animate({
-			  Counter: $(this).text()
-			}, {
-			  duration: 5000,
-			  easing: 'swing',
-			  step: function (now) {
-				$(this).text(Math.ceil(now));
-			  }
-			});
-		  });
-	  
-		</script>
-	  
-	  
-	  </head>
+    <title>technovalley</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-<body>
+    <!-- Favicons -->
+    <link href="/img/logo-ar.jpg" rel="icon" />
+    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link rel="stylesheet" href="/css/newAbout.css" />
 
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
- <!-- ======= header  ======= -->
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="/assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/assets/vendor/boxicons/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+      type="text/css"
+      media="screen"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    ></script>
 
- <section id="topbar" class="d-flex align-items-center">
-	<div class="container d-flex justify-content-center justify-content-md-between">
-	  <div class="contact-info d-flex align-items-center">
-		<i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">Plot No. 53609/4, First
-			Floor, Gaborone West, Gaborone, Botswana.</a></i>
-  
-	  </div>
-	  <div class="social-links d-none d-md-flex align-items-center">
-		<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-		<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-		<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-		<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-	  </div>
-	</div>
-  </section>
-  
-  
-  
-  
-  
-  
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-	<div class="container d-flex align-items-center justify-content-between">
-  
-	  <h1 class="logo"><a href="index.html"> <img src="/img/technovalley_aks.svg" width="250em"><span
-			style="color: white;">.</span></a></h1>
-	  <!-- Uncomment below if you prefer to use an image logo -->
-	  <!-- <a href="index.html" class="logo"><img src="/assets/img/logo.png" alt=""></a>-->
-  
-	  <nav id="navbar" class="navbar">
-		<ul>
-		  <li><a class="nav-link scrollto" href="#portfolio">COURSES</a></li>
-		  <li><a class="nav-link scrollto active" href="about.html">About</a></li>
-		  <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
-		  <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
-  
-		  <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
-  
-		</ul>
-  
-		<i class="bi bi-list mobile-nav-toggle"></i>
-	  </nav><!-- .navbar -->
-  
-	</div>
-  </header>
-  
-  
-  <!-- End Header -->
-  
-  
+    <!-- Template Main CSS File -->
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <script src="/maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="/code.jquery.com/jquery-1.11.1.min.js"></script>
 
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/gallery.css" />
+    <link rel="stylesheet" href="/css/main.css" />
 
+    <!-- new css links -->
 
+    <link rel="stylesheet" href="/css/footer.css" />
 
+    <!-- end new css links -->
 
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
+    <script src="/js/gallery.js"></script>
+    <script src="/js/main.js"></script>
 
+    <script>
+      $(".counter-count").each(function () {
+        $(this)
+          .prop("Counter", 0)
+          .animate(
+            {
+              Counter: $(this).text(),
+            },
+            {
+              duration: 5000,
+              easing: "swing",
+              step: function (now) {
+                $(this).text(Math.ceil(now))
+              },
+            }
+          )
+      })
+    </script>
+  </head>
 
+  <body>
+    <!-- ======= header  ======= -->
 
-
-
-
-
-
-
-
-
-
-
-
-<br><br>
-  <div class="container bout">
-  <h3>Empowering Africa's Future <br> through World-Class Education<br> and Skills Training</h3>
-  
-  
-  
-<P>  
-  Technovalley Software India Private Limited, with over two decades of experience in the software industry, is thrilled to announce the launch of Technovalley Africa. Our goal is to empower and promote education in Africa by providing world-class education and skills training to students. Our innovative programs and experienced faculty will equip African students with the knowledge and skills needed to become leaders in their field and drive the continent's development.</P>
-<P>
-We believe that every student has the potential to be a leader in their field, and our mission is to help them reach that potential. With our state-of-the-art facilities and equipment, innovative curriculum and teaching methods, expert faculty, and comprehensive education and skills training, we are confident that we can empower the next generation of leaders in Africa.</P>
-<P>
-Our organization is made up of three Strategic Business Units: Advanced Knowledge Services (AKS), Advanced Consulting Services (ACS), and Advanced Technical Services (ATS). These units work together to provide a comprehensive education experience and skills training to our students. We believe that the best education is one that is grounded in both theoretical and practical knowledge.</P>
-<P>
-We are proud to be part of a transformative movement in education in Africa, and we are excited to play a role in upskilling and empowering African students. Join us on this journey and be part of the change that is shaping Africa's future.</P>
-  
-  
-  
-  
-  
-  </div>
-
-    <div class="container bout1">
-	
-        <div class="row">
-
-
-            <div class="col-lg-7  bthh ">
-			<P>
-			<span style="font-weight:bold;"> Vision </span>
-			
-			<br>
-			   
-			   To be a leading organization that empowers African IT students to become globally job-ready through internships and training, and to play a key role in the development of Africa's IT industry, by providing access to the latest technology and creating a talent pipeline for the future.</P>
-            </div>
-
-<!-- Card #2, Intermediate -->
-            
-
-<!-- Card #3, Professional -->
-            <div class="col-md-5">
-			<img style="float:right; width:100%; max-height:368px;" src="/assets/img/bwf.png">
-			</div>
+    <section id="topbar" class="d-flex align-items-center">
+      <div
+        class="container d-flex justify-content-center justify-content-md-between"
+      >
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"
+            ><a href="mailto:contact@example.com"
+              >Plot No. 53609/4, First Floor, Gaborone West, Gaborone,
+              Botswana.</a
+            ></i
+          >
         </div>
-		
-		
-		
-		
-		
-		
-		
-		<div class="row">
-
-<div class="col-md-5">
-			<img style="float:left; width:100%;" src="/img/mission.png">
-			</div>
-            <div class="col-lg-7   bthh">
-               <P>
-			   <span style="font-weight:bold;">  Mission </span>
-			   <br>
-			Our mission is to bridge the IT skills gap in Africa by providing students with access to internships and training that will prepare them for a global workforce. We strive to empower the next generation of IT professionals in Africa by providing them with the skills and experiences they need to succeed in a competitive job market. We pledge to bind African IT interns together, to make them job-ready, globally and to be a catalyst for the development of Africa's IT industry.</P>
-            </div>
-
-<!-- Card #2, Intermediate -->
-            
-
-<!-- Card #3, Professional -->
-            
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
-		
-		
-		
-		
-		
-		
-    </div>
-  
-  
-  
-  
-
-   
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <br>  
-  <br>  
-  <br>  
-  <br>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <div class="techno">
-  
-  <h3 class="text-center">Why choose us ?</h3>
-
-  
-  
-  </div>
-  
-  <div class="container bout1">
-  <div class="row">
-
-<div class="col-md-5">
-			<img style="float:left; width:100%; max-height:485px;" src="/assets/img/bwvs.png">
-			</div>
-            <div class="col-lg-7   bthh">
-               <P>
-			  
-			   <br>
-			  With over two decades of experience in the software industry, Technovalley Africa's team is made up of experts who bring a wealth of knowledge and experience to the institution.</P>
-            </div>
-
-<!-- Card #2, Intermediate -->
-            
-
-<!-- Card #3, Professional -->
-            
-        </div>
-		
-		
-		
-		
-		
-		
-		
-		
-	<div class="row">
-
-
-            <div class="col-lg-7  bthh ">
-			<p>
-			
-			
-			<br>
-			   
-			 Our experienced team of professionals analyse the market, industry trends and student demand to provide the best education and training to our students.</p>
-            </div>
-
-<!-- Card #2, Intermediate -->
-            
-
-<!-- Card #3, Professional -->
-            <div class="col-md-5">
-			<img style="float:right; width:100%; max-height:368px;" src="/img/yrlw.png">
-			</div>
-        </div>	
-		
-		
-		
-		
-		
-		
-  </div>
-  
-  
-  
-  
-  
-  
-  
-  <div class="container">
-  
-  
-  <div class="row">
-
-<div class="col-md-5">
-			<img style="float:left; width:100%; max-height:485px;"  src="/img/lzxv.png">
-			</div>
-            <div class="col-lg-7   bthh">
-               <p>
-			  
-			   <br>
-			Technovalley Africa's commitment to quality is reflected in everything we do, from our state-of-the-art facilities and equipment to our expert faculty and innovative curriculum.</p>
-            </div>
-
-<!-- Card #2, Intermediate -->
-            
-
-<!-- Card #3, Professional -->
-            
-        </div>
-  
-  
-  
-  
-  </div>
-  
-  <div class="container">
-  
-  <div class="row">
-
-
-            <div class="col-lg-7  bthh ">
-			<p>
-			
-			
-			<br>
-			   
-			Technovalley Africa offers a wide range of programs and courses, from traditional degree programs to specialized training in cutting-edge technology.</p>
-            </div>
-
-<!-- Card #2, Intermediate -->
-            
-
-<!-- Card #3, Professional -->
-            <div class="col-md-5">
-			<img style="float:right; width:100%; max-height:368px;" src="/assets/img/bwldf.png">
-			</div>
-        </div>
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  <br><br><br><br>
-  
-  
-  
-  
-  
-  
-
-
-  <!-- Footer -->
-  
-  <footer class="text-center text-lg-start bg-light text-muted"
-    style="background-image: url(..//assets/img/footer.png); background-repeat: no-repeat; background-size: cover;">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-      style="padding-top: 15px !important; padding-bottom: 0 !important;">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <p style="padding: 0 !important;">Get connected with us on social networks:</p>
       </div>
-      <!-- Left -->
-
-      <!-- Right -->
-      <div style="padding: 0 !important; font-size: 20px;">
-        <a href="" class="me-4 text-reset">
-          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-
-        </a>
-        <a href="" class="me-4 text-reset">
-          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-        </a>
-
-        <a href="" class="me-4 text-reset">
-          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-        </a>
-
-        <a href="" class="me-4 text-reset">
-          <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a>
-
-        </a>
-      </div>
-      <!-- Right -->
     </section>
-    <!-- Section: Social media -->
 
-    <!-- Section: Links  -->
-    <section class="courses">
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo">
+          <a href="index.html">
+            <img src="/img/technovalley_aks.svg" width="250em" /><span
+              style="color: white"
+              >.</span
+            ></a
+          >
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="/assets/img/logo.png" alt=""></a>-->
 
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Courses Links
-            </h6>
-            <div class="courses-footer">
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="#portfolio">COURSES</a></li>
+            <li>
+              <a class="nav-link scrollto active" href="about.html">About</a>
+            </li>
+            <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
+            <li>
+              <a class="nav-link scrollto" href="contact.html">Contact</a>
+            </li>
 
-              <div class="d-flex align-items-start responsive-tab-menu">
+            <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
+          </ul>
 
-                <ul class="nav flex-column nav-pills nav-tabs-dropdown me-3" id="v-pills-tab" role="tablist"
-                  aria-orientation="vertical">
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
 
-                  <li class="nav-item">
-                    <a class="nav-link text-start active" href="#" id="v-pills-home-tab" data-bs-toggle="pill"
-                      data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">IT
-                      Emerging Technologies
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-start" href="#" id="v-pills-profile-tab" data-bs-toggle="pill"
-                      data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
-                      aria-selected="false">
-                      Cyber Security <span class="mblw" style="float:right;"> V </span>
+    <!-- End Header -->
 
-                    </a>
-                  </li>
+    <div class="topSection">
+      <img src="/img/logo.png" class="aboutLogo" alt="" />
+    </div>
+    <div class="aboutIntroWrapper bout">
+      <h3 class="aboutHeading">
+        Empowering Africa's Future <br />
+        through World-Class Education<br />
+        and Skills Training
+      </h3>
 
+      <p class="aboutData">
+        Technovalley Software India Private Limited, with over two decades of
+        experience in the software industry, is thrilled to announce the launch
+        of Technovalley Africa. Our goal is to empower and promote education in
+        Africa by providing world-class education and skills training to
+        students. Our innovative programs and experienced faculty will equip
+        African students with the knowledge and skills needed to become leaders
+        in their field and drive the continent's development.
+      </p>
+      <p class="aboutData">
+        We believe that every student has the potential to be a leader in their
+        field, and our mission is to help them reach that potential. With our
+        state-of-the-art facilities and equipment, innovative curriculum and
+        teaching methods, expert faculty, and comprehensive education and skills
+        training, we are confident that we can empower the next generation of
+        leaders in Africa.
+      </p>
+      <p class="aboutData">
+        Our organization is made up of three Strategic Business Units: Advanced
+        Knowledge Services (AKS), Advanced Consulting Services (ACS), and
+        Advanced Technical Services (ATS). These units work together to provide
+        a comprehensive education experience and skills training to our
+        students. We believe that the best education is one that is grounded in
+        both theoretical and practical knowledge.
+      </p>
+      <p class="aboutData">
+        We are proud to be part of a transformative movement in education in
+        Africa, and we are excited to play a role in upskilling and empowering
+        African students. Join us on this journey and be part of the change that
+        is shaping Africa's future.
+      </p>
+    </div>
 
-                  <li class="nav-item">
-                    <a class="nav-link text-start" href="#" id="v-pills-contact1-tab" data-bs-toggle="pill"
-                      data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile"
-                      aria-selected="false">
+    <div class="aboutDataWrapper bout1">
+      <div class="row">
+        <div class="col-12 responsiveImg">
+          <div class="aboutImage">
+            <img
+              style="float: right; width: 100%; object-fit: cover"
+              src="/assets/img/bwf.png"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 bthh">
+          <p class="aboutData">
+            <span class="aboutSubHead" style="font-weight: bold"> Vision </span>
 
-                      Metaverse
+            <br />
 
-                    </a>
-                  </li>
+            To be a leading organization that empowers African IT students to
+            become globally job-ready through internships and training, and to
+            play a key role in the development of Africa's IT industry, by
+            providing access to the latest technology and creating a talent
+            pipeline for the future.
+          </p>
+        </div>
 
+        <!-- Card #2, Intermediate -->
 
-                  <li class="nav-item">
-                    <a class="nav-link text-start" href="#" id="v-pills-contact2-tab" data-bs-toggle="pill"
-                      data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile"
-                      aria-selected="false">
-                      Infrastructure
+        <!-- Card #3, Professional -->
+        <div class="col-6 standardImg">
+          <div class="aboutImage">
+            <img
+              style="float: right; width: 100%; object-fit: cover"
+              src="/assets/img/bwf.png"
+            />
+          </div>
+        </div>
+      </div>
 
-                    </a>
-                  </li>
-                </ul>
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <div class="aboutImage">
+            <img style="float: left; width: 100%" src="/img/mission.png" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <p class="aboutData">
+            <span class="aboutSubHead" style="font-weight: bold">
+              Mission
+            </span>
+            <br />
+            Our mission is to bridge the IT skills gap in Africa by providing
+            students with access to internships and training that will prepare
+            them for a global workforce. We strive to empower the next
+            generation of IT professionals in Africa by providing them with the
+            skills and experiences they need to succeed in a competitive job
+            market. We pledge to bind African IT interns together, to make them
+            job-ready, globally and to be a catalyst for the development of
+            Africa's IT industry.
+          </p>
+        </div>
 
-                <div class="tab-content responsive-tab-content" id="v-pills-tabContent" style="width:100%; ">
+        <!-- Card #2, Intermediate -->
 
-                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                    aria-labelledby="v-pills-home-tab" tabindex="0">
-                    <ul class="list-unstyled quick-links" style="padding-bottom: 100%;">
-                      <li><a href="/courses_templates/AI&MI_technovalley.html">AI & ML</a></li>
-                      <li><a href="/courses_templates/angukar js.html">Angular JS Expert</a></li>
-                      <li><a href="/courses_templates/Bigdata&Hadoop_Technovalley.html">Big Data & Hadoop</a></li>
-                      <li><a href="/courses_templates/Business_Data_Analyst_Technovalley.html">Business Data
-                          Analyist</a>
-                      </li>
-                      <li><a href="/courses_templates/Core_Python_Technovalley.html">Core Python</a></li>
-                      <li><a href="/courses_templates/DevOps_Engineer_Technovalley.html">DevOps Engineer</a></li>
-                      <li><a href="/courses_templates/Digital_Marketing_Expert_technovalley.html">Digital Marketing</a>
-                      </li>
-                      <li><a href="#">Java FullStack</a></li>
-                      <li><a href="/courses_templates/mean stack.html">Mean stack Developer</a></li>
-                      <li><a href="/courses_templates/MERN-Stack_technovalley.html">Mern stack Developer</a></li>
-                      <li><a href="/courses_templates/MongoDB_Expert_Technovalley.html">Mongo DB Expert</a></li>
-                      <li><a href="/courses_templates/python.html">Pyhton Advanced</a></li>
-                      <li><a href="/courses_templates/python-fullstack-developer_technovalley.html">Pyhton FullStack</a>
-                      </li>
-                      <li><a href="/courses_templates/react-js.html">React JS</a></li>
-                      <li><a href="#">Advanced Java</a></li>
-                      <li><a href="/courses_templates/phpcourses.html">PHP Laravel</a></li>
-                    </ul>
+        <!-- Card #3, Professional -->
+      </div>
+    </div>
+    <div class="techno">
+      <h3 class="text-center">Why choose us ?</h3>
+    </div>
+    <div class="aboutDataWrapper">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <div class="aboutImage">
+            <img style="float: left; width: 100%" src="/assets/img/bwvs.png" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <p class="aboutData">
+            <br />
+            With over two decades of experience in the software industry,
+            <span class="aboutSubHead">Technovalley</span> Africa's team is made
+            up of experts who bring a wealth of knowledge and experience to the
+            institution.
+          </p>
+        </div>
+
+        <!-- Card #2, Intermediate -->
+
+        <!-- Card #3, Professional -->
+      </div>
+
+      <div class="row">
+        <div class="col-12 responsiveImg">
+          <div class="aboutImage">
+            <img style="float: right; width: 100%" src="/img/yrlw.png" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <p class="aboutData">
+            <br />
+
+            Our experienced team of professionals analyse the market, industry
+            trends and student demand to provide the best education and training
+            to our students.
+          </p>
+        </div>
+
+        <!-- Card #2, Intermediate -->
+
+        <!-- Card #3, Professional -->
+        <div class="col-6 standardImg">
+          <div class="aboutImage">
+            <img style="float: right; width: 100%" src="/img/yrlw.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <div class="aboutImage">
+            <img style="float: left; width: 100%" src="/img/lzxv.png" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 bthh">
+          <p class="aboutData">
+            <br />
+            <span class="aboutSubHead">Technovalley</span> Africa's commitment
+            to quality is reflected in everything we do, from our
+            state-of-the-art facilities and equipment to our expert faculty and
+            innovative curriculum.
+          </p>
+        </div>
+
+        <!-- Card #2, Intermediate -->
+
+        <!-- Card #3, Professional -->
+      </div>
+
+      <div class="row">
+        <div class="col-12 responsiveImg">
+          <div class="aboutImage">
+            <img
+              style="float: right; width: 100%"
+              src="/assets/img/bwldf.png"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 bthh">
+          <p class="aboutData">
+            <br />
+
+            <span class="aboutSubHead">Technovalley</span> Africa offers a wide
+            range of programs and courses, from traditional degree programs to
+            specialized training in cutting-edge technology.
+          </p>
+        </div>
+
+        <!-- Card #2, Intermediate -->
+
+        <!-- Card #3, Professional -->
+        <div class="col-6 standardImg">
+          <div class="aboutImage">
+            <img
+              style="float: right; width: 100%"
+              src="/assets/img/bwldf.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+
+    <!-- Footer -->
+
+    <!-- footer start -->
+    <!-- ======= FOOTER START ======= -->
+
+    <!-- Footer -->
+
+    <footer
+      class="text-center text-lg-start bg-light text-muted"
+      style="
+        background-image: url(..//assets/img/footer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <!-- Section: Links  -->
+      <section class="courses">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-6 col-xl-4 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Courses Links
+              </h6>
+              <div
+                class="courses-footer"
+                style="white-space: nowrap !important"
+              >
+                <div class="d-flex align-items-start responsive-tab-menu">
+                  <ul
+                    class="nav flex-column nav-pills nav-tabs-dropdown me-3"
+                    id="v-pills-tab"
+                    role="tablist"
+                    aria-orientation="vertical"
+                  >
+                    <li class="nav-item">
+                      <a
+                        class="nav-link text-start active"
+                        href="#"
+                        id="v-pills-home-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home"
+                        role="tab"
+                        aria-controls="v-pills-home"
+                        aria-selected="true"
+                        >IT Emerging Technologies
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link text-start"
+                        href="#"
+                        id="v-pills-profile-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile"
+                        role="tab"
+                        aria-controls="v-pills-profile"
+                        aria-selected="false"
+                      >
+                        Cyber Security
+                        <span class="mblw" style="float: right"> V </span>
+                      </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a
+                        class="nav-link text-start"
+                        href="#"
+                        id="v-pills-contact1-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-contact"
+                        role="tab"
+                        aria-controls="v-pills-profile"
+                        aria-selected="false"
+                      >
+                        Metaverse
+                      </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a
+                        class="nav-link text-start"
+                        href="#"
+                        id="v-pills-contact2-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-contact"
+                        role="tab"
+                        aria-controls="v-pills-profile"
+                        aria-selected="false"
+                      >
+                        Infrastructure
+                      </a>
+                    </li>
+                  </ul>
+
+                  <div
+                    class="tab-content responsive-tab-content"
+                    id="v-pills-tabContent"
+                    style="width: 100%"
+                  >
+                    <div
+                      class="tab-pane fade show active courseListFooter"
+                      id="v-pills-home"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-home-tab"
+                      tabindex="0"
+                    >
+                      <ul
+                        class="list-unstyled quick-links"
+                        style="margin-left: 0"
+                      >
+                        <li class="footerListItem">
+                          <a href="/courses_templates/AI&MI_technovalley.html"
+                            >AI & ML</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a href="/courses_templates/angukar js.html"
+                            >Angular JS Expert</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a
+                            href="/courses_templates/Bigdata&Hadoop_Technovalley.html"
+                            >Big Data & Hadoop</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a
+                            href="/courses_templates/Business_Data_Analyst_Technovalley.html"
+                            >Business Data Analyist</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a
+                            href="/courses_templates/Core_Python_Technovalley.html"
+                            >Core Python</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a
+                            href="/courses_templates/DevOps_Engineer_Technovalley.html"
+                            >DevOps Engineer</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a
+                            href="/courses_templates/Digital_Marketing_Expert_technovalley.html"
+                            >Digital Marketing</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a href="#">Java FullStack</a>
+                        </li>
+                        <li class="footerListItem">
+                          <a href="/courses_templates/mean stack.html"
+                            >Mean stack Developer</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a
+                            href="/courses_templates/MERN-Stack_technovalley.html"
+                            >Mern stack Developer</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a
+                            href="/courses_templates/MongoDB_Expert_Technovalley.html"
+                            >Mongo DB Expert</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a href="/courses_templates/python.html"
+                            >Pyhton Advanced</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a
+                            href="/courses_templates/python-fullstack-developer_technovalley.html"
+                            >Pyhton FullStack</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a href="/courses_templates/react-js.html"
+                            >React JS</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a href="#">Advanced Java</a>
+                        </li>
+                        <li class="footerListItem">
+                          <a href="/courses_templates/phpcourses.html"
+                            >PHP Laravel</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-profile"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-profile-tab"
+                      tabindex="0"
+                    >
+                      <ul class="list-unstyled quick-links">
+                        <li class="footerListItem">
+                          <a
+                            href="/courses_templates/Malware _Analyst_Technovalley.html"
+                            >Malware Analyist</a
+                          >
+                        </li>
+                        <li class="footerListItem">
+                          <a href="#">Threat Hunter</a>
+                        </li>
+                        <li class="footerListItem">
+                          <a href="#">SOC Professional</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-contact"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-profile-tab"
+                      tabindex="0"
+                    >
+                      <ul class="list-unstyled quick-links">
+                        <!-- <li><a href="#">IT Infrastructure</a></li>
+                  <li><a href="#">Metaverse</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Get Started</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Get Started</a></li>
+                  <li><a href="#">Videos</a></li>
+                  <li>
+                    Technovalley Africa<br> Proprietory Limited,Plot No. 53609/4,First Floor,<a href="#">FAQ</a></li>
+                  <li><a href="#">Videos</a></li> -->
+                      </ul>
+                    </div>
+
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-contact1"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-profile-tab"
+                      tabindex="0"
+                    >
+                      <ul class="list-unstyled quick-links">
+                        <!-- 
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Get Started</a></li>
+                  <li><a href="#">Videos</a></li> -->
+                      </ul>
+                    </div>
+
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-contact2"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-profile-tab"
+                      tabindex="0"
+                    >
+                      Contact content
+                    </div>
                   </div>
-                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                    tabindex="0">
-                    <ul class="list-unstyled quick-links">
-                      <li><a href="/courses_templates/Malware _Analyst_Technovalley.html">Malware Analyist</a></li>
-                      <li><a href="#">Threat Hunter</a></li>
-                      <li><a href="#">SOC Professional</a></li>
-
-                    </ul>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                    tabindex="0">
-
-
-
-                    <ul class="list-unstyled quick-links">
-                      <!-- <li><a href="#">IT Infrastructure</a></li>
-                    <li><a href="#">Metaverse</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Get Started</a></li>
-
-
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Get Started</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li>
-                      Technovalley Africa<br> Proprietory Limited,Plot No. 53609/4,First Floor,<a href="#">FAQ</a></li>
-
-                    <li><a href="#">Videos</a></li> -->
-                    </ul>
-
-                  </div>
-
-
-
-
-
-                  <div class="tab-pane fade" id="v-pills-contact1" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                    tabindex="0">
-                    <ul class="list-unstyled quick-links">
-                      <!-- 
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Get Started</a></li>
-                    <li><a href="#">Videos</a></li> -->
-                    </ul>
-                  </div>
-
-
-
-
-
-                  <div class="tab-pane fade" id="v-pills-contact2" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                    tabindex="0">Contact content</div>
-
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Grid column -->
+            <!-- Grid column -->
 
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Quick Links
-            </h6>
-            <p>
-              <a href="index.html#portfolio" class="text-white">Courses</a>
-            </p>
-            <p>
-              <a href="#" class="text-white">About</a>
-            </p>
-            <p>
-              <a href="#" class="text-white">Blob</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Contact Us</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <img src="/img/footer-logo.png" style="margin-bottom: 2em;" alt="">
-
-            <div class="fb-page" data-href="https://www.facebook.com/technovalleyAKS/" data-tabs="timeline"
-              data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
-              data-hide-cover="false"
-              style="width: 100%; height: 200px; overflow: hidden; position: relative; margin: 0px; padding: 0px; border: none; transform: translateZ(0px); background: transparent;"
-              data-show-facepile="true">
-              <blockquote cite="https://www.facebook.com/technovalleyAKS/" class="fb-xfbml-parse-ignore"><a
-                  href="https://www.facebook.com/technovalleyAKS/">Technovalley - Advanced Knowledge Services</a>
-              </blockquote>
+            <!-- Grid column -->
+            <div
+              class="col-md-1 col-lg-1 col-xl-2 quickLink"
+              style="white-space: nowrap !important"
+            >
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Quick Links</h6>
+              <p>
+                <a href="index.html#portfolio" class="text-white">Courses</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">About</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Blob</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Contact Us</a>
+              </p>
             </div>
+            <!-- Grid column -->
 
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <img
+                src="/img/footer-logo.png"
+                style="margin-bottom: 2em"
+                alt=""
+              />
 
+              <div
+                class="fb-page"
+                data-href="https://www.facebook.com/technovalleyAKS/"
+                data-tabs="timeline"
+                data-width=""
+                data-height=""
+                data-small-header="false"
+                data-adapt-container-width="true"
+                data-hide-cover="false"
+                style="
+                  width: 100%;
+                  height: 200px;
+                  max-width: 200px;
+                  overflow: hidden;
+                  position: relative;
+                  margin: 0px;
+                  padding: 0px;
+                  border: none;
+                  transform: translateZ(0px);
+                  background: transparent;
+                "
+                data-show-facepile="true"
+              >
+                <blockquote
+                  cite="https://www.facebook.com/technovalleyAKS/"
+                  class="fb-xfbml-parse-ignore"
+                >
+                  <a href="https://www.facebook.com/technovalleyAKS/"
+                    >Technovalley - Advanced Knowledge Services</a
+                  >
+                </blockquote>
+              </div>
+            </div>
+            <!-- Grid column -->
 
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                <i class="fa fa-map-marker"></i> Technovalley Africa Proprietory
+                Limited,Plot No. 53609/4,First Floor,<br />
+                Gaborone West, Gaborone, Botswana.
+              </p>
+              <p>
+                <i class="fa fa-envelope"></i>
+                enquiry@technovalleyafrica.com
+              </p>
+              <p><i class="fa fa-phone"></i> +91 91234 09876</p>
+              <p><i class="fa fa-clock-o"></i> <b>Work Time</b></p>
+              <p>Mon - Fri: 08.00 - 16.00. <br />Sat: 10.00 - 14.00</p>
+            </div>
+            <!-- Grid column -->
           </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fa fa-map-marker"></i> Technovalley Africa Proprietory Limited,Plot No. 53609/4,First
-              Floor,<br> Gaborone West, Gaborone, Botswana.</p>
-            <p>
-              <i class="fa fa-envelope"></i>
-              enquiry@technovalleyafrica.com
-            </p>
-            <p><i class="fa fa-phone"></i> +91 91234 09876</p>
-            <p> <i class="fa fa-clock-o"></i> <b>Work Time</b></p>
-            <p>Mon - Fri: 08.00 - 16.00. <br>Sat: 10.00 - 14.00</p>
-          </div>
-          <!-- Grid column -->
+          <!-- Grid row -->
         </div>
-        <!-- Grid row -->
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05); padding: 3em !important"
+      >
+        <div class="footerSocialMedia">
+          <i
+            ><img src="https://img.icons8.com/color/48/null/facebook-new.png"
+          /></i>
+          <i>
+            <img src="https://img.icons8.com/fluency/48/null/instagram-new.png"
+          /></i>
+          <i>
+            <img src="https://img.icons8.com/color/48/null/twitter--v1.png"
+          /></i>
+          <i
+            ><img src="https://img.icons8.com/color/48/null/gmail--v1.png"
+          /></i>
+        </div>
+        <div class="CopyrightFooter">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="">Technovalley Africa</a>
+        </div>
       </div>
-    </section>
-    <!-- Section: Links  -->
+      <!-- Copyright -->
+    </footer>
 
-    <!-- Copyright -->
-   <div class="text-center p-4"  style="background-color: rgba(0, 0, 0, 0.05); padding: 3em !important;">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="">Technovalley Africa</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
+    <!-- footer ends -->
 
+    <!-- footer end -->
 
- <style>
-    .nav {
-      --bs-nav-link-color: #fff;
-    }
+    <style>
+      .nav {
+        --bs-nav-link-color: #fff;
+      }
 
-    .list-unstyled a {
-      color: #fff;
-    }
+      .list-unstyled a {
+        color: #fff;
+      }
 
-    .list-unstyled li {
-      list-style-type: circle;
-    }
+      .list-unstyled li {
+        list-style-type: circle;
+      }
 
-    .list-unstyled {
-      margin-left: 20px;
-    }
-  </style>
-   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v16.0"
-   nonce="uWPCIL4c"></script>
-  <!-- Footer -->
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+      .list-unstyled {
+        margin-left: 20px;
+      }
+    </style>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v16.0"
+      nonce="uWPCIL4c"
+    ></script>
+    <!-- Footer -->
 
-  
-  
-  
     <!-- ======= Pricing Section ======= -->
-   
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-   
+
     <!-- ======= Contact Section ======= -->
-  
-  </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
- 
+    <!-- End #main -->
 
-  <!-- Vendor JS Files -->
-  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="/assets/vendor/aos/aos.js"></script>
-  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="/assets/vendor/php-email-form/validate.js"></script>
+    <!-- ======= Footer ======= -->
 
+    <!-- Vendor JS Files -->
+    <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="/assets/vendor/aos/aos.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="/assets/vendor/php-email-form/validate.js"></script>
 
-   <!-- Template Main JS File -->
-   <script src="/assets/js/main.js"></script>
-
-  
-
-  
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>
