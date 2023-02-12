@@ -33,6 +33,7 @@
 .courseDuration {
   line-height: normal !important;
 }
+
 @media screen and (max-width: 1000px) {
   .requisiteIcons {
     display: none;
