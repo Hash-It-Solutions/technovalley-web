@@ -296,6 +296,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+  font-weight: bold;
 }
 
 .navbar a i,
@@ -330,6 +331,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover > a {
   color: #3a4451;
+  font-weight: bold;
 }
 
 .navbar .dropdown ul {
@@ -519,9 +521,10 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   height: 85vh;
-  background: url(../img/hero-bg.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/bg1.jpg);
   background-size: cover;
   position: relative;
+  justify-content: right;
 }
 
 #hero:before {
