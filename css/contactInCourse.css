@@ -1,0 +1,56 @@
+.courseContactDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactCourseLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactCourseRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.technoGreen {
+  color: green;
+}
+.contactUsWrapper {
+  background-color: #afe1d8;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.contactTitle {
+  font-weight: 600;
+}
+.contactUsDesc {
+  font-weight: 700;
+}
+.contactUsDescDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+}
+.contactUsWrapper {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+@media screen and (max-width: 768px) {
+  .contactUsWrapper {
+    margin: 0;
+  }
+  .contactUsDescDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+}
+.contactLeftText {
+  font-weight: 700;
+}
