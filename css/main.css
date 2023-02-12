@@ -1971,38 +1971,38 @@ display:none;
 } */
 
 
-.scrollbar
+/* .scrollbar
 {
-	margin-left: 30px;
+	margin-left: 30px; */
 	/* float: left; */
-	height: 300px;
-	width: 100%;
+	/* height: 300px;
+	width: 100%; */
 	/* background: #F5F5F5; */
 	/* overflow-y: scroll; */
-	margin-bottom: 25px;
+	/* margin-bottom: 25px;
   
-}
-footer .nav-pills{
+} */
+/* footer .nav-pills{ */
   /* border-right: 1px solid red; */
-  padding-right: 20px;
-  height: 300px;
-}
+  /* padding-right: 20px; */
+  /* height: 300px; */
+/* } */
 
 /* .force-overflow
 {
 	min-height: 450px;
 } */
-footer .quick-links li{
+/* footer .quick-links li{
   width: 50%;
-}
+} */
 
-.tab-content{
-  display: none;
+/* .tab-content{ */
+  /* display: none; */
   /* background: #ededed; */
-  padding: 15px;
-}
+  /* padding: 15px; */
+/* } */
 
-.tab-content .current{
+/* .tab-content .current{
   display: inherit;
 }
 
@@ -2043,4 +2043,4 @@ ul.tabs li.current{
 .gallery .button-style{
   margin: 0 auto;
   display: block;
-}
+} */
