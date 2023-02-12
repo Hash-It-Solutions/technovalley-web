@@ -523,11 +523,45 @@ h6 {
   height: 85vh;
   background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/bg1.jpg);
   background-size: cover;
-  position: relative;
+  /* position: relative; */
   justify-content: right;
+  height: 80vh;
+  font-family: "Branding", sans-serif;
+}
+#hero .hero-form form{
+  width: 330px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #fff;
+}
+#hero .form-check label{
+  font-size: 11px;
+  /* margin-left: 3px!important; */
+}
+#hero .form-check .form-check-input{
+  width: 15px!important;
+  height: 10px!important;
+  border-radius: 0;
+}
+#hero form .input-field input::placeholder{
+  font-size: 13px;
+  color: #cccccc;
+}
+#hero form .input-field input{
+  font-size: 13px;
+  border-radius: 3px;
+  padding: 10px!important;
+  border-color: #ebebeb;
+}
+#hero form  button{
+  font-size: 12px;
+  margin: 0 auto;
+  display: block;
 }
 
-#hero:before {
+/* #hero:before {
   content: "";
 
   position: absolute;
@@ -539,7 +573,7 @@ h6 {
 
 #hero .container {
   position: relative;
-}
+} */
 
 #hero h1 {
   margin: 0;
@@ -607,14 +641,21 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 24vh !important;
+    height: 100%!important;
+    flex-wrap: wrap;
+    display: block;
+    text-align: center!important;
   }
 
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
-
+  #hero .hero-form form{
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px!important;
+  }
   #hero h2 {
     font-size: 18px;
     line-height: 24px;

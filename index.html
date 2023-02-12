@@ -223,38 +223,53 @@
 
 
 
-  <!-- ======= banner Section ======= -->
-  <section id="hero" class="d-flex justify-content-end">
-    <div class="container" data-aos="zoom-out" data-aos-delay="1000 ">
-
-
-      <div class="row">
-        <div class="row top-padding">
-          <div class="d-flex justify-content-end">
-
-            <div class="caption justify-content-end  align-items-right">
-              <span class="brand"></span>
-              <span class="keyword" id="demo" style="font-size: 80px; font-weight: bolder;"></span>
-              <span class='type-cursor' style="font-size: 80px; font-weight: bolder; color: #00a388;">| </span> <sup>
-              </sup> <span class="africa" style="font-size: 80px; font-weight: bolder; color: #ffffff; text-align: right;">Africa's</span>
-              <div class="cap2" style="font-size: 40px; font-weight: 500; color: #ffffff;">Next generation of leaders
-              </div>
-              <div class="desc mx-auto text-end"
-                style="font-size: 20px; font-weight: 200; color: #ffffff;  ;">Technovalley
-                Software India Private Limited, with over two decades of experience in the software industry, is
-                thrilled to announce the launch of Technovalley Africa.</div>
-            </div>
+  <section id="hero"  class=" justify-content-end d-flex">
+    <div class="container-fluid "  data-aos="zoom-out" data-aos-delay="1000 ">
+      <div class="top-padding">
+        <div class="row">
+          <div class="col-lg-8">
+              <div class="caption   align-items-right">
+                <span class="brand"></span>
+                <span class="keyword" id="demo" style="font-size: 80px; font-weight: bolder;"></span>
+                <span class='type-cursor' style="font-size: 80px; font-weight: bolder; color: #00a388;">| </span> <sup>
+                </sup> <span class="africa" style="font-size: 80px; font-weight: bolder; color: #ffffff; text-align: right;">Africa's</span>
+                <div class="cap2" style="font-size: 40px; font-weight: 500; color: #ffffff;">Next generation of leaders</div>
+                <div class="desc mx-auto text-end"
+                  style="font-size: 20px; font-weight: 200; color: #ffffff;  ;">Technovalley
+                  Software India Private Limited, with over two decades of experience in the software industry, is
+                  thrilled to announce the launch of Technovalley Africa.
+                  <div class="enq-btn">
+                    <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
+                  </div>
+                </div>
+              </div>  
           </div>
-          <div class="enquire-btn">
-            <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
+          <div class="col-lg-4">
+            <div class="hero-form">
+              <form>
+                <div class="input-field">
+                  <h5 class="fw-bold text-center mt-3 mb-3">Enquiry Form</h5>
+                  <div class="form-group mb-3">
+                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="namelHelp" placeholder="Enter Full Name">
+                  </div>
+                  <div class="form-group mb-3">
+                    <input type="tel" class="form-control" id="exampleInputTel" aria-describedby="tellHelp" placeholder="Mobile Number">
+                  </div>
+                  <div class="form-group mb-3">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email id">
+                  </div>
+                </div>
+                <div class="form-check  mb-3 d-flex">
+                  <input type="checkbox" class="form-check-input me-3" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I Agree to receive communication via Email, SMS & WhatsApp from Technovalley Software Consulting</label>
+                </div>
+                <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-      
     </div>
-
-
-
   </section>
 
 
@@ -372,10 +387,16 @@
       text-align: right;
 
     }
-    
+    @media (max-width: 991px){
+      .desc{
+      text-align: center!important;
+      width: 100%;
+      float: center;
+    }
+    }
     .desc{
       text-align: right!important;
-      width: 60%;
+      width: 90%;
       float: right;
     }
     .head-color{

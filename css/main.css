@@ -654,9 +654,10 @@ background-size:cover !important;
 
 
 
-#hero {
+/* #hero {
   height: 50vh !important;
-}
+  display: block;
+} */
 
 #topbar {
   font-size: 9px !important;
@@ -704,7 +705,7 @@ background-size:cover !important;
  font-family: Poppins!important;
 }
 .caption{
-  text-align: right!important;
+  text-align: center!important;
 }
 
 
@@ -1847,6 +1848,9 @@ background: rgba(255, 140, 66, 0.2);
   .top-padding{
     margin-top: 80px!important;
   }
+  .cap2{
+    text-align: center!important;
+   }
 }
 .type-cursor{
   text-align: right!important;
@@ -1857,10 +1861,10 @@ background: rgba(255, 140, 66, 0.2);
  .desc{
   color: red;
  }
- .enquire-btn button{
-  float: right;
-  display: block;
-  margin-top: 20px;
+ .enq-btn button{
+  float: right!important;
+  display: block!important;
+  margin-top: 20px!important;
  }
 
 @media only screen and (max-width: 600px){
@@ -1907,6 +1911,8 @@ display:none;
   justify-content: center;
   align-items:center ;
   transition: 0.3s ease;
+  position: relative;
+  margin-top: -55px;
 }
 .home-cards .card:hover{
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
@@ -1926,8 +1932,14 @@ display:none;
   .home-cards .top-margin{
     margin-top: 10px;
   }
+  .home-cards .card{
+    margin: 0 auto;
+    margin-top: auto;
+  }
   .home-cards{
     padding: 10px;
+    margin: 0 auto;
+    margin-top: auto;
   }
 }
 .find-course{
