@@ -1,0 +1,46 @@
+.contactHead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contactHead h4 {
+  margin-bottom: 0;
+  margin-left: 0.5em;
+  color: #00a88e;
+}
+.contactHead i {
+  font-size: 26px;
+  color: #f26522;
+}
+
+.single_address {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+/* .single_address p {
+  text-align: center;
+} */
+.getInTouch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .single_address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .single_address p {
+    text-align: center;
+  }
+  .getInTouch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
