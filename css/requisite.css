@@ -33,27 +33,7 @@
 .courseDuration {
   line-height: normal !important;
 }
-.banner-java {
-  position: relative;
-}
-.enquiryForm {
-  position: absolute;
-  right: 25vw;
-  top: 10px;
-  max-width: 30em;
-  z-index: 999;
-}
-@media screen and (max-width: 600px) {
-  .enquiryForm {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50vw;
-    margin: auto;
-    max-width: 20em;
-    z-index: 999;
-  }
-}
+
 @media screen and (max-width: 1000px) {
   .requisiteIcons {
     display: none;
