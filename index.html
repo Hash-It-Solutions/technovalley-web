@@ -41,9 +41,12 @@
 
 
 
-
-
-
+<!-- --------------------achieve index-carousel--------------------- -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<!-- --------------------achieve index-carousel--------------------- -->
 
 
   <link rel="stylesheet" href="/css/normalize.css">
@@ -223,57 +226,62 @@
 
 
 
-  <section id="hero"  class=" justify-content-end d-flex">
-    <div class="container-fluid "  data-aos="zoom-out" data-aos-delay="1000 ">
-      <div class="top-padding">
-        <div class="row">
-          <div class="col-lg-8">
-              <div class="caption   align-items-right">
-                <span class="brand"></span>
-                <span class="keyword" id="demo" style="font-size: 80px; font-weight: bolder;"></span>
-                <span class='type-cursor' style="font-size: 80px; font-weight: bolder; color: #00a388;">| </span> <sup>
-                </sup> <span class="africa" style="font-size: 80px; font-weight: bolder; color: #ffffff; text-align: right;">Africa's</span>
-                <div class="cap2" style="font-size: 40px; font-weight: 500; color: #ffffff;">Next generation of leaders</div>
-                <div class="desc mx-auto text-end"
-                  style="font-size: 20px; font-weight: 200; color: #ffffff;  ;">Technovalley
-                  Software India Private Limited, with over two decades of experience in the software industry, is
-                  thrilled to announce the launch of Technovalley Africa.
-                  <div class="enq-btn">
-                    <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
-                  </div>
+ <!-- ======= banner Section ======= -->
+ <section id="hero"  class=" justify-content-end d-flex">
+  <div class="container-fluid "  data-aos="zoom-out" data-aos-delay="1000 ">
+    <div class="top-padding">
+      <div class="row">
+        <div class="col-lg-8">
+            <div class="caption   align-items-right">
+              <span class="brand"></span>
+              <span class="keyword" id="demo" style="font-size: 80px; font-weight: bolder;"></span>
+              <span class='type-cursor' style="font-size: 80px; font-weight: bolder; color: #00a388;">| </span> <sup>
+              </sup> <span class="africa" style="font-size: 80px; font-weight: bolder; color: #ffffff; text-align: right;">Africa's</span>
+              <div class="cap2" style="font-size: 40px; font-weight: 500; color: #ffffff;">Next generation of leaders</div>
+              <div class="desc mx-auto text-end"
+                style="font-size: 20px; font-weight: 200; color: #ffffff;  ;">Technovalley
+                Software India Private Limited, with over two decades of experience in the software industry, is
+                thrilled to announce the launch of Technovalley Africa.
+                <div class="enq-btn mt-3">
+                  <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
                 </div>
-              </div>  
-          </div>
-          <div class="col-lg-4">
-            <div class="hero-form">
-              <form>
-                <div class="input-field">
-                  <h5 class="fw-bold text-center mt-3 mb-3">Enquiry Form</h5>
-                  <div class="form-group mb-3">
-                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="namelHelp" placeholder="Enter Full Name">
-                  </div>
-                  <div class="form-group mb-3">
-                    <input type="tel" class="form-control" id="exampleInputTel" aria-describedby="tellHelp" placeholder="Mobile Number">
-                  </div>
-                  <div class="form-group mb-3">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email id">
-                  </div>
+              </div>
+            </div>  
+        </div>
+        <div class="col-lg-4">
+          <div class="hero-form">
+            <form>
+              <div class="input-field">
+                <h5 class="fw-bold text-center mt-3 mb-3">Enquiry Form</h5>
+                <div class="form-group mb-3">
+                  <input type="text" class="form-control" id="exampleInputName" aria-describedby="namelHelp" placeholder="Enter Full Name">
                 </div>
-                <div class="form-check  mb-3 d-flex">
-                  <input type="checkbox" class="form-check-input me-3" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">I Agree to receive communication via Email, SMS & WhatsApp from Technovalley Software Consulting</label>
+                <div class="form-group mb-3">
+                  <input type="tel" class="form-control" id="exampleInputTel" aria-describedby="tellHelp" placeholder="Mobile Number">
                 </div>
-                <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
-              </form>
-            </div>
+                <div class="form-group mb-3">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email id">
+                </div>
+              </div>
+              <div class="form-check  mb-3 d-flex">
+                <input type="checkbox" class="form-check-input me-3" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I Agree to receive communication via Email, SMS & WhatsApp from Technovalley Software Consulting</label>
+              </div>
+              <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+
+
   </section>
 
 
-  <div class="home-cards">
+  <div class="home-cards d-none d-md-block">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -387,16 +395,10 @@
       text-align: right;
 
     }
-    @media (max-width: 991px){
-      .desc{
-      text-align: center!important;
-      width: 100%;
-      float: center;
-    }
-    }
+    
     .desc{
       text-align: right!important;
-      width: 90%;
+      width: 60%;
       float: right;
     }
     .head-color{
@@ -552,7 +554,11 @@
       padding-top: 30px;
       padding-bottom: 50px;
     }
-
+    @media (max-width:991px){
+      .block {
+        margin-top: 500px;
+      }
+    }
     .animation {
       width: auto;
       height: 100px;
@@ -978,7 +984,7 @@
           </a>
         </div>
 
-
+        <button type="button" class="btn btn-warning button-style">READ MORE</button>
 
 
       </div>
@@ -1090,6 +1096,76 @@
     </div>
 
   </div>
+
+
+
+  <section class="client-testimonial">
+      <div class="container">
+        <h5 style="font-size: 40px; text-align: center; " class="fw-bold">Look What <span style="color: #00cba9;" class=" fw-bold">People</span> <br>
+          Says
+        </h5>
+        <div class="slider">
+          <input type="radio" name="testimonial" id="t-1">
+          <input type="radio" name="testimonial" id="t-2">
+          <input type="radio" name="testimonial" id="t-3" checked>
+          <input type="radio" name="testimonial" id="t-4">
+          <input type="radio" name="testimonial" id="t-5">
+          <div class="testimonials">
+            <label class="item" for="t-1">
+              <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+              <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+              <h2>- Princy, Web Developer</h2>
+            </label>
+            <label class="item" for="t-2">
+              <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+              <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+              <h2>- Princy, Web Developer</h2>
+            </label>
+            <label class="item" for="t-3" >
+              <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+              <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+              <h2>- Princy, Web Developer</h2>
+            </label>
+            <label class="item" for="t-4">
+              <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+              <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+              <h2>- Princy, Web Developer</h2>
+            </label>
+            <label class="item" for="t-5">
+              <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+              <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+              <h2>- Princy, Web Developer</h2>
+            </label>
+            <label class="item" for="t-5">
+              <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+              <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+              <h2>- Princy, Web Developer</h2>
+            </label>
+            <label class="item" for="t-5">
+              <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+              <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+              <h2>- Princy, Web Developer</h2>
+            </label>
+            <label class="item" for="t-5">
+              <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+              <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+              <h2>- Princy, Web Developer</h2>
+            </label>
+          </div>
+          <div class="dots">
+            <label for="t-1"></label>
+            <label for="t-2"></label>
+            <label for="t-3"></label>
+            <label for="t-4"></label>
+            <label for="t-5"></label>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
 
   <div class="container">
     <div class="row">
@@ -1716,23 +1792,106 @@
   </script>
 
 
-<section class="find-course">
+<!-- ---------------------achieve start---------------------- -->
+
+<section class="achieve-internn">
   <div class="container">
-    <div class="row justify-content-center ">
-      <div class="col-lg-7">
-        <div class="find-course-contents">
-          <h4 style="font-size: 40px; " class="fw-bold">Find Your <span style="color: #00cba9;" class=" fw-bold">Course</span> That <br>
-            Makes Bright Future 
-          </h4>
-          <button type="button" class="btn btn-warning button-style mt-4">GET STARTED</button>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+               
+                <div class="testimonial-item equal-height style-6" style="height: 254px;">
+                    <div class="testimonial-image cell-left">
+                        <img src="http://tivatheme.com/wordpress/wp-content/plugins/tiva-testimonials-slider/images/agnes.jpg" alt="Agnes A. Bell">
+                    </div>
+                    <div class="cell-right">
+                        <div class="testimonial-name">Agnes A. Bell
+                        </div>
+                        <div class="testimonial-job">Assistant Project Manager
+                        </div>
+                    </div>
+                    <div class="testimonial-content quote"><i class="fa fa-quote-left">  
+                        </i>This is one of the best WordPress themes I have used. All aspects are exactly what experienced designers and developers crave from a theme.
+                    </div>
+                </div>
+                <div class="testimonial-item equal-height style-6" style="height: 254px;">
+                    <div class="testimonial-image cell-left">
+                        <img src="http://tivatheme.com/wordpress/wp-content/plugins/tiva-testimonials-slider/images/agnes.jpg" alt="Agnes A. Bell">
+                    </div>
+                    <div class="cell-right">
+                        <div class="testimonial-name">Agnes A. Bell
+                        </div>
+                        <div class="testimonial-job">Assistant Project Manager
+                        </div>
+                    </div>
+                    <div class="testimonial-content quote"><i class="fa fa-quote-left">  
+                        </i>This is one of the best WordPress themes I have used. All aspects are exactly what experienced designers and developers crave from a theme.
+                    </div>
+                </div>
+                <div class="testimonial-item equal-height style-6" style="height: 254px;">
+                    <div class="testimonial-image cell-left">
+                        <img src="http://tivatheme.com/wordpress/wp-content/plugins/tiva-testimonials-slider/images/agnes.jpg" alt="Agnes A. Bell">
+                    </div>
+                    <div class="cell-right">
+                        <div class="testimonial-name">Agnes A. Bell
+                        </div>
+                        <div class="testimonial-job">Assistant Project Manager
+                        </div>
+                    </div>
+                    <div class="testimonial-content quote"><i class="fa fa-quote-left">  
+                        </i>This is one of the best WordPress themes I have used. All aspects are exactly what experienced designers and developers crave from a theme.
+                    </div>
+                </div>
+                <div class="testimonial-item equal-height style-6" style="height: 254px;">
+                    <div class="testimonial-image cell-left">
+                        <img src="http://tivatheme.com/wordpress/wp-content/plugins/tiva-testimonials-slider/images/agnes.jpg" alt="Agnes A. Bell">
+                    </div>
+                    <div class="cell-right">
+                        <div class="testimonial-name">Agnes A. Bell
+                        </div>
+                        <div class="testimonial-job">Assistant Project Manager
+                        </div>
+                    </div>
+                    <div class="testimonial-content quote"><i class="fa fa-quote-left">  
+                        </i>This is one of the best WordPress themes I have used. All aspects are exactly what experienced designers and developers crave from a theme.
+                    </div>
+                </div>
+                <div class="testimonial-item equal-height style-6" style="height: 254px;">
+                    <div class="testimonial-image cell-left">
+                        <img src="http://tivatheme.com/wordpress/wp-content/plugins/tiva-testimonials-slider/images/agnes.jpg" alt="Agnes A. Bell">
+                    </div>
+                    <div class="cell-right">
+                        <div class="testimonial-name">Agnes A. Bell
+                        </div>
+                        <div class="testimonial-job">Assistant Project Manager
+                        </div>
+                    </div>
+                    <div class="testimonial-content quote"><i class="fa fa-quote-left">  
+                        </i>This is one of the best WordPress themes I have used. All aspects are exactly what experienced designers and developers crave from a theme.
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-lg-5">
-        <img src="assets/img/Ry.png" alt="" class="img-fluid">
-      </div>
     </div>
-  </div>
+</div>
 </section>
+<script>
+      $(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[980,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:false,
+        navigationText:["",""],
+        autoPlay:true
+    });
+});
+</script>
+
+<!-- ---------------------achieve end---------------------- -->
+
 
 
   <!-- <div class="lmw">
@@ -2066,6 +2225,8 @@
       color: #00a388;
     }
   </style>
+
+  
 </body>
 
 </html>

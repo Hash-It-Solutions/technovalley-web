@@ -525,7 +525,7 @@ h6 {
   background-size: cover;
   /* position: relative; */
   justify-content: right;
-  height: 80vh;
+  height: 70vh;
   font-family: "Branding", sans-serif;
 }
 #hero .hero-form form{
@@ -641,7 +641,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 100%!important;
+    height: 100vh!important;
     flex-wrap: wrap;
     display: block;
     text-align: center!important;
