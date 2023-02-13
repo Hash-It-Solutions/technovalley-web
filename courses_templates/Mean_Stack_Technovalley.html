@@ -73,6 +73,9 @@
   <!-- requisite -->
   <link rel="stylesheet" href="/css/requisite.css">
   <link rel="stylesheet" href="/css/studentsEverywhere.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/hero.css">
+  <link rel="stylesheet" href="/css/contactInCourse.css">
   <!-- requisite -->
 
   <!-- tools required -->
@@ -102,6 +105,7 @@
 
   </script>
 </head>
+
 <body>
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
@@ -144,15 +148,62 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <div class="banner-mean">
-    <div class="container">
-      <!-- <p class="text-left"> Learn
-        Core & Advanced<br>
-        <span class="java">Mean Stack Programming </span>
-      </p> -->
+    <!-- ======= Hero Section ======= -->
+    <div class="banner-java">
+      <img src="/hero/advJava/Group 255java_bg_.svg" alt="" class="heroImg">
+      <div class="form-sec enquiryForm" style="box-shadow: none;">
+        <h4 class="text-center">Enquiry Form</h4>
+
+        <form name="qryform" id="qryform" method="post" action="mail.php" onSubmit="return(validate());"
+          novalidate="novalidate">
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+          </div>
+          <br>
+          <div class="form-group">
+
+            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
+          </div>
+          <br>
+
+          <button type="button" class="btn btn-warning col-12">ENQUIRE NOW</button>
+        </form>
+      </div>
+      <div class="courseDetailsLogo">
+        <img src="/hero/advJava/🦆 icon _java original wordmark_.svg" height="100" width="100" alt=""
+          class="courseLogo">
+        <img src="/hero/advJava/Group 180.svg" alt="" height="100" width="100" class="courseDuration">
+      </div>
+      <div class="heroTitleDiv">
+        <h1 class="learn">Learn</h1>
+        <h1 class="heroTitle"> Core & Advanced Mean stack Programming</h1>
+      </div>
     </div>
-  </div>
+
+    <!-- <style>
+  .banner-java {
+    /* Image Used */
+    background-image:url(../img/advanced_java/Group\ 248.png) !important;
+  }
+  </style> -->
+
+    <!-- ======= Hero Section ======= -->
 
 
 
@@ -161,87 +212,87 @@
 
 
 
-  <!-- Course Features START -->
+    <!-- Course Features START -->
 
-  <div class="container">
+    <div class="container courseDurationWrapper">
 
-    <div class="row ">
-      <div class="col-12 cr1">
+      <div class="row ">
+        <div class="col-12 cr1">
 
-        <div class="card">
+          <div class="card">
 
 
-          <div class="container yxu">
-            <div class="row">
-              <div class="col-md-6 ">
-                <h3>Course Features</h3>
-                <img src="/img/Line.png">
-                <table>
+            <div class="container yxu">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <h3>Course Features</h3>
+                  <img src="/img/Line.png">
+                  <table>
+                    <tr>
+                      <td class="lm">Course Features <span class="dots11">: </span></td>
+                      <th>Contact/Hybrid</th>
+
+                    <tr>
+
+                    <tr>
+                      <td>Topics <span class="dots11">: </span></td>
+                      <th>9</th>
+
+                      <!-- <tr>
+                    <td>Alfreds Futterkiste <span class="dots11">: </span></td>
+                    <th>Maria Anders</th>
+                  </tr>
                   <tr>
-                    <td class="lm">Course Features <span class="dots11">: </span></td>
-                    <th>Contact/Hybrid</th>
-
-                  <tr>
-
-                  <tr>
-                    <td>Topics <span class="dots11">: </span></td>
-                    <th>9</th>
-
-                    <!-- <tr>
-                  <td>Alfreds Futterkiste <span class="dots11">: </span></td>
-                  <th>Maria Anders</th>
-                </tr>
-                <tr>
-                  <td>Centro comercial <span class="dots11">: </span></td>
-                  <th>Francisco Chang</th>
-                </tr> -->
-                </table>
-
-              </div>
-
-
-              <div class="col-md-6">
-                <div>
-                  <div class="row durationDiv">
-                    <div class="col-md-4 col-12">
-                      <img src="/assets/icons/sppedorange.png">
-                    </div>
-                    <div class="col-md-8 col-12 ">
-                      <h3>Course Duration</h3>
-                      <img src="/img/Line.png">
-                      <p style="padding-top:12px;">Normal Track : &nbsp;<span style="color:#33A78F;"> 120 hours</span>
-                      </p>
-                      <P>
-                        2 hours class on alternate days (Monday, Wednesday, Friday (OR) Tuesday, Thursday, Saturday)
-
-                      </P>
-                    </div>
-
-
-                  </div>
+                    <td>Centro comercial <span class="dots11">: </span></td>
+                    <th>Francisco Chang</th>
+                  </tr> -->
+                  </table>
 
                 </div>
 
 
+                <div class="col-md-6">
+                  <div>
+                    <div class="row durationDiv">
+                      <div class="col-md-4 col-12">
+                        <img src="/assets/icons/sppedorange.png">
+                      </div>
+                      <div class="col-md-8 col-12 ">
+                        <h3>Course Duration</h3>
+                        <img src="/img/Line.png">
+                        <p style="padding-top:12px;">Normal Track : &nbsp;<span style="color:#33A78F;"> 120 hours</span>
+                        </p>
+                        <P>
+                          2 hours class on alternate days (Monday, Wednesday, Friday (OR) Tuesday, Thursday, Saturday)
+
+                        </P>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+
+
+                </div>
+
 
               </div>
 
-
             </div>
 
+
+
+
+
           </div>
-
-
-
-
-
         </div>
       </div>
+
     </div>
 
-  </div>
-
-  <!-- Course Features END -->
+    <!-- Course Features END -->
 
 
 
@@ -359,7 +410,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 tools-image-col">
           <br><br>
           <article>
 
@@ -541,52 +592,7 @@
       </div>
 
 
-      <div class="col-md-5">
-        <div>
-          <div class="row">
 
-
-            <div class="form-sec">
-              <h4>Enquiry Form</h4>
-
-              <form name="qryform" id="qryform" method="post" action="mail.php" onSubmit="return(validate());"
-                novalidate="novalidate">
-                <div class="form-group">
-
-                  <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
-                </div>
-                <br>
-                <div class="form-group">
-
-                  <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
-                </div>
-                <br>
-                <div class="form-group">
-
-                  <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
-                </div>
-                <br>
-                <div class="form-group">
-
-                  <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
-                </div>
-                <br>
-                <div class="form-group">
-
-                  <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
-                </div>
-                <br>
-
-                <button type="button" class="btn btn-warning col-md-12">ENQUIRE NOW</button>
-              </form>
-            </div>
-          </div>
-
-        </div>
-
-
-
-      </div>
       </section>
 
 
@@ -1438,6 +1444,38 @@
   </div>
 
   <!-- ======= CURRICULUM END ======= -->
+            <!-- contactus start -->
+          <div class="contactUsContainer container">
+            <div class="p-4 contactUsWrapper">
+              <div class="row">
+                <div class="col-12 courseContactDiv">
+                  <div class="contactUsHeadDiv">
+                    <span class="contactTitle text-center h3">Contact Us</span>
+                  </div>
+                  <div class="contactUsDescDiv ">
+                    <span class="contactUsDesc contactTitle text-center h5">To Know more details about the program.Please fill out the form and we will contact you shortly.</span>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 contactCourseLeft mb-3 mt-3">
+                  <div class="contactLeftText text-center">
+                    <h2 class="contactLeftText">Request a callback to Start your journey with <span class="technoGreen">Technovalley!</span> </h2>
+                  </div>
+                  <div class="contactLeftButton">
+                    <button class="btn" style="background-color: #ca938e;">Download Brochure</button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 contactCourseRight mb-3 mt-3">
+                  <form action="" method="post">
+                    <input placeholder="Full Name" type="text" class="form-control mb-2">
+                    <input placeholder="Mobile Number" type="text" class="form-control mb-2">
+                    <input placeholder="Email Id" type="email" class="form-control mb-2">
+                    <button class="btn btn-warning col-12">Request a Callback</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- contactus end -->
   <script type="text/javascript">
 
     var _gaq = _gaq || [];
@@ -1758,9 +1796,261 @@
     });
   </script>
 
-  <!-- ======= SLIDER END ======= -->
+      <!-- ======= FOOTER START ======= -->
 
-  <!-- ======= FOOTER START ======= -->
+
+      <!-- Footer -->
+      <!-- footer start -->
+      <!-- ======= FOOTER START ======= -->
+
+      <!-- Footer -->
+
+      <footer class="text-center text-lg-start bg-light text-muted" style="
+    background-image: url(..//assets/img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+                  ">
+        <!-- Section: Links  -->
+        <section class="courses">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-6 col-xl-4 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Courses Links
+                </h6>
+                <div class="courses-footer" style="white-space: nowrap !important">
+                  <div class="d-flex align-items-start responsive-tab-menu">
+                    <ul class="nav flex-column nav-pills nav-tabs-dropdown me-3" id="v-pills-tab" role="tablist"
+                      aria-orientation="vertical">
+                      <li class="nav-item">
+                        <a class="nav-link text-start active" href="#" id="v-pills-home-tab" data-bs-toggle="pill"
+                          data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">IT
+                          Emerging Technologies
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-start" href="#" id="v-pills-profile-tab" data-bs-toggle="pill"
+                          data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                          aria-selected="false">
+                          Cyber Security
+                          <span class="mblw" style="float: right"> V </span>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link text-start" href="#" id="v-pills-contact1-tab" data-bs-toggle="pill"
+                          data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile"
+                          aria-selected="false">
+                          Metaverse
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link text-start" href="#" id="v-pills-contact2-tab" data-bs-toggle="pill"
+                          data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-profile"
+                          aria-selected="false">
+                          Infrastructure
+                        </a>
+                      </li>
+                    </ul>
+
+                    <div class="tab-content responsive-tab-content" id="v-pills-tabContent" style="width: 100%">
+                      <div class="tab-pane fade show active courseListFooter" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab" tabindex="0">
+                        <ul class="list-unstyled quick-links" style="margin-left: 0">
+                          <li class="footerListItem">
+                            <a href="/courses_templates/AI&MI_technovalley.html">AI & ML</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/angukar js.html">Angular JS Expert</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/Bigdata&Hadoop_Technovalley.html">Big Data & Hadoop</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/Business_Data_Analyst_Technovalley.html">Business Data
+                              Analyist</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/Core_Python_Technovalley.html">Core Python</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/DevOps_Engineer_Technovalley.html">DevOps Engineer</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/Digital_Marketing_Expert_technovalley.html">Digital
+                              Marketing</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="#">Java FullStack</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/mean stack.html">Mean stack Developer</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/MERN-Stack_technovalley.html">Mern stack Developer</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/MongoDB_Expert_Technovalley.html">Mongo DB Expert</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/python.html">Pyhton Advanced</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/python-fullstack-developer_technovalley.html">Pyhton
+                              FullStack</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/react-js.html">React JS</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/Advanced_Java_technovalley.html">Advanced Java</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="/courses_templates/phpcourses.html">PHP Laravel</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab" tabindex="0">
+                        <ul class="list-unstyled quick-links">
+                          <li class="footerListItem">
+                            <a href="/courses_templates/Malware _Analyst_Technovalley.html">Malware Analyist</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="#">Threat Hunter</a>
+                          </li>
+                          <li class="footerListItem">
+                            <a href="#">SOC Professional</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-contact" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab" tabindex="0">
+                        <ul class="list-unstyled quick-links">
+                          <!-- <li><a href="#">IT Infrastructure</a></li>
+                    <li><a href="#">Metaverse</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li>
+                      Technovalley Africa<br> Proprietory Limited,Plot No. 53609/4,First Floor,<a href="#">FAQ</a></li>
+                    <li><a href="#">Videos</a></li> -->
+                        </ul>
+                      </div>
+
+                      <div class="tab-pane fade" id="v-pills-contact1" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab" tabindex="0">
+                        <ul class="list-unstyled quick-links">
+                          <!-- 
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Videos</a></li> -->
+                        </ul>
+                      </div>
+
+                      <div class="tab-pane fade" id="v-pills-contact2" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab" tabindex="0">
+                        Contact content
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-1 col-lg-1 col-xl-2 quickLink" style="white-space: nowrap !important">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Quick Links</h6>
+                <p>
+                  <a href="index.html#portfolio" class="text-white">Courses</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">About</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Blob</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Contact Us</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <img src="/img/footer-logo.png" style="margin-bottom: 2em" alt="" />
+
+                <div class="fb-page" data-href="https://www.facebook.com/technovalleyAKS/" data-tabs="timeline"
+                  data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
+                  data-hide-cover="false" style="
+              width: 100%;
+              height: 200px;
+              max-width: 200px;
+              overflow: hidden;
+              position: relative;
+              margin: 0px;
+              padding: 0px;
+              border: none;
+              transform: translateZ(0px);
+              background: transparent;
+            " data-show-facepile="true">
+                  <blockquote cite="https://www.facebook.com/technovalleyAKS/" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/technovalleyAKS/">Technovalley - Advanced Knowledge Services</a>
+                  </blockquote>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i class="fa fa-map-marker"></i> Technovalley Africa Proprietory
+                  Limited,Plot No. 53609/4,First Floor,<br />
+                  Gaborone West, Gaborone, Botswana.
+                </p>
+                <p>
+                  <i class="fa fa-envelope"></i>
+                  enquiry@technovalleyafrica.com
+                </p>
+                <p><i class="fa fa-phone"></i> +91 91234 09876</p>
+                <p><i class="fa fa-clock-o"></i> <b>Work Time</b></p>
+                <p>Mon - Fri: 08.00 - 16.00. <br />Sat: 10.00 - 14.00</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); padding: 3em !important">
+          <div class="footerSocialMedia">
+            <i><img src="https://img.icons8.com/color/48/null/facebook-new.png" /></i>
+            <i>
+              <img src="https://img.icons8.com/fluency/48/null/instagram-new.png" /></i>
+            <i> <img src="https://img.icons8.com/color/48/null/twitter--v1.png" /></i>
+            <i><img src="https://img.icons8.com/color/48/null/gmail--v1.png" /></i>
+          </div>
+          <div class="CopyrightFooter">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="">Technovalley Africa</a>
+          </div>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+      <!-- footer ends -->
 
 
   <!-- Footer -->
