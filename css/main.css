@@ -805,10 +805,6 @@ div.ex1 {
   overflow-x: hidden;
 }
  
-   /* .event-links .tabs{
-    display: flex;
-    overflow-x: scroll;
-  } */
 .ply{
 border-right: 2px solid #fff;
 }
@@ -848,11 +844,6 @@ border-right: 2px solid #fff;
     height:274px;
     padding-top:10px;
 }
-
-
-
-
-
 .contextNav { display:none; }
 
 .selected {
@@ -1078,7 +1069,7 @@ overflow-x:hidden;
 
   .banner-java {
     /* The image used */
-    /* background-image:url(../img/java/javaadv.png) !important; */
+    background-image:url(../img/java/javaadv.png) !important;
     background-position: 0% 50%;
     background-size: 100%;
     margin: 0 auto;
@@ -1907,13 +1898,15 @@ display:none;
   justify-content: center;
   align-items:center ;
   transition: 0.3s ease;
+  position: relative;
+  margin-top: -50px;
 }
 .home-cards .card:hover{
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   transform: translate(0, -10px);
 }
 .home-cards {
-  margin-top: -55px;
+  /* margin-top: -55px; */
   background: rgb(238, 237, 237);
 }
 .home-cards .course img{
@@ -1930,117 +1923,202 @@ display:none;
     padding: 10px;
   }
 }
-.find-course{
-  background-image:url(../assets/img/course-bg.png);
+
+
+
+/* -----------------------testimonial start---------------------------- */
+.client-testimonial{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* padding-top: 30px!important; */
+}
+.client-testimonial .slider {
+	width: 100%;
+}
+.client-testimonial .testimonials::before{
+  background: none!important;
+}
+.client-testimonial .slider input {
+	display: none;
+}
+.client-testimonial .testimonials {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	min-height: 350px;
+	perspective: 1000px;
+	overflow: hidden;
+  background: none!important;
+}
+@media (min-width: 991px){
+  .client-testimonial .testimonials .item{
+    margin: 0 auto;
+    display: block;
+    margin-left: 100vh!important;
+    margin-right: 100vh!important;
+  }
+}
+.client-testimonial .testimonials .item {
+	width: 330px;
+	padding: 30px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	position: absolute;
+	/* top: 0; */
+	box-sizing: border-box;
+	text-align: center;
+	transition: transform 0.4s;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	user-select: none;
+	cursor: pointer;
+  
+}
+.client-testimonial .testimonials .item img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.client-testimonial .testimonials .item p {
+	color: #ddd;
+}
+.client-testimonial .testimonials .item h2 {
+	font-size: 14px;
+}
+.client-testimonial .dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.client-testimonial .dots label {
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 7px;
+	transition-duration: 0.2s;
+  background-color: #f5c7c1;
+}
+
+#t-1:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-3"],
+#t-4:checked ~ .dots label[for="t-4"],
+#t-5:checked ~ .dots label[for="t-5"] {
+	transform: scale(2);
+	background-color: #d91900;
+}
+#t-1:checked ~ .dots label[for="t-2"],
+#t-2:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-3"],
+#t-3:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-4"],
+#t-4:checked ~ .dots label[for="t-3"],
+#t-4:checked ~ .dots label[for="t-5"],
+#t-5:checked ~ .dots label[for="t-4"] {
+	transform: scale(1.5);
+}
+#t-1:checked ~ .testimonials label[for="t-5"] {
+	transform: translate3d(1200px, 0, -360px) rotateY(-45deg);
+}
+#t-1:checked ~ .testimonials label[for="t-4"],
+#t-2:checked ~ .testimonials label[for="t-5"] {
+	transform: translate3d(900px, 0, -270px) rotateY(-35deg);
+	z-index: 1;
+}
+#t-1:checked ~ .testimonials label[for="t-3"],
+#t-2:checked ~ .testimonials label[for="t-4"],
+#t-3:checked ~ .testimonials label[for="t-5"] {
+	transform: translate3d(600px, 0, -180px) rotateY(-25deg);
+	z-index: 2;
+}
+#t-1:checked ~ .testimonials label[for="t-2"],
+#t-2:checked ~ .testimonials label[for="t-3"],
+#t-3:checked ~ .testimonials label[for="t-4"],
+#t-4:checked ~ .testimonials label[for="t-5"] {
+	transform: translate3d(300px, 0, -90px) rotateY(-15deg);
+	z-index: 3;
+}
+#t-2:checked ~ .testimonials label[for="t-1"],
+#t-3:checked ~ .testimonials label[for="t-2"],
+#t-4:checked ~ .testimonials label[for="t-3"],
+#t-5:checked ~ .testimonials label[for="t-4"] {
+	transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+	z-index: 3;
+}
+#t-3:checked ~ .testimonials label[for="t-1"],
+#t-4:checked ~ .testimonials label[for="t-2"],
+#t-5:checked ~ .testimonials label[for="t-3"] {
+	transform: translate3d(-600px, 0, -180px) rotateY(25deg);
+}
+#t-5:checked ~ .testimonials label[for="t-2"],
+#t-4:checked ~ .testimonials label[for="t-1"] {
+	transform: translate3d(-900px, 0, -270px) rotateY(35deg);
+}
+#t-5:checked ~ .testimonials label[for="t-1"] {
+	transform: translate3d(-1200px, 0, -360px) rotateY(45deg);
+}
+#t-1:checked ~ .testimonials label[for="t-1"],
+#t-2:checked ~ .testimonials label[for="t-2"],
+#t-3:checked ~ .testimonials label[for="t-3"],
+#t-4:checked ~ .testimonials label[for="t-4"],
+#t-5:checked ~ .testimonials label[for="t-4"],
+#t-5:checked ~ .testimonials label[for="t-5"] {
+	z-index: 4;
+}
+
+
+/* ------------------------testimonial end---------------------------------- */
+
+
+/* ------------------------------achieve start------------------------------ */
+.achieve-internn{
+  /* background-image:url(../assets/img/course-bg.png); */
   width: 100%;
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   padding-top: 100px;
   padding-bottom: 100px;
   margin-top: 50px;
 }
-@media (max-width:991px){
-  .find-course img{
-  padding-top: 30px!important;
-  padding-bottom: 30px!important;
-  }
-  .find-course button {
-    margin-bottom: 30px;
-  }
-}
-.find-course button{
-  margin-top: 10px;
-}
-.find-course h4{
-  margin-top: 50px;
-}
-.find-course-contents{
-  margin-left: 70px;
-}
-.find-course img{
-  margin: 0 auto;
+.owl-carousel .owl-item img {
   display: block;
+  width: 17%;
+  float: left;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  margin-left: 54px;
+  margin-right: 35px;
+  margin-top: 15px;
 }
-/* footer .tab-pane{
-  height: 300px;
-  width:300px;
-  list-style:none;
-  overflow:auto;
-
-} */
-
-
-/* .scrollbar
-{
-	margin-left: 30px; */
-	/* float: left; */
-	/* height: 300px;
-	width: 100%; */
-	/* background: #F5F5F5; */
-	/* overflow-y: scroll; */
-	/* margin-bottom: 25px;
-  
-} */
-/* footer .nav-pills{ */
-  /* border-right: 1px solid red; */
-  /* padding-right: 20px; */
-  /* height: 300px; */
-/* } */
-
-/* .force-overflow
-{
-	min-height: 450px;
-} */
-/* footer .quick-links li{
-  width: 50%;
-} */
-
-/* .tab-content{ */
-  /* display: none; */
-  /* background: #ededed; */
-  /* padding: 15px; */
-/* } */
-
-/* .tab-content .current{
-  display: inherit;
+.testimonial-item.equal-height.style-6 {
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 10px;
 }
-
-ul.tabs{
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+.cell-right {
+  text-align: center;
+  margin-right: 80px;
+  padding-top: 35px;
+  padding-bottom: 20px;
 }
-.event-links .tabs h6{
-  background: none;
-  cursor: pointer;
-  transition: 0.3s ease;
+.testimonial-name {
+  font-weight: 600;
 }
-.event-links .tabs h6:hover{
-  text-decoration: underline;
-  color: #d91900;
+.testimonial-content.quote {
+  padding: 17px 55px;
 }
-.event-links .news img{
-  width: 130px!important;
-  height: 90px!important;
-  border-radius: 3px;
-  object-fit: cover;
-}
-ul.tabs li.current{
-  background: #ededed;
-  color: #222;
-}
-
-.tab-content{
+/* .et_right_sidebar #main-content .container:before{
   display: none;
-  background: #ededed;
-  padding: 15px;
+} */
+#main-content .container {
+  padding-top: 10px;
+}
+i.fa.fa-quote-left {
+  padding: 0px 10px;
+  color: #999;
 }
 
-.tab-content.current{
-  display: inherit;
-}
-.gallery .button-style{
-  margin: 0 auto;
-  display: block;
-} */
+/* ------------------------------achieve start------------------------------ */
