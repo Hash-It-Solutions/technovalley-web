@@ -39,3 +39,24 @@
     display: none;
   }
 }
+@media screen and (max-width: 576px) {
+  .toolsContainer {
+    padding-right: 1.4em;
+  }
+  .curriculumAccordianWrapper {
+    overflow-x: hidden;
+  }
+  .curriculumAccordianWrapper::-webkit-scrollbar {
+    width: 6px;
+    background-color: grey;
+  }
+  .curriculumAccordianWrapper::-webkit-scrollbar-thumb {
+    background-color: black;
+  }
+  /* .tab_content {
+    display: none !important;
+  }
+  .tab_content:active {
+    display: block !important;
+  } */
+}
