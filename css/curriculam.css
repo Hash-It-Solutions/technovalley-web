@@ -68,3 +68,13 @@
     display: none;
   }
 }
+.topCarousel {
+  margin-bottom: 4em;
+  margin-top: auto;
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .topCarousel {
+    display: none;
+  }
+}
