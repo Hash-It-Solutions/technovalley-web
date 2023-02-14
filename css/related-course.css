@@ -1,0 +1,8 @@
+ .related-course{
+    width: 20%;
+  }
+  @media screen and (max-width: 768px) {
+     .related-course{
+    width: 60%;
+  }
+}
