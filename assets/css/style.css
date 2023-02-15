@@ -1934,7 +1934,6 @@ body {
   overflow: visible;
   background: $site;
   color: $light;
-  font-size: 20px;
   
 }
 @import url("https://fonts.googleapis.com/css?family=Oswald");
