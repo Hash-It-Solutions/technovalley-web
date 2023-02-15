@@ -2004,7 +2004,7 @@ ul.tabs{
   transition: 0.3s ease;
 }
 .event-links .tabs h6:hover{
-ss  text-decoration: underline;
+text-decoration: underline;
 }
 .event-links .news img{
   width: 130px!important;
