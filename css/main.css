@@ -833,6 +833,20 @@ overflow-x:hidden;
 
 
 
+.banner-blog {
+    /* The image used */
+    background-image:url(..//assets/img/footer.png) !important;
+	background-size:cover!important;
+	background-repeat:no-repeat !important;
+	min-height:480px;
+	width:100% !important;
+  }
+
+
+
+  
+
+
   .banner-hadoop {
     /* The image used */
     background-image:url(../img/hadoop/bigdatamain.png) !important;
@@ -1363,7 +1377,12 @@ color:#fff;
         .responsive-tab-menu .nav-pills .show>.nav-link {
             color: unset;
         }
-
+        .responsive-tab-content
+             {
+                display: block !important;
+                opacity: 1 !important;
+            }
+           
         @media (max-width: 767px) {
 
             .responsive-tab-content,
@@ -1961,4 +1980,51 @@ i.fa.fa-quote-left {
 .main-color{
   color: #ff501b8f!important;
   font-size: 14px;
+}
+
+.tab-content{
+  display: none;
+  /* background: #ededed; */
+  padding: 15px;
+}
+.tab-content.current{
+  display: inherit;
+}
+ul.tabs{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.event-links p{
+  font-size: 14px;
+}
+.event-links .tabs h6{
+  background: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.event-links .tabs h6:hover{
+text-decoration: underline;
+}
+.event-links .news img{
+  width: 130px!important;
+  height: 90px!important;
+  border-radius: 3px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+ul.tabs li.current{
+  background: #ededed;
+  color: #222;
+}
+.gallery{
+  padding: 25px!important;
+}
+@media (min-width: 991px){
+  .section-event{
+    padding: 15px;
+  }
+  .div.ex1{
+    padding: 25px;
+  }
 }
