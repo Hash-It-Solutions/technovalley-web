@@ -8,7 +8,7 @@
   <title>technovalley</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+ 
   <!-- Favicons -->
   <link href="/img/logo-ar.jpg" rel="icon">
   <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -17,7 +17,9 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
-
+     <!-- Hero section course carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <!-- Vendor CSS Files -->
   <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -361,11 +363,11 @@
       </div>
     </div>
 
-
+ 
 
   </div>
 
-
+</div>
   
 
   <script>
@@ -521,57 +523,141 @@
 
   <br>
   <div class="block">
-    <div class="animation">
-      <div><a href="/courses_templates/AI&MI_technovalley.html"><img class="scroll-image" src="/img/courses/ai.png"
-            alt="Image 1"></a></div>
-      <div><a href="/courses_templates/angukar js.html"> <img class="scroll-image" src="/img/courses/angular.png"
-            alt="Image 1"></a></div>
-      <div><a href="/courses_templates/Bigdata&Hadoop_Technovalley.html"><img class="scroll-image"
-            src="/img/courses/bigdata.png" alt="Image 1"></a></div>
-      <div><a href="/courses_templates/Business_Data_Analyst_Technovalley.html"><img class="scroll-image"
-            src="/img/courses/data_analyst.png" alt="Image 1"></a></div>
-      <div><a href="/courses_templates/Core_Python_Technovalley.html"> <img class="scroll-image"
-            src="/img/courses/core_python.png" alt="Image 1"></a></div>
-      <div><a href="/courses_templates/DevOps_Engineer_Technovalley.html"><img class="scroll-image"
-            src="/img/courses/devops.png" alt="Image 1"></a></div>
-      <div><a href="/courses_templates/Digital_Marketing_Expert_technovalley.html"><img class="scroll-image"
-            src="/img/courses/digital_marketing.png" alt="Image 1"></a></div>
-      <div><a href="#"><img class="scroll-image" src="/img/courses/java.png" alt="Image 1"></a></div>
-      <div><a href="/courses_templates/mean stack.html"><img class="scroll-image" src="/img/courses/mean.png"
-            alt="Image 1"></a></div>
-      <div><a href="/courses_templates/MERN-Stack_technovalley.html"><img class="scroll-image"
-            src="/img/courses/mern.png" alt="Image 1"></a></div>
-      <div><a href="/courses_templates/MongoDB_Expert_Technovalley.html"><img class="scroll-image"
-            src="/img/courses/mongo.png" alt="Image 1"></a></div>
-      <div><a href="/courses_templates/python.html"><img class="scroll-image" src="/img/courses/python_advanced.png"
-            alt="Image 1"></a></div>
-      <div><a href="/courses_templates/python-fullstack-developer_technovalley.html"><img class="scroll-image"
-            src="/img/courses/pythonmain.png" alt="Image 1"></a></div>
-      <div><a href="/courses_templates/react-js.html"><img class="scroll-image" src="/img/courses/react.png"
-            alt="Image 1"></a></div>
-      <div><a href="#"><img class="scroll-image" src="/img/courses/java_adv.png" alt="Image 1"></a></div>
-      <div><a href="/courses_templates/phpcourses.html"><img class="scroll-image" src="/img/courses/php.png"
-            alt="Image 1"></a></div>
-      <div><a href="/courses_templates/Malware _Analyst_Technovalley.html"><img class="scroll-image"
-            src="/img/courses/malware.png" alt="Image 1"></a></div>
-      <div><a href="#"><img class="scroll-image" src="/img/courses/threat_hunter.png" alt="Image 1"></a></div>
-      <div><a href="#"><img class="scroll-image" src="/img/courses/soc.png" alt="Image 1"></a></div>
+    <!-- ======= SLIDER START======= -->
+    <div class="container" >
+      <div class="carousel"
+        data-flickity='{ "contain": true, "autoPlay": 1500, "pauseAutoPlayOnHover": true , "imagesLoaded": true}'>
+
+        <div class="carousel-cell" style="width: 20%;"><a href="/courses_templates/AI&MI_technovalley.html"><img
+              src="/img/courses/ai.png" class="carousel-image" style="width: 100%; height: 80px;" alt="Image 1"></a>
+        </div>
+        <div class="carousel-cell" style="width: 20%;"><a href="/courses_templates/angukar js.html"> <img
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/angular.png"
+              alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a
+            href="/courses_templates/Bigdata&Hadoop_Technovalley.html"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/bigdata.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a
+            href="/courses_templates/Business_Data_Analyst_Technovalley.html"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/data_analyst.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a href="/courses_templates/Core_Python_Technovalley.html">
+            <img class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/core_python.png"
+              alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a
+            href="/courses_templates/DevOps_Engineer_Technovalley.html"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/devops.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a
+            href="/courses_templates/Digital_Marketing_Expert_technovalley.html"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/digital_marketing.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a href="#"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/java.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a href="/courses_templates/mean stack.html"><img
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/mean.png" alt="Image 1"></a>
+        </div>
+        <div class="carousel-cell" style="width: 20%;"><a href="/courses_templates/MERN-Stack_technovalley.html"><img
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/mern.png" alt="Image 1"></a>
+        </div>
+        <div class="carousel-cell" style="width: 20%;"><a
+            href="/courses_templates/MongoDB_Expert_Technovalley.html"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/mongo.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a href="/courses_templates/python.html"><img
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/python_advanced.png"
+              alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a
+            href="/courses_templates/python-fullstack-developer_technovalley.html"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/pythonmain.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a href="/courses_templates/react-js.html"><img
+                class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/react.png"
+                alt="Image 1"></a>
+        </div>
+        <div class="carousel-cell" style="width: 20%;"><a href="#"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/java_adv.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a href="/courses_templates/phpcourses.html"><img
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/php.png" alt="Image 1"></a>
+        </div>
+        <div class="carousel-cell" style="width: 20%;"><a
+            href="/courses_templates/Malware _Analyst_Technovalley.html"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/malware.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a href="#"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/threat_hunter.png" alt="Image 1"></a></div>
+        <div class="carousel-cell" style="width: 20%;"><a href="#"><img class="carousel-image"
+              style="width: 100%; height: 80px;" src="/img/courses/soc.png" alt="Image 1"></a></div>
 
 
-      <!-- cut -->
+      </div>
     </div>
+
+    <!-- ======= SLIDER END ======= -->
+
+
+
+    <!-- ======= SLIDER JS ======= -->
+    <script type="text/javascript">
+
+      $(window).load(function () {
+
+        $("#rcbrand1").rcbrand({
+          visibleItems: 6,
+          itemsToScroll: 3,
+          animationSpeed: 200,
+          infinite: true,
+          navigationTargetSelector: null,
+          autoPlay: {
+            enable: false,
+            interval: 5000,
+            pauseOnHover: true
+          },
+          responsiveBreakpoints: {
+            portrait: {
+              changePoint: 480,
+              visibleItems: 1,
+              itemsToScroll: 1
+            },
+            landscape: {
+              changePoint: 640,
+              visibleItems: 2,
+              itemsToScroll: 2
+            },
+            tablet: {
+              changePoint: 768,
+              visibleItems: 3,
+              itemsToScroll: 3
+            }
+          }
+        });
+
+        $("#rcbrand2").rcbrand({
+          visibleItems: 3,
+          itemsToScroll: 1,
+          autoPlay: {
+            enable: true,
+            interval: 3000,
+            pauseOnHover: true
+          }
+        });
+
+        $("#rcbrand3").rcbrand({
+          infinite: false
+        });
+
+      });
+    </script>
+
+    <!-- ======= SLIDER HJS END ======= -->
+
+
   </div>
-</div>
+
   <style>
     .block {
       overflow: hidden;
       width: 100%;
-      margin-top: -5%;
       padding-bottom: 50px;
+      padding-bottom: 100px;
     }
     @media (max-width:991px){
       .block {
-        margin-top: 80%;
+        margin-top: 90%;
         display: block;
       }
     }
@@ -2289,7 +2375,7 @@
     }
 
     .list-unstyled li {
-      list-style-type: circle;
+      list-style-type: none;
     }
 
     .list-unstyled {
