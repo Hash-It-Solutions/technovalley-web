@@ -534,13 +534,13 @@ h6 {
   padding-bottom: 7%;
 }
 #hero .hero-form form{
-  width: 350px;
-  padding: 35px 20px;
+  width: 380px;
+  padding: 40px 25px;
   border-radius: 15px;
   border: 0;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   background-color: #fff;
-  margin: 0 auto;
+  float: right;
 }
 #hero .form-check label{
   font-size: 11px;
@@ -558,11 +558,11 @@ h6 {
 #hero form .input-field input{
   font-size: 13px;
   border-radius: 3px;
-  padding: 10px!important;
+  padding: 15px!important;
   border-color: #ebebeb;
 }
 #hero form  button{
-  font-size: 12px;
+  font-size: 13px;
   margin: 0 auto;
   display: block;
 }
@@ -663,7 +663,10 @@ h6 {
   #hero .hero-form form{
     margin: 0 auto;
     display: block;
+    width: 300px;
     margin-top: 30px!important;
+    float: none;
+    
   }
   #hero h2 {
     font-size: 18px;

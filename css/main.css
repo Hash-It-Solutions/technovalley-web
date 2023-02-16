@@ -432,7 +432,7 @@ background-repeat:no-repeat;
 
 
 #portfolio{
-  margin-top: 50px;
+  margin-top: 50px!important;
 background-image:url(..//assets/img/Rel.png);
 background-repeat:no-repeat;
 background-size:cover;}
@@ -1677,7 +1677,7 @@ float: none!important;
   opacity: 0.7;
 }
 .home-cards .card{
-  padding: 30px 15px;
+  padding: 15px;
   border: 0;
   padding-top: 20%;
   border-radius: 6px;
@@ -1687,7 +1687,7 @@ float: none!important;
   align-items:center ;
   transition: 0.3s ease;
   position: relative;
-  margin-top: -50px;
+  margin-top: -55px;
   height: 85%;
 }
 
@@ -1705,7 +1705,7 @@ float: none!important;
   transform: translate(0, -10px);
 }
 .home-cards {
-  /* margin-top: -55px; */
+  /* padding-bottom: 50px; */
   background: rgb(238, 237, 237);
 }
 .home-cards .course img{
