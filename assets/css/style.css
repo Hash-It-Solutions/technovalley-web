@@ -391,7 +391,9 @@ h6 {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
-
+  .navbar-button{
+    font-size: 12px;
+  }
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
@@ -401,7 +403,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: #ed3c0d;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -520,21 +522,25 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  height: 85vh;
+  /* height: 85vh; */
   background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/bg1.jpg);
   background-size: cover;
   /* position: relative; */
   justify-content: right;
-  height: 70vh;
+  /* height: 75vh; */
   font-family: "Branding", sans-serif;
+  overflow: visible;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 #hero .hero-form form{
-  width: 330px;
-  padding: 20px;
+  width: 380px;
+  padding: 40px 25px;
   border-radius: 15px;
   border: 0;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   background-color: #fff;
+  float: right;
 }
 #hero .form-check label{
   font-size: 11px;
@@ -552,11 +558,11 @@ h6 {
 #hero form .input-field input{
   font-size: 13px;
   border-radius: 3px;
-  padding: 10px!important;
+  padding: 15px!important;
   border-color: #ebebeb;
 }
 #hero form  button{
-  font-size: 12px;
+  font-size: 13px;
   margin: 0 auto;
   display: block;
 }
@@ -639,27 +645,34 @@ h6 {
   color: #3b8af2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   #hero {
-    height: 100vh!important;
+    /* height: 150vh!important; */
     flex-wrap: wrap;
     display: block;
+    background-position: right;
     text-align: center!important;
+    padding-top: 1%!important;
+  padding-bottom: 1%!important;
   }
-
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    text-align: center;
   }
   #hero .hero-form form{
     margin: 0 auto;
     display: block;
-    margin-top: 50px!important;
+    width: 300px;
+    margin-top: 30px!important;
+    float: none;
+    
   }
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    text-align: center;
   }
 
   #hero .btn-get-started,
@@ -1918,7 +1931,14 @@ section {
   height: auto;
   border-radius: 12px;
 }
-
+body {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  overflow: visible;
+  background: $site;
+  color: $light;
+  
+}
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 
 $base-color: #303f9f;
@@ -1927,13 +1947,7 @@ $third-color: #fbc02d;
 $site: #303f9f;
 $light: #fff;
 
-body {
-  position: relative;
-  font-family: "Oswald", sans-serif;
-  background: $site;
-  color: $light;
-  font-size: 20px;
-}
+
 
 .grid {
   list-style: none;
