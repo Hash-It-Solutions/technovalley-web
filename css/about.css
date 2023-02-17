@@ -1,14 +1,20 @@
 .aboutLogo {
   width: 100%;
 }
+.topSection {
+  position: relative;
+}
 .aboutIntroWrapper {
-  padding: 3em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 15em;
+  padding-right: 15em;
 }
 .aboutDataWrapper {
   padding: 3em;
 }
 .aboutHeading {
-  font-size: 34px;
+  font-size: 45px;
   font-weight: 800 !important;
 }
 .aboutSubHead {
@@ -16,7 +22,7 @@
 }
 .aboutData {
   font-size: 30px;
-  font-weight: 550;
+  font-weight: 400;
 }
 .aboutParagraph {
   display: flex;
@@ -24,7 +30,32 @@
   align-items: center;
   justify-content: center;
 }
+.aboutHeroTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 75px;
+  font-weight: 700 !important;
+}
 @media screen and (max-width: 576px) {
+  .aboutIntroWrapper {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .aboutHeading {
+    font-size: 30px;
+  }
+  .aboutData {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .aboutHeroTitle {
+    font-size: 30px;
+  }
   .responsiveImg {
     display: block !important;
   }
