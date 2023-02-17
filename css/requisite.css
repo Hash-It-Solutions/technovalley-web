@@ -6,6 +6,7 @@
   justify-content: center;
 }
 .requisiteList {
+  margin-left: 2em !important;
   text-align: start !important;
   font-size: 14px !important;
   font-weight: 600 !important;
