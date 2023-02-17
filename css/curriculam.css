@@ -12,6 +12,12 @@
 .curriculamBar::-webkit-scrollbar {
   display: none;
 }
+.curriculamListWrap {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  flex-wrap: wrap;
+}
 .curriculamItems {
   display: flex;
   align-items: center;
@@ -41,6 +47,7 @@
   letter-spacing: 1px;
   max-width: 20vw;
   border-radius: 10px;
+  flex: 33%;
   border: #f16724 1px solid;
   background-color: #f1682440;
 }
