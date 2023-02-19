@@ -600,16 +600,28 @@ td, th {
   font-size: 31px !important;
   padding: 55px !important;
 }
-
+@media (max-width: 991px){
+  .banner-java p {
+    font-size: 13px !important;
+    padding: 0px !important;
+  }
+}
 
 .banner-java {
-  background-image: url(../img/courses-java.png) !important;
+  background-image: url("../img/courses-java.png") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   min-height: 300px !important;
   width: 100% !important;
 }
+.banner-java p{
 
+  color:#FFFFFF;
+  font-size:39px;
+  padding:186px 10px 55px 10px;
+  
+  
+  }
 
 
 .purecounter {
@@ -985,13 +997,14 @@ overflow-x:hidden;
 
   .banner-java {
     /* The image used */
-    background-image:url(../img/java/javaadv.png) !important;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/courses-java.png) !important;
     background-position: 0% 50%;
     background-size: 100%;
     margin: 0 auto;
-	background-repeat:no-repeat !important;
-	min-height:580px;
-	width:100% !important;
+    overflow: visible!important;
+    background-repeat:no-repeat !important;
+    min-height:580px;
+    width:100% !important;
   }
 
   .banner-soc {
@@ -1127,14 +1140,7 @@ td, th {
 
 
 
-.banner-java p{
 
-color:#FFFFFF;
-font-size:39px;
-padding:186px 10px 55px 10px;
-
-
-}
 
 .verified_customer_section {
   display: grid;
