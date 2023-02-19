@@ -1,0 +1,29 @@
+body p, body a{
+    font-family: "Branding", sans-serif;
+    font-size: 15px;
+}
+body b{
+    font-family: "Branding", sans-serif;
+}
+.body-bg{
+    background-color: #F9F9F9;
+    font-family: "Branding", sans-serif;
+}
+.enquire-now{
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 0;
+    font-size: 13px;
+}
+.explain-desc{
+    text-align: justify;
+}
+.body-bg h3, .body-bg  h2, .body-bg h4{
+    font-weight: 600;
+}
+.para-color{
+    color: 403F3F!important;
+}
+.dark-cyan{
+    color: #16A88E;
+}

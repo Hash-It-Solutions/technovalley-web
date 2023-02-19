@@ -7,7 +7,7 @@
 .curriculamElement {
   white-space: nowrap !important;
   margin-left: 0.7em;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 .curriculamBar::-webkit-scrollbar {
   display: none;
@@ -30,6 +30,11 @@
   max-height: 40vh !important;
   overflow-y: scroll;
   overflow-x: scroll;
+}
+@media (max-width: 991px){
+  .curriculumAccordianWrapper {
+    max-height: 60vh !important;
+  }
 }
 .curriculamData {
   font-size: 10px;

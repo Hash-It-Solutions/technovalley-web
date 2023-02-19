@@ -67,9 +67,14 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script type="text/javascript" src="/js/jquery.rcbrand.js"></script>
 
-  <!-- Curriculam  -->
+  <!-- course  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link rel="stylesheet" href="/css/curriculam.css">
-  <!-- Curriculam  -->
+  <link rel="stylesheet" href="css/Course/base.css">
+  <link rel="stylesheet" href="css/Course/about-domain.css">
+  <link rel="stylesheet" href="css/Course/curriculum.css">
+  <!-- course  -->
 
 
   <!-- requisite -->
@@ -108,7 +113,7 @@
   </script>
 </head>
 
-<body>
+<body class="body-bg">
 
   <main>
     <!-- ======= Top Bar ======= -->
@@ -144,7 +149,7 @@
             <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
             <li><a class="nav-link scrollto " href="#portfolio">Contact</a></li>
 
-            <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
+            <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
 
           </ul>
 
@@ -164,1065 +169,224 @@
 
 
     <!-- ======= Hero Section ======= -->
-    <div class="banner-java">
-      <img src="/hero/advJava/Group 255java_bg_.svg" alt="" class="heroImg">
-      <div class="form-sec enquiryForm" style="box-shadow: none;">
-        <h4 class="text-center">Enquiry Form</h4>
-
-        <form name="qryform" id="qryform" method="post" action="mail.php" onSubmit="return(validate());"
-          novalidate="novalidate">
-          <div class="form-group">
-
-            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+    <section class="banner-java">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6">
+            <div class="d-flex">
+              <h1 class="text-white course-hero-title">Learn <br> Core & Advanced <br> <b class="title-color">Java Programming</b></h1>
+              <img src="/hero/advJava/🦆 icon _java original wordmark_.svg"  alt=""  class="hero-logo mt-sm-3  mt-md-4">
+            </div>
+            <h6 class="text-white mt-0">Duration -  <b>120 Hours</b></h6>
+            <p class="text-white course-desc">Develop a strong foundation in core Java concepts and advance your skills with Technovalley's advanced Java programming course, taught by industry experts with practical training and top-notch facilities.</p>
+            <div class="d-flex">
+              <button class="btn btn-sm button-style btn-warning  enquire-now text-uppercase">ENQUIRE NOW</button>
+              <button class="btn btn-sm  brochure-btn  text-uppercase ms-3">download brochure</button>
+            </div>
           </div>
-          <br>
-          <div class="form-group">
-
-            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+          <div class="col-lg-6">
+            <div class="form-sec enquiryForm" style="box-shadow: none;">
+              <form name="qryform" id="qryform" method="post" action="mail.php" onSubmit="return(validate());" novalidate="novalidate">
+                <h4 class="text-center mb-3">Enquiry Form</h4>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+                </div>
+                <br>
+                <div class="form-group">
+                  <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
+                </div>
+                <br>
+                <button type="button" class="btn btn-warning col-12 button-style">ENQUIRE NOW</button>
+              </form>
+              
+            </div>
           </div>
-          <br>
-          <div class="form-group">
-
-            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
-          </div>
-          <br>
-          <div class="form-group">
-
-            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
-          </div>
-          <br>
-          <div class="form-group">
-
-            <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
-          </div>
-          <br>
-
-          <button type="button" class="btn btn-warning col-12">ENQUIRE NOW</button>
-        </form>
+        </div>
       </div>
-      <div class="courseDetailsLogo">
-        <img src="/hero/advJava/🦆 icon _java original wordmark_.svg" height="100" width="100" alt=""
-          class="courseLogo">
-        <img src="/hero/advJava/Group 180.svg" alt="" height="100" width="100" class="courseDuration">
-      </div>
-      <div class="heroTitleDiv">
-        <h1 class="learn">Learn</h1>
-        <h1 class="heroTitle"> Core & Advanced Java Programming</h1>
-      </div>
-    </div>
-
-    <!-- <style>
-  .banner-java {
-    /* Image Used */
-    background-image:url(../img/advanced_java/Group\ 248.png) !important;
-  }
-  </style> -->
-
+    </section>
     <!-- ======= Hero Section ======= -->
 
 
+    <!-- -------------About-nav start-------------- -->
+    <div class="second-nav">
+      <div class="container">
+        <div class="d-flex">
+          <a href="#about-domain" class="active">About</a>
+          <a href="#curriculum">Curriculum</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#our-students">Alumni Works</a>
+          <a href="#related-programs">Related Programs</a>
+        </div>
+      </div>
+    </div>
+    <!-- -------------About-nav end-------------- -->
 
+    <!-- -------------about-domain start-------------- -->
+      <div class="about-domain" id="about-domain">
+        <div class="container">
+          <h4 class=" head-color">About Domain</h4>
+          <p class="para-color explain-desc">As the use of web applications and websites continues to grow, the demand for full-stack developers is likely to increase. In addition, the increasing complexity of web applications and the need for seamless integration between the front-end and back-end of these applications are driving the demand for full-stack developers. <br>
+            The amount of time it takes to become proficient in full-stack web development can vary significantly depending on a number of factors, including an individual’s prior experience and knowledge, their learning style, and the amount of time they are able to dedicate to learning and practicing.
+            Some estimates put the average time to expertise at around 3-5 years, although this can vary depending on an individual’s level of dedication and the resources they have available to them. It is important to approach learning full-stack web development with a long-term mindset.According to a survey conducted by Stack Overflow in 2021, full-stack developers are the second most in-demand type of developer, behind only data scientists.In the same survey, full-stack developers were found to be the highest-paid type of developer, with an average salary of $71,000 per year.Full-stack development is a popular career choice, with a large number of developers expressing an interest in becoming full-stack developers. According to the 2021 Stack Overflow survey, 42.1% of respondents identified as full-stack developers. It is possible for non-technical people to become full-stack developers. While a strong foundation in computer science and programming is helpful, it is not necessarily a requirement to become a full-stack developer.</p>
+        </div>
+      </div>
+    <!-- -------------about-domain end-------------- -->
 
-
-
-
-
-
-
-
-    <!-- Course Features START -->
-
-    <div class="container courseDurationWrapper">
-
-      <div class="row ">
-        <div class="col-12 cr1">
-
+    <!-- -------------who-can-apply start-------------- -->
+      <div class="who-can-apply">
+        <div class="container">
+          <h4 class=" head-color">Who Can Apply for the Course?</h4>
           <div class="card">
-
-
-            <div class="container yxu">
-              <div class="row">
-                <div class="col-md-6 ">
-                  <h3>Course Features</h3>
-                  <img src="/img/Line.png">
-                  <table>
-                    <tr>
-                      <td class="lm">Course Features <span class="dots11">: </span></td>
-                      <th>Contact/Hybrid</th>
-
-                    <tr>
-
-                    <tr>
-                      <td>Topics <span class="dots11">: </span></td>
-                      <th>24</th>
-
-                      <!-- <tr>
-                    <td>Alfreds Futterkiste <span class="dots11">: </span></td>
-                    <th>Maria Anders</th>
-                  </tr>
-                  <tr>
-                    <td>Centro comercial <span class="dots11">: </span></td>
-                    <th>Francisco Chang</th>
-                  </tr> -->
-                  </table>
-
-                </div>
-
-
-                <div class="col-md-6">
-                  <div>
-                    <div class="row durationDiv">
-                      <div class="col-md-4 col-12">
-                        <img src="/assets/icons/sppedorange.png">
+            <div class="card-body">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-lg-8">
+                    <div class="apply-points">
+                      <div class="d-flex">
+                        <i class="bi bi-check-lg me-2 dark-cyan fw-bold"></i>
+                        <p class="para-color explain-desc"><b>Beginners:</b> If you're new to programming or have limited experience in Java, this course is ideal for you. You'll learn core Java concepts and gradually progress to advanced topics with practical training.</p>
                       </div>
-                      <div class="col-md-8 col-12 ">
-                        <h3>Course Duration</h3>
-                        <img src="/img/Line.png">
-                        <p style="padding-top:12px;">Normal Track : &nbsp;<span style="color:#33A78F;"> 120 hours</span>
-                        </p>
-                        <P>
-                          2 hours class on alternate days (Monday, Wednesday, Friday (OR) Tuesday, Thursday, Saturday)
-
-                        </P>
+                      <div class="d-flex">
+                        <i class="bi bi-check-lg me-2 dark-cyan fw-bold"></i>
+                        <p class="para-color explain-desc"><b>IT Professionals:</b> If you're working in the IT industry and want to enhance your Java programming skills, this course can help you acquire the latest techniques and trends in the field.</p>
                       </div>
-
-
+                      <div class="d-flex">
+                        <i class="bi bi-check-lg me-2 dark-cyan fw-bold"></i>
+                        <p class="para-color explain-desc"><b>Students:</b> Whether you're pursuing a degree in computer science or want to add a new skill to your academic portfolio, Technovalley's Java programming course can provide you with the practical skills and knowledge you need to excel in your career.</p>
+                      </div>
+                      <div class="d-flex">
+                        <i class="bi bi-check-lg me-2 dark-cyan fw-bold"></i>
+                        <p class="para-color explain-desc"><b>Diploma Holders:</b> If you hold a diploma in computer science or a related field and want to become a proficient Java developer, this course can help you master core and advanced concepts of Java programming with industry experts and practical training.</p>
+                      </div>
                     </div>
-
                   </div>
-
-
-
+                  <div class="col-lg-4 d-none d-md-block">
+                    <img src="img/java-course/who-can-apply/java-img.jpg" alt="course-image" class="img-fluid">
+                  </div>
                 </div>
-
-
-              </div>
-
             </div>
-
-
-
-
-
           </div>
         </div>
       </div>
-
-    </div>
-
-    <!-- Course Features END -->
-
-
-
-
-
-
-
-
-
-
-    <!-- Requisite START -->
-
-
-    <br><br>
-    <div class="container">
-      <h3 style="font-weight: 900;">Technovally Requisite</h3>
-
-    </div>
-
-    <div class="container text-center cr8" style="border-radius: 10px;">
-
-      <div class="row">
-
-
-        <div class="col-lg-4 col-md-4 col-sm-10 d-block m-auto">
-          <div class="pricing-item" style="  height:250px; border-radius: 10px;">
-            <!-- Indicator of subscription type -->
-            <div class="pt-4 pb-3 pl52 requisiteHead sticky-top" style="letter-spacing: 2px; border-radius: 10px;  ">
-              <h4>PRE-REQUISITE</h4>
-              <i class="requisiteIcons"><img src="../assets/icons/degreeCap.png" height="40px" width="40px" alt=""></i>
-            </div>
-            <!-- Price class -->
-
-            <!-- Perks of said subscription -->
-            <div class="pricing-description">
-              <ul class="list-unstyled requisiteList mt-3 mb-4">
-                <li class="requisiteListItem pr-3">General Programming Skills in any Language</li>
-
-              </ul>
-            </div>
-            <!-- Button -->
-
-          </div>
-        </div>
-
-        <!-- Card #2, Intermediate -->
-        <div class="col-lg-4 col-md-4 col-sm-10  d-block m-auto">
-          <div class="pricing-item" style=" overflow-y: scroll; height:250px; border-radius: 10px;">
-            <div class="pt-4 pb-3 pl52 requisiteHead  sticky-top" style="letter-spacing: 2px; border-radius: 10px; ">
-              <h4>TARGET AUDIENCE</h4>
-              <i class="requisiteIcons"><img src="../assets/icons/people.png" height="40px" width="40px" alt=""></i>
-            </div>
-
-
-            <div class="pricing-description">
-              <ul class="list-unstyled requisiteList mt-3 mb-4">
-                <li class="requisiteListItem pr-3">Beginners</li>
-                <li class="requisiteListItem pl-3 pr-3">IT Professionals</li>
-                <li class="requisiteListItem pl-3 pr-3">Students</li>
-
-
-              </ul>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Card #3, Professional -->
-        <div class="col-lg-4 col-md-4 col-sm-10  d-block m-auto">
-          <div class="pricing-item" style=" overflow-y: scroll; height:250px; border-radius: 10px;">
-            <div class="pt-4 pb-3 pl52 requisiteHead  sticky-top" style="letter-spacing: 2px; border-radius: 10px;">
-              <h4>JOB ROLES</h4>
-              <i class="requisiteIcons"><img src="../assets/icons/jobseeker.png" height="40px" width="40px" alt=""></i>
-            </div>
-
-            <div class="pricing-description">
-              <ul class="list-unstyled requisiteList mt-3 mb-4">
-                <li class="requisiteListItem pl-3 pr-3">Junior Java Developer.</li>
-                <li class="requisiteListItem pl-3 pr-3">Senior Java Developer</li>
-                <li class="requisiteListItem pl-3 pr-3">Java Web Developer.</li>
-                <li class="requisiteListItem pl-3 pr-3">Android Developer</li>
-                <li class="requisiteListItem pl-3 pr-3">Java EE Developer</li>
-                <li class="requisiteListItem pl-3 pr-3">Project Manager</li>
-                <li class="requisiteListItem pl-3 pr-3">Design Lead.</li>
-                <li class="requisiteListItem pl-3 pr-3">Software Engineer</li>
-                <li class="requisiteListItem pl-3 pr-3">Senior Core Java Developer.</li>
-                <li class="requisiteListItem pl-3 pr-3">Java Backend Developer.</li>
-
-
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-    <!-- Requisite END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
-
-
-
-
-
-    <!-- tools covered START -->
-
-
-    <div class="technovlly" style="background-color:#25425C;">
-
-
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-6 tools-image-col">
-            <br><br>
-
-
-
-            <table class="imge">
-              <tbody>
-
-
-                <tr>
-
-                  <!-- <td><img style="max-width: 1000px;max-height: 500px; border-radius: 10px;" src="/img/java/javaadv1.png"></td> -->
-
-                  <div class="row toolsContainer">
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image"
-                        src="/img/tools-covered/core-java-prog.jpg" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image"
-                        src="/img/tools-covered/java-oops .png" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/html-css.png"
-                        alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/jquery.png"
-                        style="max-width: 50%;" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image"
-                        src="/img/tools-covered/jquery_user-interface.png" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/ajax.png"
-                        style="max-width: 50%;" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image"
-                        src="/img/tools-covered/590px-Node.js_logo.svg.png" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/react-js.png"
-                        alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/mysql.png"
-                        alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image"
-                        src="/img/tools-covered/javascript-logo.png" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image"
-                        src="/img/tools-covered/servletslogo.webp" style="max-width: 50%;" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/jdbc.jpeg"
-                        alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image"
-                        src="/img/tools-covered/hibernate-logo.svg" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/spring.png"
-                        alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/jpa.png"
-                        alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image"
-                        src="/img/tools-covered/rest-api.webp" alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/git.png"
-                        alt=""></div>
-                    <div class="col-sm-3 tools-image-div"><img class="tools-image" src="/img/tools-covered/jsp.png"
-                        style="max-width: 50%;" alt=""></div>
-
+    <!-- -------------who-can-apply end-------------- -->
+
+    <!-- -------------course-roles start-------------- -->
+      <div class="course-roles">
+        <div class="container">
+          <h4 class=" head-color">What roles can a Core & Advanced Java Programming <br> Course play?</h4>
+          <div class="card bg-card">
+            <div class="card-body">
+              <div class="job-roles">
+                <div class="row justify-content-center">
+                  <div class="col-lg-10">
+                    <div class="row">
+                      <div class="col-lg-4 mb-4">
+                        <div class="job-card">
+                          <h5 class="head-color text-center">Junior  Java Developer</h5>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 mb-4">
+                        <div class="job-card">
+                          <h5 class="head-color text-center">Senior Java Developer</h5>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 mb-4">
+                        <div class="job-card">
+                          <h5 class="head-color text-center">Java Web Developer</h5>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 mb-4">
+                        <div class="job-card">
+                          <h5 class="head-color text-center">Android Developer</h5>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 mb-4">
+                        <div class="job-card">
+                          <h5 class="head-color text-center">Android Developer</h5>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <!-- <td><img style="max-width: 1000px;max-height: 500px;" src="/img/java/java2.png"></td> -->
-                  <!-- <td><img style="max-width: 200px;" src="/img/python_fullstatck/bootstrap.png"></td>
-                  <th><img style="max-width: 200px;" src="/img/python_fullstatck/jquery.png"></th> -->
-
-                </tr>
-
-
-              </tbody>
-            </table>
-
-
-          </div>
-
-
-
-
-
-          <div class="col-md-5">
-            <div class="">
-              <div class="row">
-                <div class="trd">
-                  <h3>Technovally tools covered</h3>
-                  <P>Technovalley AKS was established in 2016 and since then it has been
-                    growing at a steady pace to reach a milestone of $280 million valued
-                    company. Technovalley AKS has been successful in placing 1000s of
-                    interns across 600+ MNCs worldwide. This wouldn’t be possible without
-                    the help of interns, corporates and our staff whohelped us reach this
-                    breakthrough.Our main USP is upskilling and reskilling talents. We provide excellent
-                    consulting to interns making them corporate-ready and then placing
-                    them to the MNCs depending on their requisites. Technovalley AKS has
-                    recognized infrastructure and professional consultants to upskill them. Our customized approach to
-                    the
-                    client job requirements makes it cost
-                    effective as we provide candidates who are talented and dedicated
-                    towards their job offered. We have three pillars of strength namely,
-                    Infrastructure, Emerging Technology and Cyber Security which makes us
-                    different from the rest consulting firms in the market. Hence, Technovalley
-                    AKS has become a name which every corporate and intern wishes to be
-                    associated with. </P>
-
-                  <button type="button" class="btn btn-warning">ENQUIRE NOW</button>
                 </div>
-
-
-                <hr>
-
-
-
-
-              </div>
-
-            </div>
-
-
-
-          </div>
-          </section>
-
-
-
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <!-- tools covered END -->
-
-
-
-
-
-
-
-
-
-
-    <!-- ABOUT DOMAIN START -->
-
-    <div class="container tezvw">
-      <div class="row">
-        <div class="col-md-6">
-          <article>
-
-
-
-            <h2>ABOUT DOMAIN</h2>.
-            <P>As the use of web applications and websites continues to
-              grow, the demand for full-stack developers is likely to
-              increase. In addition, the increasing complexity of web
-              applications and the need for seamless integration
-              between the front-end and back-end of these
-              applications are driving the demand for full-stack
-              developers.</P>
-
-            <P>
-              The amount of time it takes to become proficient in
-              full-stack web development can vary significantly
-              depending on a number of factors, including an
-              individual’s prior experience and knowledge, their
-              learning style, and the amount of time they are able to
-              dedicate to learning and practicing.
-
-            </P>
-            <p>
-              Some estimates put the average time to expertise at
-              around 3-5 years, although this can vary depending on
-              an individual’s level of dedication and the resources
-              they have available to them. It is important to
-              approach learning full-stack web development with
-              a long-term mindset.According to a survey conducted by Stack Overflow
-              in 2021, full-stack developers are the second most
-              in-demand type of developer, behind only data
-              scientists.In the same survey, full-stack developers were found
-              to be the highest-paid type of developer, with an average salary of $71,000 per year.Full-stack
-              development
-              is a popular career choice,
-              with a large number of developers expressing an
-              interest in becoming full-stack developers. According
-              to the 2021 Stack Overflow survey, 42.1% of
-              respondents identified as full-stack developers.
-              It is possible for non-technical people to become
-              full-stack developers. While a strong foundation in
-              computer science and programming is helpful, it is
-              not necessarily a requirement to become a full-stack
-              developer.
-            </p>
-
-
-            <h2>SKILLS AND TECHNOLOGIES REQUIRED
-              TO BECOME A FULL-STACK DEVELOPER.</h2><br>
-            <P>To be an expert full-stack developer, it is important to have a
-              broad range of skills and knowledge across both the
-              front-end and back-end of web development. Here are some
-              key areas that an expert full-stack developer should be familiar with:</P>
-
-            <P>
-              FRONT-END DEVELOPMENT:
-              HTML: Hypertext Markup Language (HTML) is the
-              standard markup language for creating web pages.
-              CSS: Cascading Style Sheets (CSS) is a stylesheet
-              language used to describe the look and formatting of
-              a document written in HTML.
-              JavaScript: JavaScript is a programming language that
-              is commonly
-
-            </P>
-            <p>
-              BACK-END DEVELOPMENT:
-              SERVER-SIDE LANGUAGES: Expert full-stack
-              developers should be proficient in at least one
-              server-side language, such as Python, Java, or Ruby.
-              DATABASE MANAGEMENT: Cascading Style Sheets
-              (CSS) is a stylesheet language used to describe the
-              look and formatting of a document written in HTML.
-              APIs: Expert full-stack developers should be able to
-              design and implement application programming
-              interfaces (APIs) that allow different systems to
-              communicate with each other.
-              pages.
-            </p>
-
-
-        </div>
-
-        <div class="col-md-1 col-0">
-        </div>
-
-
-        <div class="col-md-5 topCarousel">
-          <div>
-
-            <div class="row">
-
-
-              <H3>Achievements of our Interns</H3>
-
-              <div class="review-carosaul">
-                <div class="carousel"
-                  data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": true, "prevNextButtons": false }'>
-
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"Amal is our cyber security intern, he
-                          discovered
-                          the flaws in a Goverment website."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/amal.png" alt="customer image">
+                <h5 class="head-color tools-to mt-5">Tools to Master</h5>
+                <div class="tools-carousel">
+                  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row">
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/1.png" alt="">
                           </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">AMAL KRISHNA C</div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Cyber Security Intern</div>
-                            </div>
-
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/2.png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/3.png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/4.png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/5.png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/6.png" alt="">
                           </div>
                         </div>
                       </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"Recognition by The Govt. of Scotland -
-                          Vulnerability Disclosure.
-                          Featured in Apple Hall of Fame for
-                          Vulnerability Disclosure."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/MUHAMMED_SANEEM.png" alt="customer image">
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <div class="row">
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/7.png" alt="">
                           </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">MUHAMMED SANEEM</div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Cyber Security Intern</div>
-                            </div>
-
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/8.png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/9.png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                            <img src="img/java-course/tools-to-master/10.png" alt="">
                           </div>
                         </div>
                       </div>
-
                     </div>
-
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    
                   </div>
-
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"She created a mask and no mask detection
-                          system
-                          using Computer vision and Deep learning."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/Aleena.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">ALEENA ANTONY
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Data Science Intern</div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"SHe developed M C Hospital Doctor
-                          Booking web application in Python
-                          program."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/adnan.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">ADNAN MUHAMMAD
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Python Fullstack Intern
-                              </div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"Karthik is our cyber security intern, he
-                          discovered
-                          the flaws in an Indian Goverment website."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/Karthik.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">KARTHIK SHIBU
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Cyber Security Intern</div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-
-                        <div class="customer_comment">"She developed an E-commerce website for
-                          a Fashion Store Brand." </div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/vidya.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">VIDYA P KISHORE
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Python Fullstack Intern
-                              </div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"<img src="/assets/img/testimonials/crawlbot.png"
-                            style="max-width: 90px;" alt="">Reconnaissance tool created
-                          by our CWAP Students."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/cwap (1).png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">CWAP INTERNS
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Cyber Security</div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-
-
-                 
                 </div>
               </div>
             </div>
-
           </div>
-          </section>
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
-
       </div>
-    </div>
-
-
-    <!-- ABOUT DOMAIN END -->
-
-
-
-
-
-
-
-
-
-
-
-    <!-- ABOUT SALARY START -->
-
-
-    <div class="container tezvw">
-      <div class="row">
-        <div class="col-md-6">
-          <article>
-
-
-
-            <h2>ABOUT SALARY</h2>
-            <P>According to Glassdoor, The national average
-              salary for a Java Fullstack Developer is
-              $98141 in United States. </P>
-
-
-
-            <P>According to Payscale, The national average
-              salary for a Java Fullstack Developer is $81891
-              in United States. </P>
-
-
-
-        </div>
-
-        <div class="col-md-1 col-0">
-        </div>
-
-
-
-        <div class="col-md-5">
-          <div>
-            <div class="row">
-
-
-              <H3>Achievements of our Interns</H3>
-
-              <div class="review-carosaul">
-                <div class="carousel"
-                  data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": true, "prevNextButtons": false }'>
-
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"Amal is our cyber security intern, he
-                          discovered
-                          the flaws in a Goverment website."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/amal.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">AMAL KRISHNA C</div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Cyber Security Intern</div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"Recognition by The Govt. of Scotland -
-                          Vulnerability Disclosure.
-                          Featured in Apple Hall of Fame for
-                          Vulnerability Disclosure."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/MUHAMMED_SANEEM.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">MUHAMMED SANEEM</div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Cyber Security Intern</div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"She created a mask and no mask detection
-                          system
-                          using Computer vision and Deep learning."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/Aleena.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">ALEENA ANTONY
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Data Science Intern</div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"SHe developed M C Hospital Doctor
-                          Booking web application in Python
-                          program."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/adnan.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">ADNAN MUHAMMAD
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Python Fullstack Intern
-                              </div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"Karthik is our cyber security intern, he
-                          discovered
-                          the flaws in an Indian Goverment website."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/Karthik.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">KARTHIK SHIBU
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Cyber Security Intern</div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-
-                        <div class="customer_comment">"She developed an E-commerce website for
-                          a Fashion Store Brand." </div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/vidya.png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">VIDYA P KISHORE
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Python Fullstack Intern
-                              </div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-cell">
-                    <div class="verified_customer_section">
-                      <br>
-                      <div class="container">
-                        <div class="customer_comment">"<img src="/assets/img/testimonials/crawlbot.png"
-                            style="max-width: 90px;" alt="">Reconnaissance tool created
-                          by our CWAP Students."</div>
-
-                        <div class="image_review">
-                          <div class="customer_image">
-                            <img src="/assets/img/testimonials/cwap (1).png" alt="customer image">
-                          </div>
-
-                          <div class="customer_name_review_status">
-                            <div class="customer_name">CWAP INTERNS
-                            </div>
-
-                            <div class="customer_status">
-
-                              <div class="customer_status_content">Cyber Security</div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-
-
-                  <!-- <div class="carousel-cell"></div>
-                        <div class="carousel-cell"></div>
-                        <div class="carousel-cell"></div>
-                        <div class="carousel-cell"></div> -->
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-
-
-        </div>
-        </section>
-
-      </div>
-
-    </div>
-
-    <!-- ABOUT SALARY END -->
-
-
-
-
-
-
-    <style>
-      .carousel {
-        box-shadow: 5px 5px 5px 5px #ccc;
-
-      }
-
-      .carousel-cell {
-        border-radius: 10em;
-      }
-    </style>
-
-
-
-
-    <br><br>
+    <!-- -------------course-roles end-------------- -->
 
 
     <!-- ======= CURRICULUM START ======= -->
-    <div class="curriculamContainer container">
+    <div class="curriculamContainer container" id="curriculum">
 
 
 
-      <h3 class="curriculamHeading" style="text-align: center;">CURRICULUM</h3>
+      <h4 class="curriculamHeading" style="text-align: center;">Technovally Curriculum</h4>
 
       <div class="CURRICULUM" id="car" style="margin: 1em;">
 
@@ -1444,6 +608,9 @@
           </article> -->
 
 
+     
+
+
               <article class="tab_content" id="tab26" style="width:100%">
                 <h6 class="curriculumTitle">6.Collection Framework </h6>
                 <div class="container">
@@ -1488,7 +655,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>Introduction to Generics code.
                         </li>
@@ -1509,7 +676,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> java.time.LocalDateTime</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> java.time.LocalDate
@@ -1517,11 +684,9 @@
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> java.time.LocalTime</li>
                       </ul>
                     </div>
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
-                        <li class="curriculamListItem"><i class="bi bi-bullseye"></i>
-                          java.time.format.DateTimeFormatter
-                        </li>
+                        <li class="curriculamListItem"><i class="bi bi-bullseye"></i>java.time.format.DateTimeFormatter</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>java.time.Period</li>
                       </ul>
                     </div>
@@ -1535,7 +700,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 3 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>What is Annotation and its usage
                         </li>
@@ -1554,7 +719,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 6 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>Introduction to java.io package.
                         </li>
@@ -1568,7 +733,7 @@
                           Input Stream, Buffered Output Stream</li>
                       </ul>
                     </div>
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Object Serialization</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Object Input Stream and Object
@@ -1591,7 +756,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>What is Multithreading..</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>Lifecycle of Thread</li>
@@ -1661,7 +826,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 1 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Introduction</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Web server and web client.</li>
@@ -1672,7 +837,7 @@
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Web container</li>
                       </ul>
                     </div>
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>Deployment descriptor</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Apache Maven build tool</li>
@@ -1697,7 +862,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 4 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> HTML introduction.</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>HTML tags.</li>
@@ -1706,7 +871,7 @@
                         </li>
                       </ul>
                     </div>
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> CSS syntax. </li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> CSS Id and Class selectors </li>
@@ -1724,7 +889,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 4 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Introduction.</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> External and internal JavaScript
@@ -1735,7 +900,7 @@
 
                       </ul>
                     </div>
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>JavaScript pop up boxes</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Validation</li>
@@ -1755,7 +920,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Introduction and installation
                         </li>
@@ -1764,7 +929,7 @@
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Events </li>
                       </ul>
                     </div>
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> jQuery effects – hide, show,
                           fade,
@@ -1784,7 +949,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 2 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Introduction to AJAX </li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i>Send GET and POST data. </li>
@@ -1848,7 +1013,7 @@
                 <div class="container">
                   <h5 style="color: #598f86;">Durantion : 10 HRS</h5>
                   <div class="row">
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Introduction to JSP</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Advantages.</li>
@@ -1858,7 +1023,7 @@
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Components of JSP page</li>
                       </ul>
                     </div>
-                    <div class="col-sm-6" style="font-size: larger;">
+                    <div class="col-sm-4" style="font-size: larger;">
                       <ul>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> JSP implicit objects</li>
                         <li class="curriculamListItem"><i class="bi bi-bullseye"></i> Create error pages in JSP</li>
@@ -2010,38 +1175,103 @@
 
     <!-- ======= CURRICULUM END ======= -->
 
-      <!-- contactus start -->
-      <div class="contactUsContainer container">
-        <div class="p-4 contactUsWrapper">
-          <div class="row">
-            <div class="col-12 courseContactDiv mt-4 mb-3">
-              <div class="contactUsHeadDiv">
-                <span class="contactTitle text-center h3">Contact Us</span>
+
+
+       <!-- -------------------------testimonial start----------------------- -->
+
+       <div class="course-testimonial" id="testimonials">
+        <section class="client-testimonial">
+          <div class="container">
+            <h4 class=" head-color text-center">Testimonial</h4>
+            <div class="slider">
+              <input type="radio" name="testimonial" id="t-1">
+              <input type="radio" name="testimonial" id="t-2">
+              <input type="radio" name="testimonial" id="t-3" checked>
+              <input type="radio" name="testimonial" id="t-4">
+              <input type="radio" name="testimonial" id="t-5">
+              <div class="testimonials">
+                <label class="item" for="t-1">
+                  <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+                  <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                  <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-2">
+                  <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+                  <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                  <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-3" >
+                  <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+                  <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                  <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-4">
+                  <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+                  <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                  <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-5">
+                  <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+                  <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                  <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-5">
+                  <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+                  <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                  <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-5">
+                  <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+                  <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                  <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-5">
+                  <img src="./assets/img/client-testimonial/1.jpg" alt="picture">
+                  <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                  <h2>- Princy, Web Developer</h2>
+                </label>
               </div>
-              <div class="contactUsDescDiv ">
-                <span class="contactUsDesc contactTitle text-center h5">To Know more details about the program.Please fill out the form and we will contact you shortly.</span>
+              <div class="dots">
+                <label for="t-1"></label>
+                <label for="t-2"></label>
+                <label for="t-3"></label>
+                <label for="t-4"></label>
+                <label for="t-5"></label>
               </div>
-            </div>
-            <div class="col-12 col-md-6 contactCourseLeft mb-3 mt-3">
-              <div class="contactLeftText text-center">
-                <h2 class="contactLeftText">Request a callback to Start your journey with <span class="technoGreen">Technovalley!</span> </h2>
-              </div>
-              <div class="contactLeftButton">
-                <a href="/brochures/Advanced_Java_technovalley.pdf" download="Advanced_Java">
-                  <button class="btn" id="abledButton" style="background-color: #ca938e;">Download Brochure</button>
-                </a>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 contactCourseRight mb-3 mt-3">
-              <form action="" class="col-8" method="post">
-                <input placeholder="Full Name" type="text" style="background-color: #e2ebe9;" class="form-control mb-2 mt-2">
-                <input placeholder="Mobile Number" type="text" style="background-color: #e2ebe9;" class="form-control mb-2 mt-2">
-                <input placeholder="Email Id" type="email" style="background-color: #e2ebe9;" class="form-control mb-2 mt-2">
-                <button class="btn btn-warning col-12 mt-2">Request a Callback</button>
-              </form>
             </div>
           </div>
-        </div>
+      </section>
+      </div>
+
+      <!-- ---------------------------testimonial end---------------------------- -->
+
+
+      <!-- contactus start -->
+      <div class="course-contact">
+        <div class="contactUsContainer ">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 contactCourseLeft mb-3 mt-3">
+                <div class="contactLeftText">
+                  <h2 class="text-dark contact-head">Request a  <br> to Start your journey with <br><b class="dark-cyan">Technovalley!</b> </h2>
+                </div>
+                <div class="contactLeftButton">
+                  <a href="/brochures/Advanced_Java_technovalley.pdf" download="Advanced_Java">
+                    <button class="btn download-btn" id="abledButton" >Download Brochure</button>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 contactCourseRight mb-3 mt-3">
+                <form action="" class="col-8" method="post">
+                  <input placeholder="Full Name" type="text" style="background-color: #e2ebe9;" class="form-control mb-2 mt-2">
+                  <input placeholder="Mobile Number" type="text" style="background-color: #e2ebe9;" class="form-control mb-2 mt-2">
+                  <input placeholder="Email Id" type="email" style="background-color: #e2ebe9;" class="form-control mb-2 mt-2">
+                  <button class="btn btn-warning col-12 mt-2 button-style">Request a Callback</button>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
       </div>
       <!-- contactus end -->
 
@@ -2064,171 +1294,163 @@
 
 
 
-    <br><br>
+  
 
 
 
     <!-- ======= OUR STUDENTS EVERYWHERE START ======= -->
-    <div class="orange">
-
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <br><br>
-            <article>
-              <h3 style="text-align:center;"> OUR STUDENTS ARE EVERYWHERE </h3>
-              <P style=" text-align:center; font-size:14px;">Technovalley has a long-standing tradition of providing
-                top-notch internship
-                opportunities for students and young professionals. Over the years, we have
-                certified thousands of interns, and we are proud to say that many of our
-                graduates have gone on to secure employment in some of the most renowned
-                global companies. The following are some of the organisation that our students
-                are placed in</P>
-              <table class="imge logoTable">
-                <tbody>
-                  <tr>
-                    <div class="row">
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/tcs.png"></th>
+    <div class="our-students" id="our-students">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <br><br>
+              <article>
+                <h4 class="head-color text-center"> Our Students are Everywhere</h4>
+                <P style=" text-align:center; font-size:14px;">Technovalley has a long-standing tradition of providing
+                  top-notch internship
+                  opportunities for students and young professionals. Over the years, we have
+                  certified thousands of interns, and we are proud to say that many of our
+                  graduates have gone on to secure employment in some of the most renowned
+                  global companies. The following are some of the organisation that our students
+                  are placed in</P>
+                <table class="imge logoTable">
+                  <tbody>
+                    <tr>
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/tcs.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/Amazon_logo.svg.webp"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/Capgemini-Logo.wine.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/Cognizant.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/Deloitte.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/Infosys_logo.svg.png"></th>
+                        </div>
                       </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/Amazon_logo.svg.webp"></th>
+                    </tr>
+                    <tr>
+                      <div class="row">
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/mindtree.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/Apple-Logo-PNG-Photos.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/mindtree.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/Wipro_Logo.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/PwC-PricewaterhouseCoopers-Symbol.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/et.svg"></th>
+                        </div>
                       </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/Capgemini-Logo.wine.png"></th>
+  
+                      <th></th>
+                    </tr>
+                    <tr>
+                      <div class="row">
+                        
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/accenture.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/lg.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/Mahindra-Car-Logo-Vector-PNG.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/Petrofac-Logo.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/dell-png-logo-0.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/ibm.png"></th>
+                        </div>
+                        
+  
                       </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/Cognizant.png"></th>
+  
+                    </tr>
+                    <tr>
+                      <!-- <th></th>
+                      <th></th> -->
+                      <div class="row">
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/HCL_Technologies_logo.svg.png">
+                          </th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/hp.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/microsoft-logo-4.png"></th>
+                        </div>
+                        <div class="col">
+                          <th class="compananiesLogo" style="max-width:200px;"><img
+                              src="/img/our_students_everywhere/redhat.png"></th>
+                        </div>
                       </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/Deloitte.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/Infosys_logo.svg.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/mindtree.png"></th>
-                      </div>
-                    </div>
-                  </tr>
-                  <tr>
-                    <div class="row">
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/Apple-Logo-PNG-Photos.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/mindtree.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/Wipro_Logo.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/PwC-PricewaterhouseCoopers-Symbol.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/et.svg"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/google.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/kpmg-logo-vector-1.svg"></th>
-                      </div>
-                    </div>
-
-                    <th></th>
-                  </tr>
-                  <tr>
-                    <div class="row">
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/accenture.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/lg.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/Mahindra-Car-Logo-Vector-PNG.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/Petrofac-Logo.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/dell-png-logo-0.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/ibm.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/HCL_Technologies_logo.svg.png">
-                        </th>
-                      </div>
-
-                    </div>
-
-                  </tr>
-                  <tr>
-                    <th></th>
-                    <th></th>
-                    <div class="row">
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/hp.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/microsoft-logo-4.png"></th>
-                      </div>
-                      <div class="col">
-                        <th class="compananiesLogo" style="max-width:200px;"><img
-                            src="/img/our_students_everywhere/redhat.png"></th>
-                      </div>
-                    </div>
-                  </tr>
-                  <tr>
-
-
-                    <td></td>
-
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <th></th>
-
-                  </tr>
-
-                </tbody>
-              </table>
-
-
-            </article>
+                    </tr>
+                    <tr>
+  
+  
+                      <td></td>
+  
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <th></th>
+  
+                    </tr>
+  
+                  </tbody>
+                </table>
+  
+  
+              </article>
+            </div>
+  
           </div>
-
+  
         </div>
-
-      </div>
-
+  
     </div>
     <!-- ======= OUR STUDENTS EVERYWHERE END ======= -->
 
@@ -2250,68 +1472,71 @@
 
 
  <!-- ======= SLIDER START======= -->
- <div class="container" >
-  <div class="carousel"
-    data-flickity='{ "contain": true, "autoPlay": 1500, "pauseAutoPlayOnHover": true , "imagesLoaded": true, "pageDots": false}'>
-
-    <div class="carousel-cell related-course" ><a href="/courses_templates/AI&MI_technovalley.html"><img
-          src="/img/courses/ai.png" class="carousel-image" style="width: 100%; height: 80px;" alt="Image 1"></a>
+ <div class="course-logo-carousel" id="related-programs">
+  <div class="container" >
+    <h4 class="head-color mb-4">Our Other Popular Programs</h4>
+    <div class="carousel"
+      data-flickity='{ "contain": true, "autoPlay": 1500, "pauseAutoPlayOnHover": true , "imagesLoaded": true, "pageDots": false}'>
+  
+      <div class="carousel-cell related-course" ><a href="/courses_templates/AI&MI_technovalley.html"><img
+            src="/img/courses/ai.png" class="carousel-image" style="width: 100%; height: 80px;" alt="Image 1"></a>
+      </div>
+      <div class="carousel-cell related-course" ><a href="/courses_templates/angukar js.html"> <img
+            class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/angular.png"
+            alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a
+          href="/courses_templates/Bigdata&Hadoop_Technovalley.html"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/bigdata.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a
+          href="/courses_templates/Business_Data_Analyst_Technovalley.html"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/data_analyst.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a href="/courses_templates/Core_Python_Technovalley.html">
+          <img class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/core_python.png"
+            alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a
+          href="/courses_templates/DevOps_Engineer_Technovalley.html"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/devops.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a
+          href="/courses_templates/Digital_Marketing_Expert_technovalley.html"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/digital_marketing.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/java.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a href="/courses_templates/mean stack.html"><img
+            class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/mean.png" alt="Image 1"></a>
+      </div>
+      <div class="carousel-cell related-course" ><a href="/courses_templates/MERN-Stack_technovalley.html"><img
+            class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/mern.png" alt="Image 1"></a>
+      </div>
+      <div class="carousel-cell related-course" ><a
+          href="/courses_templates/MongoDB_Expert_Technovalley.html"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/mongo.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a href="/courses_templates/python.html"><img
+            class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/python_advanced.png"
+            alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a
+          href="/courses_templates/python-fullstack-developer_technovalley.html"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/pythonmain.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a href="/courses_templates/react-js.html"><img
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/react.png"
+              alt="Image 1"></a>
+      </div>
+      <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/java_adv.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a href="/courses_templates/phpcourses.html"><img
+            class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/php.png" alt="Image 1"></a>
+      </div>
+      <div class="carousel-cell related-course" ><a
+          href="/courses_templates/Malware _Analyst_Technovalley.html"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/malware.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/threat_hunter.png" alt="Image 1"></a></div>
+      <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
+            style="width: 100%; height: 80px;" src="/img/courses/soc.png" alt="Image 1"></a></div>
+  
+  
     </div>
-    <div class="carousel-cell related-course" ><a href="/courses_templates/angukar js.html"> <img
-          class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/angular.png"
-          alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a
-        href="/courses_templates/Bigdata&Hadoop_Technovalley.html"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/bigdata.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a
-        href="/courses_templates/Business_Data_Analyst_Technovalley.html"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/data_analyst.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a href="/courses_templates/Core_Python_Technovalley.html">
-        <img class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/core_python.png"
-          alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a
-        href="/courses_templates/DevOps_Engineer_Technovalley.html"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/devops.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a
-        href="/courses_templates/Digital_Marketing_Expert_technovalley.html"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/digital_marketing.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/java.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a href="/courses_templates/mean stack.html"><img
-          class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/mean.png" alt="Image 1"></a>
-    </div>
-    <div class="carousel-cell related-course" ><a href="/courses_templates/MERN-Stack_technovalley.html"><img
-          class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/mern.png" alt="Image 1"></a>
-    </div>
-    <div class="carousel-cell related-course" ><a
-        href="/courses_templates/MongoDB_Expert_Technovalley.html"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/mongo.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a href="/courses_templates/python.html"><img
-          class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/python_advanced.png"
-          alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a
-        href="/courses_templates/python-fullstack-developer_technovalley.html"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/pythonmain.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a href="/courses_templates/react-js.html"><img
-            class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/react.png"
-            alt="Image 1"></a>
-    </div>
-    <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/java_adv.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a href="/courses_templates/phpcourses.html"><img
-          class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/php.png" alt="Image 1"></a>
-    </div>
-    <div class="carousel-cell related-course" ><a
-        href="/courses_templates/Malware _Analyst_Technovalley.html"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/malware.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/threat_hunter.png" alt="Image 1"></a></div>
-    <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
-          style="width: 100%; height: 80px;" src="/img/courses/soc.png" alt="Image 1"></a></div>
-
-
   </div>
-</div>
+ </div>
 
 <!-- ======= SLIDER END ======= -->
 
@@ -2680,6 +1905,10 @@
 
 
   <!-- Template Main JS File -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="js/course/course.js"></script>
   <script src="/assets/js/main.js"></script>
 
 
