@@ -81,25 +81,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
     <script src="/js/gallery.js"></script>
     <script src="/js/main.js"></script>
-
-    <script>
-      $(".counter-count").each(function () {
-        $(this)
-          .prop("Counter", 0)
-          .animate(
-            {
-              Counter: $(this).text(),
-            },
-            {
-              duration: 5000,
-              easing: "swing",
-              step: function (now) {
-                $(this).text(Math.ceil(now))
-              },
-            }
-          )
-      })
-    </script>
   </head>
 
   <body>
@@ -131,8 +112,7 @@
       <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo">
           <a href="index.html">
-            <img src="/img/logo.png" width="200em" /><span
-              style="color: white"
+            <img src="/img/logo.png" width="200em" /><span style="color: white"
               >.</span
             ></a
           >
@@ -163,252 +143,207 @@
     <!-- End Header -->
 
     <div class="topSection">
-      <img src="/assets/img/about.png" class="aboutLogo" alt="" />
+      <img src="/img/about/aboutHero.jpg" class="aboutLogo" alt="" />
+      <h1 class="aboutTitle">About</h1>
     </div>
-    <div class="aboutIntroWrapper bout">
-      <h3 class="aboutHeading">
-        Empowering Africa's Futur
-        through World-Class Education<br />
-        and Skills Training
-      </h3>
-
-      <p class="aboutData">
-        Technovalley Software India Private Limited, with over two decades of
-        experience in the software industry, is thrilled to announce the launch
-        of Technovalley Africa. Our goal is to empower and promote education in
-        Africa by providing world-class education and skills training to
-        students. Our innovative programs and experienced faculty will equip
-        African students with the knowledge and skills needed to become leaders
-        in their field and drive the continent's development.
-      </p>
-      <p class="aboutData">
-        We believe that every student has the potential to be a leader in their
-        field, and our mission is to help them reach that potential. With our
-        state-of-the-art facilities and equipment, innovative curriculum and
-        teaching methods, expert faculty, and comprehensive education and skills
-        training, we are confident that we can empower the next generation of
-        leaders in Africa.
-      </p>
-      <p class="aboutData">
-        Our organization is made up of three Strategic Business Units: Advanced
-        Knowledge Services (AKS), Advanced Consulting Services (ACS), and
-        Advanced Technical Services (ATS). These units work together to provide
-        a comprehensive education experience and skills training to our
-        students. We believe that the best education is one that is grounded in
-        both theoretical and practical knowledge.
-      </p>
-      <p class="aboutData">
-        We are proud to be part of a transformative movement in education in
-        Africa, and we are excited to play a role in upskilling and empowering
-        African students. Join us on this journey and be part of the change that
-        is shaping Africa's future.
-      </p>
-    </div>
-
-    <style>
-      .aboutData {
-        font-size: 1.2em;
-        font-weight: 400;
-        line-height: 1.5em;
-        color: #000;
-        padding-left: 10%;
-        padding-right: 10%;
-        text-align: justify;
-      }
-      .aboutHeading{
-        padding-left: 10%;
-      }
-      @media screen and (max-width: 768px) {
-     .aboutData{
-      padding-left: 0%;
-        padding-right: 0%;
-        
-  }
-  .aboutHeading{
-        padding-left: 10%;
-        text-align: center;
-      }
-}
-
-    </style>
-
-    <div class="aboutDataWrapper bout1">
-      <div class="row">
-        <div class="col-12 responsiveImg">
-          <div class="aboutImage">
-            <img
-              style="float: right; width: 100%; object-fit: cover"
-              src="/assets/img/bwf.png"
-            />
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 aboutParagraph bthh">
-          <p class="aboutData">
-            <span class="aboutSubHead" style="font-weight: bold"> Vision </span>
-
-            <br />
-
-            To be a leading organization that empowers African IT students to
-            become globally job-ready through internships and training, and to
-            play a key role in the development of Africa's IT industry, by
-            providing access to the latest technology and creating a talent
-            pipeline for the future.
-          </p>
-        </div>
-
-        <!-- Card #2, Intermediate -->
-
-        <!-- Card #3, Professional -->
-        <div class="col-6 standardImg">
-          <div class="aboutImage">
-            <img
-              style="float: right; width: 100%; object-fit: cover"
-              src="/assets/img/bwf.png"
-            />
-          </div>
-        </div>
+    <div class="aboutWrapper container">
+      <div class="aboutHeadDiv">
+        <i class="fa fa-quote-left quotes" aria-hidden="true"></i
+        ><span class="aboutHeadText"
+          >Empowering Africa's Future through World-Class Education and Skills
+          Training
+        </span>
       </div>
-
-      <div class="row">
-        <div class="col-12 col-sm-6">
-          <div class="aboutImage">
-            <img style="float: left; width: 100%" src="/img/mission.png" />
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 aboutParagraph">
-          <p class="aboutData">
-            <span class="aboutSubHead" style="font-weight: bold">
-              Mission
+      <div class="aboutData">
+        <div class="row">
+          <div class="col-12">
+            <span class="aboutPara"
+              >Technovalley is an IT consulting firm that offers innovative
+              programs to upskill and transform the youth of Africa. We provide
+              cost-effective and high-quality training, and we are committed to
+              helping our clients achieve their goals. We charge no fee or
+              commission for placements, but we encourage our clients to bear
+              the cost of their internship expenses. Our mission is to help
+              young people in Africa acquire the skills and knowledge they need
+              to be highly competitive in the job market.
             </span>
-            <br />
-            Our mission is to bridge the IT skills gap in Africa by providing
-            students with access to internships and training that will prepare
-            them for a global workforce. We strive to empower the next
-            generation of IT professionals in Africa by providing them with the
-            skills and experiences they need to succeed in a competitive job
-            market. We pledge to bind African IT interns together, to make them
-            job-ready, globally and to be a catalyst for the development of
-            Africa's IT industry.
-          </p>
-        </div>
-
-        <!-- Card #2, Intermediate -->
-
-        <!-- Card #3, Professional -->
-      </div>
-    </div>
-    <div class="techno">
-      <h3 class="text-center">Why choose us ?</h3>
-    </div>
-    <div class="aboutDataWrapper container">
-      <div class="row">
-        <div class="col-12 col-sm-6">
-          <div class="aboutImage">
-            <img style="float: left; width: 100%" src="/assets/img/bwvs.png" />
           </div>
-        </div>
-        <div class="col-12 col-sm-6">
-          <p class="aboutData">
-            <br />
-            With over two decades of experience in the software industry,
-            <span class="aboutSubHead">Technovalley</span> Africa's team is made
-            up of experts who bring a wealth of knowledge and experience to the
-            institution.
-          </p>
-        </div>
-
-        <!-- Card #2, Intermediate -->
-
-        <!-- Card #3, Professional -->
-      </div>
-
-      <div class="row">
-        <div class="col-12 responsiveImg">
-          <div class="aboutImage">
-            <img style="float: right; width: 100%" src="/img/yrlw.png" />
+          <hr />
+          <div class="col-md-7 col-12">
+            <p class="aboutPara">
+              Welcome to Technovalley, a leading IT consulting firm dedicated to
+              transforming and upskilling the youth of Africa. At Technovalley,
+              we believe that every young person in Africa should have access to
+              the skills and knowledge needed to succeed in the ever-changing
+              global economy.
+            </p>
+            <p class="aboutPara">
+              Our mission is to provide cost-effective and innovative IT
+              consulting services to young people in Africa, helping them to
+              acquire the skills and knowledge they need to be highly
+              competitive in the job market. We do this by offering
+              state-of-the-art infrastructure and experienced faculties to
+              upskill our clients, making them highly skilled, talented,
+              disciplined, knowledgeable, dedicated and committed to the job
+              offered.
+            </p>
           </div>
-        </div>
-        <div class="col-12 col-sm-6">
-          <p class="aboutData">
-            <br />
-
-            Our experienced team of professionals analyse the market, industry
-            trends and student demand to provide the best education and training
-            to our students.
-          </p>
-        </div>
-
-        <!-- Card #2, Intermediate -->
-
-        <!-- Card #3, Professional -->
-        <div class="col-6 standardImg">
-          <div class="aboutImage">
-            <img style="float: right; width: 100%" src="/img/yrlw.png" />
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-sm-6">
-          <div class="aboutImage">
-            <img style="float: left; width: 100%" src="/img/lzxv.png" />
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 bthh">
-          <p class="aboutData">
-            <br />
-            <span class="aboutSubHead">Technovalley</span> Africa's commitment
-            to quality is reflected in everything we do, from our
-            state-of-the-art facilities and equipment to our expert faculty and
-            innovative curriculum.
-          </p>
-        </div>
-
-        <!-- Card #2, Intermediate -->
-
-        <!-- Card #3, Professional -->
-      </div>
-
-      <div class="row">
-        <div class="col-12 responsiveImg">
-          <div class="aboutImage">
-            <img
-              style="float: right; width: 100%"
-              src="/assets/img/bwldf.png"
-            />
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 bthh">
-          <p class="aboutData">
-            <br />
-
-            <span class="aboutSubHead">Technovalley</span> Africa offers a wide
-            range of programs and courses, from traditional degree programs to
-            specialized training in cutting-edge technology.
-          </p>
-        </div>
-
-        <!-- Card #2, Intermediate -->
-
-        <!-- Card #3, Professional -->
-        <div class="col-6 standardImg">
-          <div class="aboutImage">
-            <img
-              style="float: right; width: 100%"
-              src="/assets/img/bwldf.png"
-            />
+          <div class="col-md-5 col-12">
+            <img src="/assets/img/Rectangle.png" alt="" class="aboutImages" />
           </div>
         </div>
       </div>
     </div>
-    <br /><br /><br /><br />
+    <div class="aboutHighlight">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-12">
+            <img src="/assets/img/Rectangle.png" class="aboutImages" alt="" />
+          </div>
+          <div class="col-md-7 col-12">
+            <p class="aboutPara">
+              We understand that many young people in Africa face financial
+              constraints that can limit their access to quality IT education
+              and training. That's why we charge no fee or commission for
+              placements. However, we do encourage our clients to bear the cost
+              of their internship expenses, as this allows us to offer the best
+              possible facilities and faculty to ensure that they receive the
+              highest quality training.
+            </p>
+            <p class="aboutPara">
+              At Technovalley, we are committed to helping our clients achieve
+              their goals, whether they are seeking to advance their careers or
+              start their own businesses. Our programs are tailored to meet the
+              specific needs of each client, and we work closely with them to
+              ensure that they receive the support and guidance they need to
+              succeed.
+            </p>
+          </div>
+          <div class="col-12">
+            <p class="aboutPara">
+              We are proud to be a part of the transformation and upskilling of
+              the youth of Africa, and we look forward to continuing to provide
+              innovative IT consulting services to young people across the
+              continent.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="aboutWrapper container">
+      <div class="aboutHeadDiv">
+        <i class="fa fa-quote-left quotes" aria-hidden="true"></i
+        ><span class="aboutHeadText"
+          >Pledge to Bind African IT Interns Together; Make Them Job-Ready,
+          Globally”
+        </span>
+      </div>
+      <div class="aboutData">
+        <div class="row">
+          <div class="col-12">
+            <p class="aboutPara">
+              At Technovalley, our slogan "Pledge to Bind African IT Interns
+              Together; Make Them Job-Ready, Globally" reflects our commitment
+              to empowering young people in Africa through innovative IT
+              consulting services. We understand the current lack of
+              infrastructure and opportunities available for young people in
+              Africa, and our aim is to improve this situation by providing
+              state-of-the-art infrastructure and experienced faculty to upskill
+              them.
+            </p>
+          </div>
+          <div class="col-md-7 col-12">
+            <p class="aboutPara">
+              We offer cost-effective and customized training programs to help
+              young people in Africa acquire the skills and knowledge they need
+              to be successful in the job market. Our programs are designed to
+              be hands-on and practical, giving our clients the opportunity to
+              gain real-world experience and build a strong foundation of
+              knowledge in their chosen fields. Our pledge is to create a
+              supportive community of skilled and talented African IT interns
+              who are prepared to take on the challenges of the modern digital
+              world and make a positive impact on their communities and the
+              world.
+            </p>
+          </div>
+          <div class="col-md-5 col-12">
+            <img src="/assets/img/Rectangle.png" alt="" class="aboutImage" />
+          </div>
+        </div>
+      </div>
+      <div class="aboutMain">
+        <div class="row">
+          <div class="col-12 aboutMainHead">
+            <span class="greenText">VISION</span> &
+            <span class="greenText">MISSION</span>
+          </div>
 
-    <!-- Footer -->
-
-    <!-- footer start -->
-    <!-- ======= FOOTER START ======= -->
-
-    <!-- Footer -->
+          <div class="col-md-6 col-12">
+            <h3 class="greenText">OUR VISION</h3>
+            <p class="aboutPara">
+              At Technovalley, our vision is to be the leading IT consulting
+              firm in Africa, dedicated to transforming and upskilling the youth
+              of the continent. We aim to empower young people in Africa to
+              contribute to the growth and development of the global economy, by
+              providing them with high-quality and innovative training programs
+              that meet the needs of the rapidly evolving digital landscape.
+            </p>
+            <p class="aboutPara">
+              We believe that Africa is a continent of great potential, and that
+              its young people are its greatest asset. Our vision is to unlock
+              that potential by offering cutting-edge IT consulting services
+              that help young people in Africa acquire the skills and knowledge
+              they need to be highly competitive in the job market. We want to
+              create a future where African youth are at the forefront of
+              innovation and technological progress, driving growth and
+              development both locally and globally.
+            </p>
+          </div>
+          <div class="col-md-6 col-12">
+            <img src="/assets/img/Rectangle.png" alt="" class="aboutImage" />
+          </div>
+        </div>
+      </div>
+      <div class="aboutMain">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <img src="/assets/img/Rectangle.png" alt="" class="aboutImage" />
+          </div>
+          <div class="col-md-6 col-12">
+            <h3 class="greenText">OUR MISSION</h3>
+            <p class="aboutPara">
+              At Technovalley, our mission is to provide innovative and
+              cost-effective IT consulting services to young people in Africa.
+              We believe that every young person in Africa deserves access to
+              quality education and training, and we are committed to making
+              this a reality. Our mission is to provide state-of-the-art
+              infrastructure and experienced faculties to upskill our clients,
+              making them highly skilled, talented, disciplined, knowledgeable,
+              dedicated and committed to the job offered.
+            </p>
+            <p class="aboutPara">
+              We offer customized training programs that are tailored to the
+              needs of our clients, helping them to acquire the skills and
+              knowledge they need to be successful in the job market. We charge
+              no fee or commission for placements, but we encourage our clients
+              to bear the cost of their internship expenses, so that we can
+              offer the best possible facilities and faculty to ensure that they
+              receive the highest quality training.
+            </p>
+          </div>
+          <div class="col-12">
+            <p class="aboutPara">
+              Our mission is to help our clients achieve their goals, whether
+              they are seeking to advance their careers, start their own
+              businesses, or make a positive impact on their communities. We
+              believe that by empowering young people in Africa, we can create a
+              brighter and more prosperous future for the continent and the
+              world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer
       class="text-center text-lg-start bg-light text-muted"

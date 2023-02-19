@@ -1,39 +1,38 @@
+.topSection {
+  position: relative;
+}
+.aboutTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px !important;
+  color: white;
+}
+.aboutHeadDiv {
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.aboutPara {
+  color: #606060;
+}
 .aboutLogo {
   width: 100%;
 }
-.aboutIntroWrapper {
-  padding: 3em;
+.quotes {
+  color: green !important;
 }
-.aboutDataWrapper {
-  padding: 3em;
+.aboutHighlight {
+  background-color: #fff9f5;
 }
-.aboutHeading {
-  font-size: 34px;
-  font-weight: 800 !important;
+.greenText {
+  color: green;
 }
-.aboutSubHead {
-  color: #f26522 !important;
-}
-.aboutData {
-  font-size: 30px;
-  font-weight: 550;
-}
-.aboutParagraph {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-@media screen and (max-width: 576px) {
-  .responsiveImg {
-    display: block !important;
-  }
-  .standardImg {
-    display: none !important;
-  }
-}
-.responsiveImg {
-  display: none;
+.aboutMainHead {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
 }
 /* 
 .aboutWrapper {
