@@ -11,28 +11,66 @@
 }
 .aboutHeadDiv {
   font-size: 40px;
+  font-weight: 600;
   margin-bottom: 30px;
   margin-top: 30px;
+  flex: 0 0 auto;
+  width: 66.66666667%;
+  margin-left: 16.66666667%;
 }
 .aboutPara {
   color: #606060;
+  text-align: justify;
 }
 .aboutLogo {
   width: 100%;
 }
+.aboutImage {
+  width: 100%;
+}
 .quotes {
-  color: green !important;
+  color: #33a78f !important;
+}
+.contentPadding {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 .aboutHighlight {
   background-color: #fff9f5;
 }
 .greenText {
-  color: green;
+  color: #33a78f;
 }
 .aboutMainHead {
   font-size: 40px;
   font-weight: 600;
   text-align: center;
+}
+.mobileImage {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .aboutTitle {
+    font-size: 40px !important;
+  }
+  .aboutHeadDiv {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex: 0 0 auto;
+    width: 100%;
+    margin-left: 0;
+  }
+  .mobileImage {
+    display: block;
+  }
+  .webImage {
+    display: none;
+  }
+  .aboutMainHead {
+    font-size: 24px;
+  }
 }
 /* 
 .aboutWrapper {
