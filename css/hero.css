@@ -21,6 +21,9 @@
 .enquiryForm form input, .enquiryForm form textarea{
   color: #CACACA;
 }
+.enquiryForm form button{
+  padding: 25px;
+}
 .enquiryForm form input::placeholder, .enquiryForm form textarea::placeholder{
   font-family: "Branding", sans-serif;
 }
