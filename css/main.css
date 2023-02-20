@@ -1,6 +1,6 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-
+@import url('https://fonts.cdnfonts.com/css/branding-3');
 
 audio,
 canvas,
@@ -611,9 +611,10 @@ td, th {
   background-image: url("../img/courses-java.png") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  min-height: 300px !important;
+  /* min-height: 300px !important; */
   width: 100% !important;
 }
+
 .banner-java p{
 
   color:#FFFFFF;
@@ -1006,7 +1007,12 @@ overflow-x:hidden;
     min-height:580px;
     width:100% !important;
   }
-
+  @media (max-width: 991px){
+    .banner-java {
+      min-height:80vh!important;
+    width:100% !important;
+    }
+  }
   .banner-soc {
     /* The image used */
     background-image:url(../img/soc/socmain.png) !important;
