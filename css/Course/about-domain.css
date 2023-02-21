@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/branding-3');
 /* -----------------about-nav start------------------ */
 .second-nav{
     background-color: white;
@@ -12,25 +13,45 @@
     color: orange;
     text-decoration: underline;
 }
-@media (max-width: 991px){
+@media (max-width: 678px){
     .second-nav{
         overflow-x: scroll;
-        margin-top: 95%;
+        
     }
     .second-nav a{
         padding: 15px;
     }
     
-    /* .second-nav-top{
-        margin-top: -117%;
-        background-color: rgb(255, 255, 255);
-        position: fixed;
-        z-index: 999999;
-        overflow-x: scroll;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-        -webkit-overflow-scrolling: touch;
-    } */
 } 
+/* @media (min-width: 375px){
+    .second-nav{
+        margin-top: 100%;
+    }
+}
+@media (min-width: 414px){
+    .second-nav{
+        margin-top: 42%;
+    }
+}
+@media (min-width: 392px){
+    .second-nav{
+        margin-top: 42%;
+    }
+}
+@media (min-width: 360px){
+    .second-nav{
+        margin-top: 98%;
+    }
+} */
+
+
+
+
+
+
+
+
+  
 /* -----------------about-nav end ------------------ */
 
 /* -----------------about-domain start ------------------ */
