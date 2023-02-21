@@ -523,7 +523,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   /* height: 85vh; */
-  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/bg1.jpg);
+ 
   background-size: cover;
   /* position: relative; */
   justify-content: right;

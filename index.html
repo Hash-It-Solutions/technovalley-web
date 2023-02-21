@@ -256,11 +256,35 @@
 
 
 
-
+<style>
+  .bg-video{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  @media (min-aspect-ratio: 16/9){
+    .bg-video{
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media (max-aspect-ratio: 16/9){
+    .bg-video{
+      width: 100%;
+      height: auto;
+    }
+  }
+</style>
 
 
  <!-- ======= banner Section ======= -->
  <section id="hero"  class=" justify-content-end d-flex">
+  
+  <video autoplay loop muted plays-inline class="bg-video">
+    <source src="assets/videos/bg-video1.mov">
+  </video>
+
   <div class="container"  data-aos="zoom-out" data-aos-delay="1000 ">
     <div class="top-padding">
       <div class="row">
@@ -272,9 +296,7 @@
               </sup> <span class="africa" style="font-size: 80px; font-weight: bolder; color: #ffffff; text-align: right;">Africa's</span>
               <div class="cap2" style="font-size: 40px; font-weight: 500; color: #ffffff;">Next generation of leaders</div>
               <div class="desc mx-auto text-end"
-                style="font-size: 20px; font-weight: 200; color: #ffffff;  ;">Technovalley
-                Software India Private Limited, with over two decades of experience in the software industry, is
-                thrilled to announce the launch of Technovalley Africa.
+                style="font-size: 20px; font-weight: 200; color: #ffffff;  ; "><h5>Welcome to Technovalley, Where education and innovation meet to create limitless opportunities for success. Experience the world-class education offered at Technovalley and reach your goals.</h5> 
                 <div class="enq-btn mt-3 d-none d-md-block">
                   <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
                 </div>
