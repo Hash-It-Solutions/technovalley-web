@@ -236,10 +236,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active text-uppercase" href="#portfolio">Home</a></li>
-          <li><a class="nav-link scrollto active text-uppercase" href="#portfolio">Courses</a></li>
+          <li><a class="nav-link scrollto  text-uppercase active" href="#portfolio">Home</a></li>
+          <li><a class="nav-link scrollto  text-uppercase" href="#portfolio">Courses</a></li>
           <li><a class="nav-link scrollto text-uppercase" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto text-uppercase" href="blog.html">Partners</a></li>
+          <li><a class="nav-link scrollto text-uppercase" href="blog.html">Blog</a></li>
           <li><a class="nav-link scrollto text-uppercase" href="contact.html">Contact</a></li>
           <button type="button" class="btn btn-warning button-style navbar-button">ENQUIRE NOW</button>
         </ul>
@@ -275,6 +275,18 @@
       height: auto;
     }
   }
+  @media (max-width:991px){
+    .bg-video{
+      width: 100%;
+      height: 130vh;
+    }
+  }
+  @media (max-aspect-ratio: 9/16){
+    .bg-video{
+      width: 100vh;
+      height: 100vh;
+    }
+  }
 </style>
 
 
@@ -296,7 +308,7 @@
               </sup> <span class="africa" style="font-size: 80px; font-weight: bolder; color: #ffffff; text-align: right;">Africa's</span>
               <div class="cap2" style="font-size: 40px; font-weight: 500; color: #ffffff;">Next generation of leaders</div>
               <div class="desc mx-auto text-end"
-                style="font-size: 20px; font-weight: 200; color: #ffffff;  ; "><h5>Welcome to Technovalley, Where education and innovation meet to create limitless opportunities for success. Experience the world-class education offered at Technovalley and reach your goals.</h5> 
+                style="font-size: 20px; font-weight: 200; color: #ffffff;  ; "><h5 class="welcome-to">Welcome to Technovalley, Where education and innovation meet to create limitless opportunities for success. Experience the world-class education offered at Technovalley and reach your goals.</h5> 
                 <div class="enq-btn mt-3 d-none d-md-block">
                   <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
                 </div>
@@ -307,7 +319,7 @@
           <div class="hero-form">
             <form>
               <div class="input-field">
-                <h5 class="fw-bold text-center mt-3 mb-3">Enquiry Form</h5>
+                <h3 class=" text-center mt-3 mb-3">Get In <b class="main-color">Touch</b> With Us</h3>
                 <div class="form-group mb-3">
                   <input type="text" class="form-control" id="exampleInputName" aria-describedby="namelHelp" placeholder="Enter Full Name">
                 </div>
@@ -322,7 +334,7 @@
                 <input type="checkbox" class="form-check-input me-3" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">I Agree to receive communication via Email, SMS & WhatsApp from Technovalley Software Consulting</label>
               </div>
-              <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
+              <button type="button" class="btn btn-warning button-style fw-bold home-hero-btn">ENQUIRE NOW</button>
             </form>
           </div>
         </div>
@@ -570,7 +582,6 @@
     </div>
   </section> -->
 
-  <br>
   <div class="block ">
     <!-- ======= SLIDER START======= -->
     <div class="container" >
@@ -701,8 +712,10 @@
     .block {
       overflow: hidden;
       width: 100%;
+      /* margin-bottom: 50px;
+      margin-bottom: 100px; */
+      background-color: rgb(238, 237, 237);
       padding-bottom: 50px;
-      padding-bottom: 100px;
     }
     @media (max-width:991px){
       .block {
@@ -710,6 +723,25 @@
         display: block;
       }
     }
+
+
+    @media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 375px) {
+  .block {
+        margin-top: 120%;
+        display: block;
+      }
+}
+    
+  
+    /* @media (width: 375px){
+  #hero .hero-form form{
+    .block{
+      margin-top: 106%;
+    }
+  } */
+
     .animation {
       width: auto;
       height: 100px;

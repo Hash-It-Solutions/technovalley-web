@@ -13,44 +13,59 @@
     color: orange;
     text-decoration: underline;
 }
-@media (max-width: 678px){
+
+/* @media (max-width:991px){
+    .block {
+      margin-top: 90%;
+      display: block;
+    }
+  } */
+
+
+  /* @media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 375px) {
+    .second-nav {
+      margin-top: 120%;
+      overflow-x: scroll;
+    }
+}
+@media (width: 991px){
+    .second-nav {
+        margin-top: 120%;
+        overflow-x: scroll;
+      }
+} */
+@media only screen 
+and (min-device-width : 390px) 
+and (max-device-width : 414px){
     .second-nav{
         overflow-x: scroll;
-        
-    }
-    .second-nav a{
-        padding: 15px;
-    }
-    
-} 
-/* @media (min-width: 375px){
-    .second-nav{
-        margin-top: 100%;
+        margin-top: 50%;
     }
 }
-@media (min-width: 414px){
+@media only screen and (min-width: 375px){
     .second-nav{
-        margin-top: 42%;
+        overflow-x: scroll;
+        margin-top: 90%;
     }
 }
-@media (min-width: 392px){
-    .second-nav{
-        margin-top: 42%;
-    }
-}
-@media (min-width: 360px){
-    .second-nav{
-        margin-top: 98%;
-    }
-} */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+        .second-nav{
+            overflow-x: scroll;
+            margin-top: 30%;
+        }
+     }
 
-
-
-
-
-
-
-
+     @media only screen and (min-width: 390px){
+        .second-nav{
+            overflow-x: scroll;
+            margin-top: 50%;
+        }
+     }
   
 /* -----------------about-nav end ------------------ */
 
@@ -202,20 +217,106 @@ border: 0;
 .course-contact .contactUsContainer .contact-head{
     font-size: 44px;
 }
-.course-contact .contactUsContainer form input{
-    background-color: #F3FFFD!important;
-    padding: 15px!important;
-}
-.course-contact .contactUsContainer form button{
-    padding: 15px!important;
+.banner-java form{
+    width: 400px;
+    padding: 40px 25px;
+    border-radius: 15px;
     border: 0;
-}
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #fff;
+    float: right;
+  }
+  .banner-java  .form-check label{
+    font-size: 12px;
+    /* margin-left: 3px!important; */
+  }
+  .banner-java   .form-check .form-check-input{
+    width: 15px!important;
+    height: 10px!important;
+    border-radius: 0;
+  }
+  .banner-java   form .input-field input::placeholder{
+    font-size: 13px;
+    color: #525252;
+  }
+  .banner-java  form .input-field input{
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 15px!important;
+    border-color: #cfcfcf;
+  }
+  .banner-java  form  button{
+    font-size: 13px;
+    margin: 0 auto;
+    display: block;
+    width: 100%!important;
+    padding: 15px!important;
+  }
 .course-contact .contactUsContainer .download-btn{
     background-color: white;
     float: left!important;
     display: block!important;
     padding: 10px 15px;
     margin-left: auto;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+
+
+.banner-java form{
+    width: 400px;
+    padding: 40px 25px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #fff;
+    float: right;
+  }
+  .banner-java  .form-check label{
+    font-size: 12px;
+    /* margin-left: 3px!important; */
+  }
+  .banner-java   .form-check .form-check-input{
+    width: 15px!important;
+    height: 10px!important;
+    border-radius: 0;
+  }
+  .banner-java   form .input-field input::placeholder{
+    font-size: 13px;
+    color: #525252;
+  }
+  .banner-java  form .input-field input{
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 15px!important;
+    border-color: #cfcfcf;
+  }
+  .banner-java  form  button{
+    font-size: 13px;
+    margin: 0 auto;
+    display: block;
+    width: 100%!important;
+    padding: 15px!important;
+  }
+.course-contact .contactUsContainer .download-btn{
+    background-color: white;
+    float: left!important;
+    display: block!important;
+    padding: 10px 15px;
+    margin-left: auto;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.course-contact  form input, .course-contact  form button{
+    padding: 15px!important;
+}
+.course-contact .contactUsContainer .download-btn:hover{
+    opacity: 0.7;
+    border: 1px solid #008f7549;
+    color: #16a88d49;
 }
 @media (max-width: 991px){
     .course-contact .contactUsContainer .contact-head{
@@ -227,6 +328,9 @@ border: 0;
     }
     .course-contact .contactUsContainer .col-8{
         width: 100%;
+    }
+    .banner-java  form {
+        width: auto;
     }
 }
 /* ------------course contact end-------------- */
@@ -241,6 +345,19 @@ border: 0;
 .our-students h4{
     font-size: 28px!important;
 }
+@media only screen and (max-width: 760px)  {
+    .our-students table,
+    table thead,
+    table tbody,
+    table th,
+    table td,
+    table tr {
+      display: block;
+    }
+    .our-students table th{
+        margin-top: 10px;
+    }
+  }
 /* ------------our-students  end-------------- */
 .course-logo-carousel{
     margin-bottom: 50px;

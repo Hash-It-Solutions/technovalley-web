@@ -299,7 +299,7 @@ div.ex2 {
  background-color:#eaeaeb;
  padding-bottom:55px;
  padding-top:58px;
- margin-top: 100px;
+ /* margin-top: 100px; */
  
  }
  @media (max-width:991px){
@@ -432,7 +432,7 @@ background-repeat:no-repeat;
 
 
 #portfolio{
-  margin-top: 50px!important;
+  padding-top: 100px!important;
 background-image:url(..//assets/img/Rel.png);
 background-repeat:no-repeat;
 background-size:cover;}
@@ -1657,6 +1657,10 @@ margin: 0 auto;
 display: block;
 float: none!important;
 }
+.desc h5{
+  font-size: 13px!important;
+  margin-top: 10px;
+}
   .keyword {
     font-size: 30px !important;
   }
@@ -1834,8 +1838,9 @@ float: none!important;
   margin-top: 50px;
 } */
 .client-testimonial{
-  margin-top: 20px;
+  padding-top: 100px;
   margin-bottom: 50px;
+  background-color: white;
   /* padding-top: 30px!important; */
 }
 .client-testimonial .slider {
@@ -1987,9 +1992,9 @@ float: none!important;
   /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  padding-top: 100px;
+  /* padding-top: 100px; */
   padding-bottom: 100px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 .owl-carousel .owl-item img {
   display: block;
@@ -2029,8 +2034,8 @@ i.fa.fa-quote-left {
   color: #999;
 }
 .main-color{
-  color: #ff501b8f!important;
-  font-size: 14px;
+  color: #FF8C42!important;
+  /* font-size: 14px; */
 }
 
 .tab-content{
