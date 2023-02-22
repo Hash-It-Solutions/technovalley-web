@@ -13,30 +13,76 @@
     color: orange;
     text-decoration: underline;
 }
+.second-nav-top{
+    /* background-color: red; */
+    position: fixed;
+	margin-top: -36%;
+	width: 100%;
+	z-index: 999;
+}
+.second-nav-link.active{
+    color: red;
+}
+
+
+
+
+
+
+
+.second-nav-mobile{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    position: fixed;
+    z-index: 999;
+    overflow-x: scroll;
+    margin-top: 124px;
+}
+.second-nav-mobile a{
+    padding: 10px;
+    transition: 0.3s ease;
+}
+.second-nav-mobile a.active, .second-nav-mobile a:focus, .second-nav-mobile a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+
+
+
+/* .fixed {
+	position: fixed;
+	top: -70;
+	height: 70px;
+	z-index: 1;
+} */
 
 @media (max-width:991px){
+    .second-nav-mobile-top{
+       margin-top: 69px;
+    }
     .second-nav{
-        overflow-x: scroll;
+        display: none;
     }
   }
 
-
-  /* @media only screen 
+/* 
+  @media only screen 
 and (min-device-width : 360px) 
 and (max-device-width : 375px) {
-    .second-nav {
-      margin-top: 120%;
+    .second-nav-top{
+        margin-top: -156%;
       overflow-x: scroll;
     }
 }
 @media (width: 991px){
-    .second-nav {
-        margin-top: 120%;
+    .second-nav-top {
+        margin-top: -36%;
         overflow-x: scroll;
       }
-} */
+}
 @media only screen and (width: 360px){
-    .second-nav{
+    .second-nav-top{
         overflow-x: scroll;
         margin-top: 83%;
     }
@@ -44,13 +90,13 @@ and (max-device-width : 375px) {
 @media only screen 
 and (min-device-width : 390px) 
 and (max-device-width : 414px){
-    .second-nav{
+    .second-nav-top{
         overflow-x: scroll;
         margin-top: 50%;
     }
 }
 @media only screen and (min-width: 375px){
-    .second-nav{
+    .second-nav-top{
         overflow-x: scroll;
         margin-top: 90%;
     }
@@ -59,48 +105,104 @@ and (max-device-width : 414px){
     and (device-width : 414px) 
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
-        .second-nav{
+        .second-nav-top{
             overflow-x: scroll;
             margin-top: 30%;
         }
      }
 
      @media only screen and (min-width: 390px){
-        .second-nav{
+        .second-nav-top{
             overflow-x: scroll;
             margin-top: 50%;
         }
      }
      @media (min-width:961px){
-        .second-nav{
+        .second-nav-top{
             overflow-x: scroll;
             margin-top: 0px;
         }
-     }
-     @media (min-width:1025px){
-        .second-nav{
+     } */
+     /* @media (min-width:1025px){
+        .second-nav-top{
             overflow-x: scroll;
             margin-top: 0px;
         }
      }
      @media (min-width:1281px){
-        .second-nav{
+        .second-nav-top{
             overflow-x: scroll;
             margin-top: 0px;
         }
      }
-  
+   */
 /* -----------------about-nav end ------------------ */
 
 /* -----------------about-domain start ------------------ */
 .about-domain{
-    margin-top: 70px;
+   padding-top: 100px!important;
 }
-@media (max-width: 991px){
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 375px) {
     .about-domain{
-        padding: 10px;
+        margin-top: -156%;
     }
 }
+@media (width: 991px){
+    .about-domain {
+        margin-top: -36%;
+      }
+}
+@media only screen and (width: 360px){
+    .about-domain{
+        margin-top: 95%;
+    }
+}
+@media only screen 
+and (min-device-width : 390px) 
+and (max-device-width : 414px){
+    .about-domain{
+        margin-top: 59%;
+    }
+}
+@media only screen and (min-width: 375px){
+    .about-domain{
+        margin-top: 80%;
+    }
+}
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+        .about-domain{
+            margin-top: 30%;
+        }
+     }
+
+     @media only screen and (min-width: 390px){
+        .about-domain{
+            margin-top: 26%;
+        }
+     }
+     @media (min-width:961px){
+        .about-domain{
+            margin-top: 0px;
+        }
+     } */
+     /* @media (min-width:1025px){
+        .second-nav-top{
+            overflow-x: scroll;
+            margin-top: 0px;
+        }
+     }
+     @media (min-width:1281px){
+        .second-nav-top{
+            overflow-x: scroll;
+            margin-top: 0px;
+        }
+     }
+   */
 /* -----------------about-domain end ------------------ */
 
 /* -----------------about-domain end ------------------ */
@@ -278,7 +380,7 @@ border: 0;
 .course-contact .contactUsContainer .download-btn{
     background-color: white;
     float: left!important;
-    display: block!important;
+    /* display: block!important; */
     padding: 10px 15px;
     margin-left: auto;
     color: black;
