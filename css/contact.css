@@ -16,7 +16,9 @@
 .single_address {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 /* .single_address p {
   text-align: center;
@@ -25,12 +27,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em !important;
+}
+.sendButton {
+  background-color: #00a88e;
+  transition: all 1s ease;
+}
+.sendButton:hover {
+  background-color: #24b19c;
+  color: white;
+}
+.contactCardWrapper {
+  padding: 3em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 @media screen and (max-width: 768px) {
   .single_address {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
   .single_address p {
     text-align: center;
@@ -38,9 +54,16 @@
   .getInTouch {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     max-width: 70vw;
     margin-left: auto;
     margin-right: auto;
+  }
+  .contactTitleDiv {
+    width: 88%;
+    margin-left: 6%;
+  }
+  .contactContainer {
+    padding: 0 !important;
   }
 }
