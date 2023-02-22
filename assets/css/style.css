@@ -4,7 +4,16 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
+@import url('https://fonts.cdnfonts.com/css/branding-3');
+body p, body label, body a, body form input, body form input::placeholder, body form textarea,body li, body form textarea::placeholder{
+    font-family: "Branding", sans-serif;
+}
+body p{
+    font-size: 16px;
+}
+body b{
+    font-family: "Branding", sans-serif;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -523,18 +532,21 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   /* height: 85vh; */
-  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/bg1.jpg);
+ 
   background-size: cover;
   /* position: relative; */
   justify-content: right;
   /* height: 75vh; */
   font-family: "Branding", sans-serif;
   overflow: visible;
-  padding-top: 7%;
+  padding-top: 4%;
   padding-bottom: 7%;
 }
+.home-hero-btn{
+  padding: 20px 25px!important ;
+}
 #hero .hero-form form{
-  width: 380px;
+  width: 400px;
   padding: 40px 25px;
   border-radius: 15px;
   border: 0;
@@ -543,7 +555,7 @@ h6 {
   float: right;
 }
 #hero .form-check label{
-  font-size: 11px;
+  font-size: 12px;
   /* margin-left: 3px!important; */
 }
 #hero .form-check .form-check-input{
@@ -553,18 +565,20 @@ h6 {
 }
 #hero form .input-field input::placeholder{
   font-size: 13px;
-  color: #cccccc;
+  color: #525252;
 }
 #hero form .input-field input{
   font-size: 13px;
   border-radius: 3px;
   padding: 15px!important;
-  border-color: #ebebeb;
+  border-color: #cfcfcf;
 }
 #hero form  button{
   font-size: 13px;
   margin: 0 auto;
   display: block;
+  width: 100%!important;
+  padding: 15px!important;
 }
 
 /* #hero:before {
@@ -664,7 +678,7 @@ h6 {
     margin: 0 auto;
     display: block;
     width: 300px;
-    margin-top: 30px!important;
+    margin-top: 29px!important;
     float: none;
     
   }
@@ -678,6 +692,9 @@ h6 {
   #hero .btn-get-started,
   #hero .btn-watch-video {
     font-size: 13px;
+  }
+  .welcome-to{
+    font-size: 13px!important;
   }
 }
 

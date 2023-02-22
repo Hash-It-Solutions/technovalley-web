@@ -236,13 +236,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#portfolio">Courses</a></li>
-          <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
-          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
-
+          <li><a class="nav-link scrollto  text-uppercase active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto  text-uppercase" href="index.html#portfolio">Courses</a></li>
+          <li><a class="nav-link scrollto text-uppercase" href="about.html">About</a></li>
+           <!-- <li><a class="nav-link scrollto text-uppercase" href="blog.html">Blog</a></li> --> 
+          <li><a class="nav-link scrollto text-uppercase" href="contact.html">Contact</a></li>
           <button type="button" class="btn btn-warning button-style navbar-button">ENQUIRE NOW</button>
-
         </ul>
 
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -257,11 +256,47 @@
 
 
 
-
+<style>
+  .bg-video{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  @media (min-aspect-ratio: 16/9){
+    .bg-video{
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media (max-aspect-ratio: 16/9){
+    .bg-video{
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media (max-width:991px){
+    .bg-video{
+      width: 100%;
+      height: 130vh;
+    }
+  }
+  @media (max-aspect-ratio: 9/16){
+    .bg-video{
+      width: 100vh;
+      height: 100vh;
+    }
+  }
+</style>
 
 
  <!-- ======= banner Section ======= -->
  <section id="hero"  class=" justify-content-end d-flex">
+  
+  <video autoplay loop muted plays-inline class="bg-video">
+    <source src="assets/videos/bg-video1.mov">
+  </video>
+
   <div class="container"  data-aos="zoom-out" data-aos-delay="1000 ">
     <div class="top-padding">
       <div class="row">
@@ -273,9 +308,7 @@
               </sup> <span class="africa" style="font-size: 80px; font-weight: bolder; color: #ffffff; text-align: right;">Africa's</span>
               <div class="cap2" style="font-size: 40px; font-weight: 500; color: #ffffff;">Next generation of leaders</div>
               <div class="desc mx-auto text-end"
-                style="font-size: 20px; font-weight: 200; color: #ffffff;  ;">Technovalley
-                Software India Private Limited, with over two decades of experience in the software industry, is
-                thrilled to announce the launch of Technovalley Africa.
+                style="font-size: 20px; font-weight: 200; color: #ffffff;  ; "><h5 class="welcome-to">Welcome to Technovalley, Where education and innovation meet to create limitless opportunities for success. Experience the world-class education offered at Technovalley and reach your goals.</h5> 
                 <div class="enq-btn mt-3 d-none d-md-block">
                   <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
                 </div>
@@ -286,7 +319,7 @@
           <div class="hero-form">
             <form>
               <div class="input-field">
-                <h5 class="fw-bold text-center mt-3 mb-3">Enquiry Form</h5>
+                <h3 class=" text-center mt-3 mb-3">Get In <b class="main-color">Touch</b> With Us</h3>
                 <div class="form-group mb-3">
                   <input type="text" class="form-control" id="exampleInputName" aria-describedby="namelHelp" placeholder="Enter Full Name">
                 </div>
@@ -301,7 +334,7 @@
                 <input type="checkbox" class="form-check-input me-3" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">I Agree to receive communication via Email, SMS & WhatsApp from Technovalley Software Consulting</label>
               </div>
-              <button type="button" class="btn btn-warning button-style">ENQUIRE NOW</button>
+              <button type="button" class="btn btn-warning button-style fw-bold home-hero-btn">ENQUIRE NOW</button>
             </form>
           </div>
         </div>
@@ -549,7 +582,6 @@
     </div>
   </section> -->
 
-  <br>
   <div class="block ">
     <!-- ======= SLIDER START======= -->
     <div class="container" >
@@ -557,59 +589,59 @@
         data-flickity='{ "contain": true, "autoPlay": 1500, "imagesLoaded": true, "pageDots": false }'>
 
         <div class="carousel-cell related-course" ><a href="/courses_templates/AI&MI_technovalley.html"><img
-              src="/img/courses/ai.png" class="carousel-image" style="width: 100%; height: 80px;" alt="Image 1"></a>
+              src="/img/slider_img/ai.png" class="carousel-image" style="width: 100%; height: 80px;" alt="Image 1"></a>
         </div>
         <div class="carousel-cell related-course" ><a href="/courses_templates/angukar js.html"> <img
-              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/angular.png"
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/slider_img/angular.png"
               alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a
             href="/courses_templates/Bigdata&Hadoop_Technovalley.html"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/bigdata.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/bigdata.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a
             href="/courses_templates/Business_Data_Analyst_Technovalley.html"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/data_analyst.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/data_analyst.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a href="/courses_templates/Core_Python_Technovalley.html">
-            <img class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/core_python.png"
+            <img class="carousel-image" style="width: 100%; height: 80px;" src="/img/slider_img/core_python.png"
               alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a
             href="/courses_templates/DevOps_Engineer_Technovalley.html"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/devops.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/devops.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a
             href="/courses_templates/Digital_Marketing_Expert_technovalley.html"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/digital_marketing.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/digital_marketing.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/java.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/java.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a href="/courses_templates/mean stack.html"><img
-              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/mean.png" alt="Image 1"></a>
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/slider_img/mean.png" alt="Image 1"></a>
         </div>
         <div class="carousel-cell related-course" ><a href="/courses_templates/MERN-Stack_technovalley.html"><img
-              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/mern.png" alt="Image 1"></a>
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/slider_img/mern.png" alt="Image 1"></a>
         </div>
         <div class="carousel-cell related-course" ><a
             href="/courses_templates/MongoDB_Expert_Technovalley.html"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/mongo.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/mongo.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a href="/courses_templates/python.html"><img
-              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/python_advanced.png"
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/slider_img/python_advanced.png"
               alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a
             href="/courses_templates/python-fullstack-developer_technovalley.html"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/pythonmain.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/pythonmain.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a href="/courses_templates/react-js.html"><img
-                class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/react.png"
+                class="carousel-image" style="width: 100%; height: 80px;" src="/img/slider_img/react.png"
                 alt="Image 1"></a>
         </div>
         <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/java_adv.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/java_adv.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a href="/courses_templates/phpcourses.html"><img
-              class="carousel-image" style="width: 100%; height: 80px;" src="/img/courses/php.png" alt="Image 1"></a>
+              class="carousel-image" style="width: 100%; height: 80px;" src="/img/slider_img/php.png" alt="Image 1"></a>
         </div>
         <div class="carousel-cell related-course" ><a
             href="/courses_templates/Malware _Analyst_Technovalley.html"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/malware.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/malware.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/threat_hunter.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/threat_hunter.png" alt="Image 1"></a></div>
         <div class="carousel-cell related-course" ><a href="#"><img class="carousel-image"
-              style="width: 100%; height: 80px;" src="/img/courses/soc.png" alt="Image 1"></a></div>
+              style="width: 100%; height: 80px;" src="/img/slider_img/soc.png" alt="Image 1"></a></div>
 
 
       </div>
@@ -680,8 +712,10 @@
     .block {
       overflow: hidden;
       width: 100%;
+      /* margin-bottom: 50px;
+      margin-bottom: 100px; */
+      background-color: rgb(238, 237, 237);
       padding-bottom: 50px;
-      padding-bottom: 100px;
     }
     @media (max-width:991px){
       .block {
@@ -689,6 +723,25 @@
         display: block;
       }
     }
+
+
+    @media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 375px) {
+  .block {
+        margin-top: 120%;
+        display: block;
+      }
+}
+    
+  
+    /* @media (width: 375px){
+  #hero .hero-form form{
+    .block{
+      margin-top: 106%;
+    }
+  } */
+
     .animation {
       width: auto;
       height: 100px;
@@ -1287,12 +1340,7 @@
             software consulting
           </h4>
 
-          <p class="para-color">Technovalley Africa is thrilled to announce its launch in Africa. Our goal is to empower
-            and promote education by providing world-class education and skills training to students. Our innovative
-            programs and experienced faculty will equip students with the knowledge and skills needed to become leaders
-            in their field and drive the continent's development. Our organization is made up of three strategic
-            business units that work together to provide a comprehensive education experience. Join us on this journey
-            and be part of the change that is shaping Africa's future.</p>
+          <p class="para-color">Technovalley is an IT consulting firm that offers innovative programs to upskill and transform the youth of Africa. We provide cost-effective and high-quality training, and we are committed to helping our clients achieve their goals. We charge no fee or commission for placements, but we encourage our clients to bear the cost of their internship expenses. Our mission is to help young people in Africa acquire the skills and knowledge they need to be highly competitive in the job market.</p>
             <button type="button" class="btn btn-warning button-style">READ MORE</button>
         </div>
 
@@ -1308,7 +1356,7 @@
 
 
         <div class="col-md-6">
-          <img src="/assets/img/tech.png">
+          <img src="/img/young-black-girl-using-digital-tablet 1.png">
         </div>
 
       </div>
@@ -1323,9 +1371,65 @@
 
   <section class="client-testimonial">
       <div class="container">
-        <h5 style="font-size: 40px; text-align: center; " class="fw-bold">Look What <b style="color: #00cba9;" class=" fw-bold">People</b> 
-          Says
+        <h5 style="font-size: 40px; text-align: center; " class="fw-bold">Our  <b style="color: #00cba9;" class=" fw-bold">Success </b> 
+          Stories
         </h5>
+        <div class="review-ratings">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="stars">
+                    <a href="https://www.trustpilot.com/review/technovalley.co.in" class="text-decoration-none"  target="_blank">
+                      <div class="review-bar">
+                        <div class="d-flex justify-content-center align-items-center">
+                          <h6 class="text-white me-3 mt-2" >3.8</h6>
+                          <i class="bi bi-star-fill me-2"></i>
+                          <i class="bi bi-star-fill me-2"></i>
+                          <i class="bi bi-star-fill me-2"></i>
+                          <i class="bi bi-star-fill me-2"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="https://www.trustpilot.com/review/technovalley.co.in" class="text-decoration-none" target="_blank"><img src="assets/img/client-testimonial/trust.png" alt="" class="img-fluid trust"></a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="stars">
+                    <a href="https://www.ambitionbox.com/reviews/technovalley-software-reviews" class="text-decoration-none" target="_blank">
+                      <div class="review-bar">
+                        <div class="d-flex justify-content-center align-items-center">
+                          <h6 class="text-white me-3 mt-2">4.7</h6>
+                          <i class="bi bi-star-fill me-2"></i>
+                          <i class="bi bi-star-fill me-2"></i>
+                          <i class="bi bi-star-fill me-2"></i>
+                          <i class="bi bi-star-fill me-2"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="https://www.ambitionbox.com/reviews/technovalley-software-reviews" class="text-decoration-none" target="_blank"><img src="assets/img/client-testimonial/ambition.png" alt="" class="img-fluid ambition"></a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="stars">
+                    <a href="https://www.google.com/search?q=technovalley&rlz=1C1CHBF_enIN1043IN1044&oq=tec&aqs=chrome.0.35i39l2j69i57j69i60l5.1331j0j4&sourceid=chrome&ie=UTF-8#lrd=0x3b080d03f03e1553:0xdc6b00414e05a296,1,,,," class="text-decoration-none" target="_blank">
+                      <div class="review-bar">
+                        <div class="d-flex justify-content-center align-items-center">
+                          <h6 class="text-white me-3 mt-2">4.3</h6>
+                          <i class="bi bi-star-fill me-2"></i>
+                          <i class="bi bi-star-fill me-2"></i>
+                          <i class="bi bi-star-fill me-2"></i>
+                          <i class="bi bi-star-fill me-2"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="https://www.google.com/search?q=technovalley&rlz=1C1CHBF_enIN1043IN1044&oq=tec&aqs=chrome.0.35i39l2j69i57j69i60l5.1331j0j4&sourceid=chrome&ie=UTF-8#lrd=0x3b080d03f03e1553:0xdc6b00414e05a296,1,,,," class="text-decoration-none" target="_blank"><img src="assets/img/client-testimonial/google.png" alt="" class="img-fluid google"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="slider">
           <input type="radio" name="testimonial" id="t-1">
           <input type="radio" name="testimonial" id="t-2">
