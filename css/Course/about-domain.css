@@ -14,12 +14,11 @@
     text-decoration: underline;
 }
 
-/* @media (max-width:991px){
-    .block {
-      margin-top: 90%;
-      display: block;
+@media (max-width:991px){
+    .second-nav{
+        overflow-x: scroll;
     }
-  } */
+  }
 
 
   /* @media only screen 
@@ -36,6 +35,12 @@ and (max-device-width : 375px) {
         overflow-x: scroll;
       }
 } */
+@media only screen and (width: 360px){
+    .second-nav{
+        overflow-x: scroll;
+        margin-top: 83%;
+    }
+}
 @media only screen 
 and (min-device-width : 390px) 
 and (max-device-width : 414px){
@@ -64,6 +69,24 @@ and (max-device-width : 414px){
         .second-nav{
             overflow-x: scroll;
             margin-top: 50%;
+        }
+     }
+     @media (min-width:961px){
+        .second-nav{
+            overflow-x: scroll;
+            margin-top: 0px;
+        }
+     }
+     @media (min-width:1025px){
+        .second-nav{
+            overflow-x: scroll;
+            margin-top: 0px;
+        }
+     }
+     @media (min-width:1281px){
+        .second-nav{
+            overflow-x: scroll;
+            margin-top: 0px;
         }
      }
   
