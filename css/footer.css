@@ -42,6 +42,12 @@
   padding-left: 1em;
   padding-right: 1em;
 }
+.emailElem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  word-break: break-all;
+}
 /* @media (max-width: 1920px) {
   .quickLink {
     width: 50px !important;
