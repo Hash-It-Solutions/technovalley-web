@@ -42,6 +42,23 @@
   padding: 3em;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactBg {
+  background-color: #00a88e;
+  color: rgb(206, 255, 231);
+}
+.contactSupTitle {
+  font-weight: 700;
+  font-size: xx-large;
+}
+.contactTitle {
+  font-weight: 600;
+  font-size: x-large;
+}
 @media screen and (max-width: 768px) {
   .single_address {
     display: flex;

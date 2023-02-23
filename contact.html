@@ -165,10 +165,66 @@
       </div>
     </div>
 
-    <div class="container contactContainer p-5 mt-2">
-      <div class="contactCardWrapper">
+    <div class="contactCardWrapper contactBg">
+      <div class="container contactContainer mt-2">
         <div class="row">
-          <div class="col-8 contactTitleDiv offset-2">
+          <div class="col-12 mx-auto my-3">
+            <h2 class="text-center contactSupTitle">GET IN TOUCH</h2>
+          </div>
+
+          <div class="col-md-4 dataContainer">
+            <img
+              src="/img/contact/icons8-phone-50.png"
+              width="70"
+              height="70"
+              alt=""
+            />
+            <h4 class="contactTitle">PHONE</h4>
+            <p class="text-center">
+              <b> HEADQUARTERS</b><br />
+              +91 91234 09876 <br />
+              <b> GLOBAL HEADQUARTERS</b><br />
+              +91 91234 09876
+            </p>
+          </div>
+          <div class="col-md-4 dataContainer">
+            <img
+              src="/img/contact/icons8-location-100.png"
+              width="70"
+              height="70"
+              alt=""
+            />
+            <h4 class="contactTitle">ADDRESS</h4>
+            <p class="text-center">
+              <b> Technovalley Africa </b> Proprietory Limited,Plot No.
+              53609/4,First Floor,<br />
+              Gaborone West, Gaborone, Botswana.
+            </p>
+            <p class="text-center">
+              <b> Technovalley Software </b>India Pvt Ltd Level 4 ATS Grand
+              Bypass Kochi,India,682024
+            </p>
+          </div>
+          <div class="col-md-4 dataContainer">
+            <img
+              src="/img/contact/icons8-send-email-100.png"
+              width="70"
+              height="70"
+              alt=""
+            />
+            <h4 class="contactTitle">EMAIL</h4>
+            <p class="text-center">
+              <b> HEADQUARTERS</b><br />enquiry@technovalleyafrica.com <br />
+              <b> HEADQUARTERS</b><br />info@technovalley.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contactCardWrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
             <h2 class="h1-responsive font-weight-bold text-center my-2">
               Contact us
             </h2>
@@ -183,184 +239,79 @@
               assist you in any way we can.
             </p>
           </div>
-          <div class="col-md-5">
-            <section class="getInTouch">
-              <h4 class="my-1" style="text-align: center; font-weight: 600">
-                Contact
-              </h4>
-
-              <div class="col-8 offSet-2">
-                <div class="single_address">
-                  <div class="contactHead">
-                    <i class="fa fa-map-marker me-2"></i>
-
-                    <span>
-                      Technovalley Africa Proprietory Limited,Plot No.
-                      53609/4,First Floor,<br />
-                      Gaborone West, Gaborone, Botswana.
-                    </span>
-                  </div>
-                </div>
-                <div class="single_address">
-                  <div class="contactHead">
-                    <i class="fa fa-envelope me-2"></i>
-
-                    <span>enquiry@technovalleyafrica.com</span>
-                  </div>
-                </div>
-                <div class="single_address">
-                  <div class="contactHead">
-                    <i class="fa fa-phone me-2"></i>
-
-                    <span>+91 91234 09876</span>
-                  </div>
-                </div>
-                <div class="single_address">
-                  <div class="contactHead">
-                    <i class="fa fa-clock-o me-2"></i>
-
-                    <span
-                      >Mon - Fri: 08.00 - 16.00. <br />Sat: 10.00 - 14.00</span
-                    >
-                  </div>
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-12">
+                <div class="md-form mb-4">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    placeholder="Full Name *"
+                  />
                 </div>
               </div>
-              <!--- END COL -->
-            </section>
-            <section class="getInTouch">
-              <h4 class="my-1" style="text-align: center; font-weight: 600">
-                Global Headquarters
-              </h4>
 
-              <div class="col-8 offSet-2">
-                <div class="single_address">
-                  <div class="contactHead">
-                    <i class="fa fa-map-marker me-2"></i>
-
-                    <span>
-                      Technovalley Software India Pvt Ltd Level 4 ATS Grand
-                      Bypass Kochi,India,682024
-                    </span>
-                  </div>
-                </div>
-                <div class="single_address">
-                  <div class="contactHead">
-                    <i class="fa fa-envelope me-2"></i>
-
-                    <span>info@technovalley.com</span>
-                  </div>
-                </div>
-                <div class="single_address">
-                  <div class="contactHead">
-                    <i class="fa fa-phone me-2"></i>
-
-                    <span>+91 91234 09876</span>
-                  </div>
-                </div>
-                <div class="single_address">
-                  <div class="contactHead">
-                    <i class="fa fa-clock-o me-2"></i>
-
-                    <span
-                      >Mon - Fri: 08.00 - 16.00. <br />Sat: 10.00 - 14.00</span
-                    >
-                  </div>
+              <div class="col-md-6">
+                <div class="md-form mb-4">
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Email *"
+                  />
                 </div>
               </div>
-              <!--- END COL -->
-            </section>
-          </div>
-          <div class="col-md-7 my-auto">
-            <!--Section: Contact v.2-->
-            <section class="mb-4">
-              <!--Section heading-->
-
-              <div class="row">
-                <div class="col-md-12 mb-md-0 mb-5">
-                  <form
-                    id="contact-form"
-                    name="contact-form"
-                    action="mail.php"
-                    method="POST"
-                  >
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="md-form mb-4">
-                          <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            class="form-control"
-                            placeholder="Full Name *"
-                          />
-                        </div>
-                      </div>
-
-                      <div class="col-md-6">
-                        <div class="md-form mb-4">
-                          <input
-                            type="text"
-                            id="email"
-                            name="email"
-                            class="form-control"
-                            placeholder="Email *"
-                          />
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="md-form mb-4">
-                          <input
-                            type="number"
-                            id="phone"
-                            name="phone"
-                            class="form-control"
-                            placeholder="Phone Number *"
-                          />
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="md-form mb-4">
-                          <input
-                            type="text"
-                            id="subject"
-                            name="subject"
-                            class="form-control"
-                            placeholder="Subject *"
-                          />
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="md-form">
-                          <textarea
-                            type="text"
-                            id="message"
-                            name="message"
-                            rows="2"
-                            class="form-control md-textarea"
-                            placeholder="Message *"
-                          ></textarea>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="text-center mt-3 text-md-left">
-                      <a
-                        class="btn sendButton col-12"
-                        onclick="document.getElementById('contact-form').submit();"
-                        >Send</a
-                      >
-                    </div>
-                  </form>
-
-                  <div class="status"></div>
+              <div class="col-md-6">
+                <div class="md-form mb-4">
+                  <input
+                    type="number"
+                    id="phone"
+                    name="phone"
+                    class="form-control"
+                    placeholder="Phone Number *"
+                  />
                 </div>
               </div>
-            </section>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-4">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                    placeholder="Subject *"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form">
+                  <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    rows="2"
+                    class="form-control md-textarea"
+                    placeholder="Message *"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-3 text-md-left">
+              <a
+                class="btn sendButton col-12"
+                onclick="document.getElementById('contact-form').submit();"
+                >Send</a
+              >
+            </div>
           </div>
         </div>
       </div>
